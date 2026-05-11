@@ -1,0 +1,17 @@
+{
+  "name": "weavers-town",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "build": "hugo --minify",
+    "dev": "hugo server --disableFastRender",
+    "serve": "npm run build && http-server public -p 8082",
+    "test": "playwright test",
+    "test:headed": "playwright test --headed --project=chromium"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.54.2",
+    "hugo-bin": "^0.149.2",
+    "http-server": "^14.1.1"
+  }
+}
