@@ -39,7 +39,7 @@ law.
 
 </div>
 
-To my parents, who were the first thread that held.
+To my parents, for their unwavering love and guidance.
 
 <div style="page-break-after: always;">
 

@@ -1,11 +1,11 @@
 ---
-title: "Threads of Meaning: How Are They Woven?"
+title: "Threads of Meaning"
 weight: 0
 ---
 
 ![Book cover](/images/front-page.jpg)
 
-# Threads of Meaning: How Are They Woven?
+# Threads of Meaning
 
 **Arman Fatahi**
 

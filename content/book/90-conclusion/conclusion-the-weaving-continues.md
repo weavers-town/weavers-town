@@ -1,7 +1,7 @@
 ---
-title: "References"
+title: "Conclusion: The Weaving Continues"
 weight: 11
-slug: "references"
+slug: "conclusion-the-weaving-continues"
 ---
 
 # References
