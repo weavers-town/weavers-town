@@ -1,0 +1,56 @@
+{{ define "main" }}
+<main class="container prose-shell">
+  <div class="book-layout">
+    {{ if eq .Section "book" }}
+      <aside class="book-side-toc" aria-label="On this page">
+        <div class="book-side-toc-inner">
+          <div class="book-side-toc-title">On This Page</div>
+          {{ .TableOfContents }}
+        </div>
+      </aside>
+    {{ end }}
+
+    <article class="prose">
+    {{ $pages := .CurrentSection.RegularPages.ByWeight }}
+    {{ $idx := -1 }}
+    {{ range $i, $p := $pages }}
+      {{ if eq $p.RelPermalink $.RelPermalink }}
+        {{ $idx = $i }}
+      {{ end }}
+    {{ end }}
+
+    {{ if ge $idx 0 }}
+      <nav class="book-pager book-pager-top" aria-label="Page navigation">
+        {{ if gt $idx 0 }}
+          {{ $prev := index $pages (sub $idx 1) }}
+          <a class="site-button pager-link prev" href="{{ $prev.RelPermalink }}">&larr; {{ $prev.LinkTitle }}</a>
+        {{ else }}
+          <span></span>
+        {{ end }}
+        {{ if lt (add $idx 1) (len $pages) }}
+          {{ $next := index $pages (add $idx 1) }}
+          <a class="site-button pager-link next" href="{{ $next.RelPermalink }}">{{ $next.LinkTitle }} &rarr;</a>
+        {{ end }}
+      </nav>
+    {{ end }}
+
+    {{ .Content }}
+
+    {{ if ge $idx 0 }}
+      <nav class="book-pager" aria-label="Page navigation">
+        {{ if gt $idx 0 }}
+          {{ $prev := index $pages (sub $idx 1) }}
+          <a class="site-button pager-link prev" href="{{ $prev.RelPermalink }}">&larr; {{ $prev.LinkTitle }}</a>
+        {{ else }}
+          <span></span>
+        {{ end }}
+        {{ if lt (add $idx 1) (len $pages) }}
+          {{ $next := index $pages (add $idx 1) }}
+          <a class="site-button pager-link next" href="{{ $next.RelPermalink }}">{{ $next.LinkTitle }} &rarr;</a>
+        {{ end }}
+      </nav>
+    {{ end }}
+    </article>
+  </div>
+</main>
+{{ end }}

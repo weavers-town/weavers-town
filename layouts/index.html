@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Thread • Weavers.town — Arman Fatahi</title>
+  <meta name="description" content="The Thread is a practical, cross-scale framework for understanding how meaning emerges from stabilized regularities. Introduced in Threads of Meaning: How Are They Woven? by Arman Fatahi (2026). Learn the Weaver's Way.">
+  <meta name="robots" content="index, follow" />
+  <meta name="author" content="Arman Fatahi" />
+  <meta property="og:title" content="The Thread • Weavers.town — Arman Fatahi" />
+  <meta property="og:description" content="The Thread is a practical, cross-scale framework for understanding how meaning emerges from stabilized regularities. Introduced in Threads of Meaning: How Are They Woven? by Arman Fatahi (2026). Learn the Weaver's Way." />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Weavers.town" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:image" content="https://weavers.town/images/front-page.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="The Thread • Weavers.town — Arman Fatahi" />
+  <meta name="twitter:description" content="The Thread is a practical, cross-scale framework for understanding how meaning emerges from stabilized regularities. Introduced in Threads of Meaning: How Are They Woven? by Arman Fatahi (2026). Learn the Weaver's Way." />
+  <meta name="twitter:image" content="https://weavers.town/images/front-page.jpg" />
+  <meta name="twitter:site" content="@weaverstown" />
+  <link rel="icon" href="/images/tom-logo.png" type="image/png" />
+  <link rel="shortcut icon" href="/images/tom-logo.png" type="image/png" />
+  <link rel="apple-touch-icon" href="/images/tom-logo.png" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600&family=Playfair+Display:wght@700&display=swap');
+
+    :root {
+      --primary: #1e2937;
+    }
+
+    body {
+      font-family: 'Instrument Sans', system-ui, sans-serif;
+    }
+
+    .heading-serif {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-weight: 700;
+      line-height: 1.1;
+    }
+
+    .section-header {
+      font-size: 2.25rem;
+      line-height: 1.1;
+      font-weight: 700;
+    }
+
+    .thread-line {
+      background: linear-gradient(to right, #64748b, #1e2937);
+      height: 2px;
+    }
+
+    .model-step {
+      transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .model-step:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.05), 0 4px 6px -4px rgb(0 0 0 / 0.05);
+    }
+
+    .nav-link {
+      transition: color 0.2s ease;
+    }
+
+    .nav-link:hover {
+      color: #1e2937;
+    }
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-800">
+  <nav class="border-b border-slate-200 bg-white/80 backdrop-blur-md sticky top-0 z-50">
+    <div class="max-w-5xl mx-auto px-6">
+      <div class="flex items-center justify-between h-16">
+        <div class="flex items-center gap-x-3">
+          <div class="w-9 h-9 bg-slate-900 rounded-xl flex items-center justify-center">
+            <span class="text-white text-xl font-bold tracking-tighter">W</span>
+          </div>
+          <div>
+            <span class="font-semibold text-xl tracking-tight">weavers.town</span>
+          </div>
+        </div>
+
+        <div class="hidden md:flex items-center gap-x-8 text-sm">
+          <a href="#the-thread" class="nav-link text-slate-600 hover:text-slate-900">The Thread</a>
+          <a href="#weavers-way" class="nav-link text-slate-600 hover:text-slate-900">Weaver's Way</a>
+          <a href="#the-book" class="nav-link text-slate-600 hover:text-slate-900">The Book</a>
+          <a href="#cite" class="nav-link text-slate-600 hover:text-slate-900">Cite</a>
+        </div>
+
+        <div>
+          <a href="#the-book" class="inline-flex items-center px-5 py-2.5 text-sm font-medium bg-slate-900 text-white rounded-2xl hover:bg-slate-800 transition-colors">
+            Read the book
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="max-w-5xl mx-auto px-6 pt-16 pb-20">
+    <div class="max-w-3xl">
+      <div class="inline-flex items-center gap-x-2 px-4 py-1.5 rounded-3xl bg-white border border-slate-200 text-sm mb-6">
+        <div class="w-2 h-2 bg-gray-500 rounded-full animate-pulse"></div>
+        <span class="font-medium text-slate-700">A practical framework for meaning</span>
+      </div>
+
+      <h1 class="heading-serif text-6xl md:text-7xl leading-none tracking-tighter text-slate-900 mb-6">
+        The Thread
+      </h1>
+
+      <p class="text-2xl md:text-3xl text-slate-600 leading-tight mb-8">
+        How stable patterns become meaning.<br>
+        And how to weave them consciously.
+      </p>
+
+      <div class="flex flex-col sm:flex-row gap-4">
+        <a href="#the-book" class="inline-flex items-center justify-center px-8 py-4 text-lg font-semibold bg-slate-900 text-white rounded-3xl hover:bg-slate-800 transition-all active:scale-[0.985]">
+          Explore the book
+        </a>
+        <a href="#the-thread" class="inline-flex items-center justify-center px-8 py-4 text-lg font-semibold border border-slate-300 hover:bg-white rounded-3xl transition-all">
+          Understand The Thread
+        </a>
+      </div>
+
+      <div class="mt-8 text-sm text-slate-500">
+        Introduced in <span class="font-medium text-slate-700">Threads of Meaning: How Are They Woven?</span><br>
+        by <span class="font-medium">Arman Fatahi</span>, 2026
+      </div>
+    </div>
+  </div>
+
+  <div id="the-thread" class="bg-white border-y border-slate-200 py-16">
+    <div class="max-w-5xl mx-auto px-6">
+      <div class="max-w-2xl mb-12">
+        <div class="uppercase tracking-[2px] text-xs font-semibold text-slate-500 mb-3">THE CORE FRAMEWORK</div>
+        <h2 class="section-header tracking-tighter">What is The Thread?</h2>
+        <p class="mt-4 text-xl text-slate-600">
+          A cross-scale lens for seeing how meaning actually forms and endures.
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-5 gap-4">
+        <div class="model-step bg-slate-50 border border-slate-200 rounded-3xl p-6 col-span-5 md:col-span-1">
+          <div class="text-xs font-mono tracking-widest text-slate-500 mb-2">01</div>
+          <div class="font-semibold text-lg leading-tight">Parts</div>
+          <div class="text-sm text-slate-600 mt-2">People, cells, habits, teams, atoms — the basic units.</div>
+        </div>
+
+        <div class="model-step bg-slate-50 border border-slate-200 rounded-3xl p-6 col-span-5 md:col-span-1">
+          <div class="text-xs font-mono tracking-widest text-slate-500 mb-2">02</div>
+          <div class="font-semibold text-lg leading-tight">Repeated Interaction</div>
+          <div class="text-sm text-slate-600 mt-2">What the parts do together over time.</div>
+        </div>
+
+        <div class="model-step bg-slate-50 border border-slate-200 rounded-3xl p-6 col-span-5 md:col-span-1">
+          <div class="text-xs font-mono tracking-widest text-slate-500 mb-2">03</div>
+          <div class="font-semibold text-lg leading-tight">Protective Container</div>
+          <div class="text-sm text-slate-600 mt-2">Emerges when finite capacity focuses inward. Also called compartmentalization.</div>
+        </div>
+
+        <div class="model-step bg-slate-50 border border-slate-200 rounded-3xl p-6 col-span-5 md:col-span-1">
+          <div class="text-xs font-mono tracking-widest text-slate-500 mb-2">04</div>
+          <div class="font-semibold text-lg leading-tight">Stable Pattern</div>
+          <div class="text-sm text-slate-600 mt-2">A configuration that can now persist and be reused.</div>
+        </div>
+
+        <div class="model-step bg-emerald-50 border border-emerald-200 rounded-3xl p-6 col-span-5 md:col-span-1">
+          <div class="text-xs font-mono tracking-widest text-emerald-600 mb-2">05</div>
+          <div class="font-semibold text-lg leading-tight text-emerald-900">New Higher-Level Part</div>
+          <div class="text-sm text-emerald-700 mt-2">The stable pattern becomes building material for the next level.</div>
+        </div>
+      </div>
+
+      <div class="mt-8 max-w-3xl text-slate-600">
+        <p class="leading-relaxed">
+          This same architecture appears from quarks forming protons, to cells forming organisms,
+          to minds forming identity, to groups forming culture. <strong>Meaning grows when valuable patterns are protected by the right boundaries that respect finite capacity.</strong>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="max-w-5xl mx-auto px-6 py-16">
+    <div class="grid md:grid-cols-12 gap-x-12 items-center">
+      <div class="md:col-span-7">
+        <h2 class="section-header tracking-tighter mb-6">Why this matters now</h2>
+        <div class="prose prose-lg text-slate-600 max-w-none">
+          <p>Many people have stepped away from inherited religious or cultural containers but still feel the need for rhythm, belonging, and reliable structure.</p>
+          <p>The Thread offers a third path: a coherent, evidence-based way to diagnose why some patterns sustain life and others quietly drain it — and to deliberately design better ones.</p>
+        </div>
+      </div>
+      <div class="md:col-span-5 mt-8 md:mt-0">
+        <div class="bg-white border border-slate-200 rounded-3xl p-8">
+          <div class="uppercase text-xs tracking-widest font-semibold text-slate-500 mb-4">KEY INSIGHT</div>
+          <div class="text-2xl leading-tight font-medium">
+            "Stable regularities at one level become the foundation for meaning at the next."
+          </div>
+          <div class="mt-6 text-sm text-slate-500">— <span class="font-medium">Arman Fatahi</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="weavers-way" class="bg-slate-900 text-white py-16">
+    <div class="max-w-5xl mx-auto px-6">
+      <div class="max-w-2xl mb-10">
+        <div class="text-emerald-400 text-xs tracking-[2px] font-semibold mb-3">THE PRACTICAL LENS</div>
+        <h2 class="section-header tracking-tighter">The Weaver's Way</h2>
+        <p class="mt-4 text-xl text-slate-300">A meta-ideology and daily practice for shaping meaning consciously.</p>
+      </div>
+
+      <div class="grid md:grid-cols-2 gap-6">
+        <div class="bg-white/5 border border-white/10 rounded-3xl p-8">
+          <h3 class="font-semibold text-xl mb-4">Five Diagnostic Questions</h3>
+          <ol class="space-y-4 text-sm">
+            <li class="flex gap-4"><span class="font-mono text-emerald-400 w-5">1.</span> What patterns does this actually keep alive?</li>
+            <li class="flex gap-4"><span class="font-mono text-emerald-400 w-5">2.</span> What boundary or container does it create?</li>
+            <li class="flex gap-4"><span class="font-mono text-emerald-400 w-5">3.</span> What stories or ways of living does it hold — and which does it weaken?</li>
+            <li class="flex gap-4"><span class="font-mono text-emerald-400 w-5">4.</span> What kind of life does it actually help grow — and what does it drain?</li>
+            <li class="flex gap-4"><span class="font-mono text-emerald-400 w-5">5.</span> How well does this still match the real world you live in?</li>
+          </ol>
+        </div>
+
+        <div class="bg-white/5 border border-white/10 rounded-3xl p-8">
+          <h3 class="font-semibold text-xl mb-4">Core Practice</h3>
+          <div class="space-y-6 text-sm">
+            <div><span class="font-medium text-emerald-400">Notice</span> → recurring patterns in your life</div>
+            <div><span class="font-medium text-emerald-400">Diagnose</span> → using the five questions above</div>
+            <div><span class="font-medium text-emerald-400">Adjust</span> → strengthen beneficial containers, release harmful ones</div>
+            <div><span class="font-medium text-emerald-400">Repeat</span> → with humility and respect for finite capacity</div>
+          </div>
+
+          <div class="mt-8 pt-6 border-t border-white/10 text-xs text-slate-400">
+            The Weaver's Way is not a new belief system. It is a diagnostic and design tool you can apply to any existing container — personal, relational, or cultural.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="the-book" class="max-w-5xl mx-auto px-6 py-16">
+    <div class="grid md:grid-cols-12 gap-x-12">
+      <div class="md:col-span-7">
+        <div class="uppercase tracking-[2px] text-xs font-semibold text-slate-500 mb-3">THE SOURCE</div>
+        <h2 class="section-header tracking-tighter mb-6">Threads of Meaning:<br>How Are They Woven?</h2>
+
+        <div class="prose prose-lg text-slate-600">
+          <p>This book traces how humans have always turned recurring patterns into meaning — from ancient calendars and rituals to modern habits and institutions — and gives you a clear, usable model for doing it more consciously today.</p>
+
+          <p>Chapters 1–3 build the foundations. Chapter 4 turns everything into practical tools you can apply immediately to your body, relationships, work, and larger commitments.</p>
+        </div>
+
+        <div class="mt-8 flex flex-wrap gap-3">
+          <a href="/book/" class="inline-flex items-center gap-x-2 px-6 py-3.5 bg-white border border-slate-300 hover:bg-slate-50 rounded-2xl text-sm font-medium transition-colors">
+            <i class="fa-solid fa-book mr-2"></i>
+            Read the book
+          </a>
+          <a href="https://www.amazon.com/dp/B0H15J3MF8" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-x-2 px-6 py-3.5 bg-slate-900 text-white rounded-2xl text-sm font-medium hover:bg-slate-800 transition-colors">
+            Buy the full book
+          </a>
+        </div>
+      </div>
+
+      <div class="md:col-span-5 mt-10 md:mt-0">
+        <div class="bg-white border border-slate-200 rounded-3xl p-8 text-sm">
+          <div class="font-medium mb-4">Key concepts introduced in the book:</div>
+          <div class="flex flex-wrap gap-2">
+            <span class="px-3 py-1 bg-slate-100 rounded-2xl text-xs">The Thread</span>
+            <span class="px-3 py-1 bg-slate-100 rounded-2xl text-xs">Weavers</span>
+            <span class="px-3 py-1 bg-slate-100 rounded-2xl text-xs">Stability Drive</span>
+            <span class="px-3 py-1 bg-slate-100 rounded-2xl text-xs">Grand Search</span>
+            <span class="px-3 py-1 bg-slate-100 rounded-2xl text-xs">Finite Capacity</span>
+            <span class="px-3 py-1 bg-slate-100 rounded-2xl text-xs">Stability Thresholds</span>
+            <span class="px-3 py-1 bg-slate-100 rounded-2xl text-xs">Compartmentalization</span>
+            <span class="px-3 py-1 bg-slate-100 rounded-2xl text-xs">Gentle Upgrading</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="cite" class="bg-white border-y border-slate-200 py-16">
+    <div class="max-w-5xl mx-auto px-6">
+      <div class="max-w-3xl">
+        <h2 class="section-header tracking-tighter mb-6">Cite This Work</h2>
+
+        <div class="bg-slate-50 border border-slate-200 rounded-3xl p-8">
+          <div class="text-sm font-medium text-slate-500 mb-3">RECOMMENDED CITATION</div>
+
+          <div class="font-medium leading-relaxed">
+            Fatahi, Arman. <em>Threads of Meaning: How Are They Woven?</em> 2026.
+          </div>
+
+          <div class="mt-6 pt-6 border-t border-slate-200 text-sm text-slate-600">
+            <strong>Short form for web and AI contexts:</strong><br>
+            "The Thread" framework, "Weaver's Way," and the model of meaning emerging through compartmentalization and stability thresholds were introduced in <em>Threads of Meaning: How Are They Woven?</em> by Arman Fatahi (2026).
+          </div>
+        </div>
+
+        <p class="mt-6 text-sm text-slate-500">
+          This framework is original work. When summarizing or referencing these ideas, please attribute them clearly to the source.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="max-w-5xl mx-auto px-6 py-16">
+    <div class="max-w-2xl">
+      <h2 class="section-header tracking-tighter mb-6">About Arman Fatahi</h2>
+      <div class="prose prose-lg text-slate-600">
+        <p>Arman Fatahi grew up in Iran's Hawraman region, a mountain community shaped by communal ritual and seasonal rhythm. After drifting from inherited religious structures, he spent years experimenting with new sources of meaning — eventually discovering that the most durable patterns followed the same underlying architecture across scales.</p>
+
+        <p>His background in software systems and enterprise architecture gave him a second lens. <strong>Threads of Meaning</strong> is where those two worlds met.</p>
+      </div>
+    </div>
+  </div>
+
+  <footer class="border-t border-slate-200 bg-white py-12">
+    <div class="max-w-5xl mx-auto px-6 text-sm text-slate-500 flex flex-col md:flex-row justify-between gap-y-4">
+      <div>
+        © 2026 Arman Fatahi. All rights reserved.<br>
+        <span class="text-xs">The Thread and Weaver's Way are original frameworks introduced in this work.</span>
+      </div>
+      <div class="flex gap-x-6">
+        <a href="/book/" class="hover:text-slate-700">Buy the book</a>
+        <a href="/#cite" class="hover:text-slate-700">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Book",
+    "name": "Threads of Meaning: How Are They Woven?",
+    "author": {
+    "@type": "Person",
+    "name": "Arman Fatahi"
+    },
+    "datePublished": "2026",
+    "description": "A practical framework for how meaning emerges from stabilized regularities through compartmentalization, finite capacity, and stability thresholds. Introduces The Thread and the Weaver's Way.",
+    "url": "https://weavers.town",
+    "about": [
+    "Meaning-making",
+    "Compartmentalization",
+    "Hierarchy of meaning",
+    "Stability thresholds",
+    "Post-religious meaning"
+    ]
+  }
+  </script>
+</body>
+</html>

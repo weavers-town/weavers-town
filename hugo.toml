@@ -1,0 +1,13 @@
+baseURL = "https://weavers.town/"
+languageCode = "en-us"
+title = "Weaver's Town"
+disableKinds = ["taxonomy", "term", "RSS", "sitemap", "robotsTXT"]
+
+[params]
+  author = "Arman Fatahi"
+  description = "The Thread is a practical, cross-scale framework for understanding how meaning emerges from stabilized regularities."
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

@@ -1,0 +1,21 @@
+{{ define "main" }}
+<main class="container prose-shell">
+  <article class="prose">
+    {{ if eq .Section "book" }}
+      {{ if eq .RelPermalink "/book/" }}
+        {{ .Content }}
+      {{ else }}
+        <h1>{{ .Title }}</h1>
+        {{ .Content }}
+      {{ end }}
+
+      <nav class="book-pager" aria-label="Page navigation">
+        <span></span>
+        <a class="site-button pager-link next" href="/book/toc/">Table of Contents &rarr;</a>
+      </nav>
+    {{ else }}
+      {{ .Content }}
+    {{ end }}
+  </article>
+</main>
+{{ end }}
