@@ -1,6 +1,6 @@
 {{ define "main" }}
 <main class="container prose-shell">
-  <article class="prose">
+  <article class="prose{{ if and (eq .Section "book") (eq .RelPermalink "/book/") }} book-landing-page{{ end }}">
     {{ if eq .Section "book" }}
       {{ if eq .RelPermalink "/book/" }}
         {{ .Content }}

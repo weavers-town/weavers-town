@@ -6,7 +6,10 @@ slug: "toc"
 
 # Table of Contents
 
-- [Preface](/book/preface/)
+<span class="toc-preface">[Preface](/book/preface/)</span>
+
+## Chapters
+
 - [Introduction: The Threads of Meaning](/book/10-introduction/introduction-the-threads-of-meaning/)
 - [The Roots of Regularity](/book/11-roots-of-regularity/the-roots-of-regularity/)
 - [A Hierarchy of Meaning](/book/12-hierarchy-of-meaning/a-hierarchy-of-meaning/)

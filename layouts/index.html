@@ -23,6 +23,7 @@
   <link rel="apple-touch-icon" href="/images/tom-logo.png" />
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="/assets/site.css" />
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600&family=Playfair+Display:wght@700&display=swap');
 
@@ -70,33 +71,7 @@
   </style>
 </head>
 <body class="bg-slate-50 text-slate-800">
-  <nav class="border-b border-slate-200 bg-white/80 backdrop-blur-md sticky top-0 z-50">
-    <div class="max-w-5xl mx-auto px-6">
-      <div class="flex items-center justify-between h-16">
-        <div class="flex items-center gap-x-3">
-          <div class="w-9 h-9 bg-slate-900 rounded-xl flex items-center justify-center">
-            <span class="text-white text-xl font-bold tracking-tighter">W</span>
-          </div>
-          <div>
-            <span class="font-semibold text-xl tracking-tight">weavers.town</span>
-          </div>
-        </div>
-
-        <div class="hidden md:flex items-center gap-x-8 text-sm">
-          <a href="#the-thread" class="nav-link text-slate-600 hover:text-slate-900">The Thread</a>
-          <a href="#weavers-way" class="nav-link text-slate-600 hover:text-slate-900">Weaver's Way</a>
-          <a href="#the-book" class="nav-link text-slate-600 hover:text-slate-900">The Book</a>
-          <a href="#cite" class="nav-link text-slate-600 hover:text-slate-900">Cite</a>
-        </div>
-
-        <div>
-          <a href="#the-book" class="inline-flex items-center px-5 py-2.5 text-sm font-medium bg-slate-900 text-white rounded-2xl hover:bg-slate-800 transition-colors">
-            Read the book
-          </a>
-        </div>
-      </div>
-    </div>
-  </nav>
+  {{ partial "header.html" . }}
 
   <div class="max-w-5xl mx-auto px-6 pt-16 pb-20">
     <div class="max-w-3xl">
@@ -252,9 +227,9 @@
         </div>
 
         <div class="mt-8 flex flex-wrap gap-3">
-          <a href="/book/" class="inline-flex items-center gap-x-2 px-6 py-3.5 bg-white border border-slate-300 hover:bg-slate-50 rounded-2xl text-sm font-medium transition-colors">
+          <a href="/book/toc/" class="inline-flex items-center gap-x-2 px-6 py-3.5 bg-white border border-slate-300 hover:bg-slate-50 rounded-2xl text-sm font-medium transition-colors">
             <i class="fa-solid fa-book mr-2"></i>
-            Read the book
+            Explore the chapters
           </a>
           <a href="https://www.amazon.com/dp/B0H15J3MF8" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-x-2 px-6 py-3.5 bg-slate-900 text-white rounded-2xl text-sm font-medium hover:bg-slate-800 transition-colors">
             Buy the full book
