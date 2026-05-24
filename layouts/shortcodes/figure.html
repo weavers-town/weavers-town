@@ -1,0 +1,4 @@
+{{- $src := .Get "src" -}}
+{{- $alt := .Get "alt" -}}
+{{- $caption := .Get "caption" -}}
+{{ partial "figure.html" (dict "src" $src "alt" $alt "caption" $caption) }}

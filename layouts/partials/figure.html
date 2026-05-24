@@ -1,0 +1,21 @@
+{{ $src := .src }}
+{{ $alt := .alt }}
+{{ $caption := .caption }}
+
+<figure style="
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: fit-content;
+    max-width: 100%;
+    margin: 40px auto;
+    padding: 20px;
+">
+    <img src="{{ $src }}" 
+         alt="{{ $alt }}" 
+         style="width: 70%; max-width: 700px; height: auto;" />
+    
+    <figcaption style="margin-top: 12px; text-align: center; font-size: 0.95rem; color: #555;">
+        {{ $caption }}
+    </figcaption>
+</figure>
