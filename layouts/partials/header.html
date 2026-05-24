@@ -1,0 +1,51 @@
+<header class="site-nav" id="site-nav">
+  <div class="nav-inner">
+    <a class="nav-brand" href="/">
+      <img src="/images/tom-logo.png" alt="Weaver's Town" />
+      <span class="nav-brand-name">Weaver's Town</span>
+    </a>
+    <nav aria-label="Primary" id="primary-nav">
+      <ul class="nav-links">
+        <li><a href="/#the-thread">The Thread</a></li>
+        <li><a href="/#weavers-way">Weaver's Way</a></li>
+        <li><a href="/#the-book">The Book</a></li>
+        <li><a href="/#cite">Cite</a></li>
+        <li><a href="/explorations/">Explorations</a></li>
+      </ul>
+    </nav>
+    <a class="site-button site-button--filled nav-cta-desktop" href="/book/">Read the book here</a>
+    <button class="nav-hamburger" id="nav-hamburger" aria-label="Toggle navigation" aria-expanded="false" aria-controls="primary-nav">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <div class="nav-mobile-drawer" id="nav-mobile-drawer" aria-hidden="true">
+    <ul class="nav-mobile-links">
+      <li><a href="/#the-thread">The Thread</a></li>
+      <li><a href="/#weavers-way">Weaver's Way</a></li>
+      <li><a href="/#the-book">The Book</a></li>
+      <li><a href="/#cite">Cite</a></li>
+      <li><a href="/explorations/">Explorations</a></li>
+    </ul>
+    <a class="site-button site-button--filled" href="/book/">Read the book here</a>
+  </div>
+</header>
+<script>
+(function () {
+  var btn = document.getElementById('nav-hamburger');
+  var drawer = document.getElementById('nav-mobile-drawer');
+  var nav = document.getElementById('site-nav');
+  if (!btn || !drawer) return;
+  btn.addEventListener('click', function () {
+    var open = nav.classList.toggle('nav-open');
+    btn.setAttribute('aria-expanded', String(open));
+    drawer.setAttribute('aria-hidden', String(!open));
+  });
+  drawer.querySelectorAll('a').forEach(function (a) {
+    a.addEventListener('click', function () {
+      nav.classList.remove('nav-open');
+      btn.setAttribute('aria-expanded', 'false');
+      drawer.setAttribute('aria-hidden', 'true');
+    });
+  });
+})();
+</script>

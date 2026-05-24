@@ -1,0 +1,27 @@
+{{ define "main" }}
+<main class="container prose-shell">
+  <article class="prose">
+    <h1>{{ .Title }}</h1>
+    {{ with .Description }}<p class="explorations-description">{{ . }}</p>{{ end }}
+    {{ .Content }}
+
+    {{ $pages := where .Site.RegularPages "Section" "explorations" }}
+    {{ $pages = $pages | first 100 }}
+    {{ if $pages }}
+    <ul class="explorations-list">
+      {{ range sort $pages "Date" "desc" }}
+        {{ if not .Draft }}
+        <li class="explorations-item">
+          <a class="explorations-title" href="{{ .RelPermalink }}">{{ .Title }}</a>
+          {{ with .Date }}<time class="explorations-date" datetime="{{ .Format "2006-01-02" }}">{{ .Format "January 2, 2006" }}</time>{{ end }}
+          {{ with .Summary }}<p class="explorations-summary">{{ . }}</p>{{ end }}
+        </li>
+        {{ end }}
+      {{ end }}
+    </ul>
+    {{ else }}
+    <p class="explorations-empty">Nothing here yet — but the thinking has begun.</p>
+    {{ end }}
+  </article>
+</main>
+{{ end }}

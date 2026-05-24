@@ -1,0 +1,646 @@
+:root {
+  --parchment: #f3f5f7;
+  --parchment-mid: #e7ecef;
+  --parchment-dark: #d5dde3;
+  --ink: #121723;
+  --ink-mid: #334154;
+  --ink-light: #607086;
+  --rule: #bdc9d4;
+  --accent: #167a72;
+  --accent-2: #2b6df6;
+  --glow: rgba(43, 109, 246, 0.14);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-height: 100%;
+  scrollbar-gutter: stable;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+body {
+  margin: 0;
+  color: var(--ink);
+  background:
+    radial-gradient(circle at 12% 14%, rgba(22, 122, 114, 0.16), transparent 34%),
+    radial-gradient(circle at 88% 8%, rgba(43, 109, 246, 0.15), transparent 30%),
+    linear-gradient(180deg, #f9fbfc 0%, var(--parchment) 52%, #eef2f5 100%);
+  font-family: "EB Garamond", Georgia, serif;
+  line-height: 1.78;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+.container {
+  width: min(1080px, calc(100% - 2rem));
+  margin: 0 auto;
+}
+
+.site-nav {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  backdrop-filter: blur(12px);
+  background: color-mix(in srgb, #f7fafc 82%, transparent);
+  border-bottom: 1px solid color-mix(in srgb, var(--rule) 82%, #ffffff 18%);
+  box-shadow: 0 8px 22px -22px rgba(18, 23, 35, 0.45);
+}
+
+.nav-inner {
+  min-height: 4.4rem;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: space-between;
+  width: min(1080px, calc(100% - 2rem));
+  margin: 0 auto;
+}
+
+.nav-brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  text-decoration: none;
+  color: inherit;
+}
+
+.nav-brand img {
+  width: 2rem;
+  height: 2rem;
+}
+
+.nav-brand-name {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1.25rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nav-hamburger {
+  display: none;
+}
+
+.nav-mobile-drawer {
+  display: none;
+}
+
+.nav-links a {
+  color: var(--ink-light);
+  text-decoration: none;
+  font-family: "IBM Plex Mono", "Courier New", monospace;
+  font-size: 0.8rem;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  transition: color 0.2s ease;
+}
+
+.footer-links a {
+  color: var(--ink-light);
+  text-decoration: none;
+  font-family: "IBM Plex Mono", "Courier New", monospace;
+  font-size: 0.68rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.nav-links a:hover,
+.footer-links a:hover {
+  color: var(--ink);
+}
+
+.site-button,
+.nav-cta,
+.button,
+.btn,
+.pager-link {
+  display: inline-block;
+  text-decoration: none;
+  color: var(--ink);
+  border: 1px solid var(--rule);
+  padding: 0.65rem 1.3rem;
+  font-family: "IBM Plex Mono", "Courier New", monospace;
+  font-size: 0.68rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  border-radius: 1.5rem;
+  background: #ffffff;
+  transition: background 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+}
+
+.site-button:hover,
+.button:hover,
+.btn:hover,
+.btn-filled,
+.pager-link:hover {
+  background: var(--ink);
+  color: #ffffff;
+  border-color: var(--ink);
+}
+
+.site-button--filled,
+.nav-cta {
+  background: var(--ink);
+  color: #ffffff;
+  border-color: var(--ink);
+}
+
+.site-button--filled:hover,
+.nav-cta:hover {
+  background: var(--ink-mid);
+  border-color: var(--ink-mid);
+}
+
+.btn-filled:hover {
+  background: var(--ink-mid);
+  border-color: var(--ink-mid);
+}
+
+.prose-shell {
+  padding-top: 2.2rem;
+  padding-bottom: 3rem;
+}
+
+.prose {
+  border: 1px solid var(--rule);
+  background: color-mix(in srgb, #ffffff 74%, #edf4f8 26%);
+  padding: clamp(1rem, 2.5vw, 2rem);
+  overflow-x: auto;
+  border-radius: 20px;
+  box-shadow:
+    0 32px 46px -40px rgba(20, 31, 52, 0.6),
+    0 1px 0 0 #ffffff inset;
+}
+
+.prose nav[role="doc-toc"] {
+  border: 1px solid var(--rule);
+  background: color-mix(in srgb, #f4f8fb 80%, white 20%);
+  padding: 1rem 1.1rem;
+  margin-bottom: 1.5rem;
+  border-radius: 14px;
+}
+
+.prose nav[role="doc-toc"] ul {
+  margin: 0.35rem 0;
+  padding-left: 1.1rem;
+}
+
+.prose nav[role="doc-toc"] a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.book-landing {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.4rem;
+  align-items: center;
+}
+
+.book-landing img {
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--rule);
+  border-radius: 16px;
+  box-shadow: 0 28px 40px -32px rgba(20, 31, 52, 0.62);
+}
+
+.book-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 1.2rem;
+}
+
+.book-side-toc {
+  border: 1px solid var(--rule);
+  border-radius: 16px;
+  background: color-mix(in srgb, #f4f8fb 82%, white 18%);
+  padding: 0.9rem 0.9rem 0.7rem;
+}
+
+.book-side-toc-inner {
+  position: sticky;
+  top: 5.2rem;
+}
+
+.book-side-toc-title {
+  font-family: "IBM Plex Mono", "Courier New", monospace;
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-light);
+  margin-bottom: 0.6rem;
+}
+
+.book-side-toc nav ul {
+  margin: 0;
+  padding-left: 1.05rem;
+}
+
+.book-side-toc li {
+  margin: 0.33rem 0;
+}
+
+.book-side-toc a {
+  text-decoration: none;
+  color: var(--ink-mid);
+}
+
+.book-side-toc a:hover {
+  color: var(--accent);
+}
+
+.book-landing h1 {
+  margin-top: 0;
+}
+
+.book-landing-page > p:first-of-type {
+  float: left;
+  width: clamp(200px, 32%, 320px);
+  margin: 0 clamp(1rem, 2.4vw, 2rem) 0.8rem 0;
+}
+
+.book-landing-page > p:first-of-type img {
+  width: 100%;
+  height: auto;
+  border-radius: 14px;
+  box-shadow: 0 24px 34px -28px rgba(20, 31, 52, 0.62);
+}
+
+.book-landing-page > h1 {
+  margin-top: 0;
+}
+
+.book-landing-page > nav.book-pager {
+  clear: both;
+}
+
+.book-pager {
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--rule);
+  display: flex;
+  justify-content: space-between;
+  gap: 0.7rem;
+}
+
+.book-pager-top {
+  margin-top: 0;
+  margin-bottom: 1.25rem;
+}
+
+.prose :is(h1, h2, h3, h4) {
+  font-family: "Cormorant Garamond", serif;
+  line-height: 1.15;
+  color: var(--ink);
+}
+
+.prose h1 {
+  font-size: clamp(2rem, 6vw, 3.2rem);
+}
+
+.prose h2 {
+  font-size: clamp(1.55rem, 4vw, 2.2rem);
+  margin-top: 2.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.prose h3 {
+  font-family: "IBM Plex Mono", "Courier New", monospace;
+  font-size: 0.74rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-light);
+}
+
+.prose p,
+.prose li,
+.prose blockquote,
+.prose dd,
+.prose dt {
+  font-size: 1.02rem;
+  line-height: 1.72;
+}
+
+.prose a {
+  color: var(--accent);
+  text-underline-offset: 0.16rem;
+}
+
+.toc-preface {
+  margin-bottom: 0.9rem;
+}
+
+.toc-preface a {
+  font-weight: 700;
+  text-decoration: none;
+  color: inherit;
+}
+
+.prose h2#chapters {
+  font-size: 1.35rem;
+  margin-top: 1.4rem;
+  margin-bottom: 0.35rem;
+}
+
+.prose ul.toc-major {
+  border-left: 2px solid var(--rule);
+  padding-left: 1rem;
+  margin-top: 0.25rem;
+  margin-bottom: 1rem;
+}
+
+.prose ul.toc-major li {
+  margin: 0.35rem 0;
+}
+
+.prose ul.toc-major a {
+  font-weight: 700;
+  text-decoration: none;
+  color: inherit;
+  font-size: 1.05rem;
+}
+
+.prose .toc-minor {
+  margin-top: 0.8rem;
+  margin-bottom: 1.1rem;
+  padding-left: 1.1rem;
+}
+
+.prose .toc-minor li {
+  margin: 0.3rem 0;
+}
+
+.prose .toc-minor a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.prose h1#table-of-contents ~ * a {
+  text-decoration: none;
+}
+
+.prose ul.toc-major a:hover,
+.prose .toc-minor a:hover,
+.toc-preface a:hover {
+  color: var(--accent);
+}
+
+.prose img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid var(--rule);
+}
+
+.prose h1#table-of-contents + ul {
+  list-style: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.prose h1#table-of-contents + ul li {
+  padding-left: 1rem;
+  margin: 0.5rem 0;
+}
+
+.prose h1#table-of-contents + ul li:nth-child(n + 2):nth-child(-n + 7) {
+  border-left: 2px solid var(--rule);
+  padding-left: 1.2rem;
+}
+
+.prose h1#table-of-figures + ul a,
+.prose h1#table-of-contents + ul a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.prose h1#table-of-contents + ul li:nth-child(n + 2):nth-child(-n + 7) a {
+  font-weight: 700;
+  font-size: 1.08rem;
+  color: var(--ink);
+}
+
+.prose h1#table-of-figures + ul a:hover,
+.prose h1#table-of-contents + ul a:hover {
+  color: var(--accent);
+}
+
+.site-footer {
+  border-top: 1px solid var(--rule);
+  padding: 1.25rem 0;
+  color: var(--ink-light);
+  margin-top: auto;
+  background: color-mix(in srgb, #eff4f7 78%, var(--parchment) 22%);
+}
+
+.footer-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  font-family: "IBM Plex Mono", "Courier New", monospace;
+  font-size: 0.7rem;
+  letter-spacing: 0.04em;
+}
+
+.footer-links {
+  display: inline-flex;
+  gap: 1rem;
+}
+
+@media (max-width: 980px) {
+  .nav-links {
+    display: none;
+  }
+
+  .nav-cta-desktop {
+    display: none;
+  }
+
+  .nav-hamburger {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 1.5rem;
+    height: 1.1rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    flex-shrink: 0;
+  }
+
+  .nav-hamburger span {
+    display: block;
+    height: 2px;
+    background: var(--ink);
+    border-radius: 2px;
+    transition: transform 0.22s ease, opacity 0.22s ease;
+  }
+
+  .nav-open .nav-hamburger span:nth-child(1) {
+    transform: translateY(0.45rem) rotate(45deg);
+  }
+
+  .nav-open .nav-hamburger span:nth-child(2) {
+    opacity: 0;
+  }
+
+  .nav-open .nav-hamburger span:nth-child(3) {
+    transform: translateY(-0.45rem) rotate(-45deg);
+  }
+
+  .nav-mobile-drawer {
+    display: none;
+    padding: 1rem 1.25rem 1.5rem;
+    border-top: 1px solid var(--rule);
+    background: color-mix(in srgb, #f7fafc 92%, transparent);
+  }
+
+  .nav-open .nav-mobile-drawer {
+    display: block;
+  }
+
+  .nav-mobile-links {
+    list-style: none;
+    margin: 0 0 1.25rem;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+  }
+
+  .nav-mobile-links a {
+    display: block;
+    padding: 0.55rem 0;
+    color: var(--ink-light);
+    text-decoration: none;
+    font-family: "IBM Plex Mono", "Courier New", monospace;
+    font-size: 0.8rem;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    border-bottom: 1px solid var(--parchment-mid);
+    transition: color 0.2s ease;
+  }
+
+  .nav-mobile-links a:hover {
+    color: var(--ink);
+  }
+
+  .book-landing-page > p:first-of-type {
+    float: none;
+    width: 100%;
+    margin: 0 0 1rem;
+  }
+
+  .book-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .book-side-toc {
+    order: -1;
+  }
+
+  .book-side-toc-inner {
+    position: static;
+  }
+
+  .book-landing {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-row {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+@media (min-width: 1080px) {
+  .book-layout {
+    grid-template-columns: 260px minmax(0, 1fr);
+    align-items: start;
+  }
+}
+
+/* ── Explorations ────────────────────────────────── */
+
+.explorations-description {
+  color: var(--ink-light);
+  font-style: italic;
+  margin-top: -0.25rem;
+  margin-bottom: 1.75rem;
+  font-size: 1.05rem;
+}
+
+.explorations-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.explorations-item {
+  border-top: 1px solid var(--rule);
+  padding-top: 1.5rem;
+}
+
+.explorations-title {
+  display: block;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 1.45rem;
+  font-weight: 600;
+  color: var(--ink);
+  text-decoration: none;
+  line-height: 1.3;
+  margin-bottom: 0.25rem;
+  transition: color 0.2s ease;
+}
+
+.explorations-title:hover {
+  color: var(--accent);
+}
+
+.explorations-date {
+  display: block;
+  font-family: "IBM Plex Mono", "Courier New", monospace;
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-light);
+  margin-bottom: 0.55rem;
+}
+
+.explorations-summary {
+  margin: 0;
+  color: var(--ink-mid);
+  font-size: 1rem;
+  line-height: 1.65;
+}
+
+.explorations-empty {
+  color: var(--ink-light);
+  font-style: italic;
+}
