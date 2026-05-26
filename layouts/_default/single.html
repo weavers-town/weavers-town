@@ -45,6 +45,7 @@
       {{- end -}}
     {{ end }} -->
 
+    {{ partial "article-audio.html" . }}
     {{ .Content }}
 
     {{ if ge $idx 0 }}

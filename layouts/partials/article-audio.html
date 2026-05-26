@@ -1,0 +1,28 @@
+{{- with .Params.audio -}}
+  {{- $raw := printf "%v" . -}}
+  {{- $clean := strings.TrimPrefix "/" $raw -}}
+  {{- $audioPath := cond (hasPrefix $clean "audio/") $clean (printf "audio/%s" $clean) -}}
+  {{- $staticPath := printf "static/%s" $audioPath -}}
+  {{- if fileExists $staticPath -}}
+    {{- $title := $.Params.audio_title | default "Listen to this article" -}}
+    {{- $ext := lower (path.Ext $audioPath) -}}
+    {{- $mime := "audio/mpeg" -}}
+    {{- if eq $ext ".ogg" -}}
+      {{- $mime = "audio/ogg" -}}
+    {{- else if eq $ext ".wav" -}}
+      {{- $mime = "audio/wav" -}}
+    {{- else if eq $ext ".m4a" -}}
+      {{- $mime = "audio/mp4" -}}
+    {{- end -}}
+<section class="article-audio" aria-label="Article audio">
+  <h2 class="article-audio-title">{{ $title }}</h2>
+  <audio controls preload="metadata" class="article-audio-player">
+    <source src="{{ printf "/%s" $audioPath | relURL }}" type="{{ $mime }}" />
+    Your browser does not support audio playback.
+  </audio>
+  <p class="article-audio-download">
+    <a href="{{ printf "/%s" $audioPath | relURL }}">Download audio</a>
+  </p>
+</section>
+  {{- end -}}
+{{- end -}}

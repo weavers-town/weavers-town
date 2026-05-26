@@ -212,6 +212,45 @@ main {
   text-decoration: none;
 }
 
+.article-audio {
+  border: 1px solid var(--rule);
+  border-radius: 14px;
+  background: color-mix(in srgb, #f4f8fb 80%, #ffffff 20%);
+  padding: 1rem 1rem 0.85rem;
+  margin: 0 0 1.4rem;
+}
+
+.article-audio-title {
+  margin: 0 0 0.5rem;
+  font-family: "IBM Plex Mono", "Courier New", monospace;
+  font-size: 0.78rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-light);
+}
+
+.article-audio-player {
+  width: 100%;
+}
+
+.article-audio-download {
+  margin: 0.55rem 0 0;
+  font-family: "IBM Plex Mono", "Courier New", monospace;
+  font-size: 0.72rem;
+  letter-spacing: 0.04em;
+}
+
+.article-audio-download a {
+  color: var(--ink-mid);
+  text-decoration: none;
+  border-bottom: 1px solid color-mix(in srgb, var(--ink-mid) 35%, transparent);
+}
+
+.article-audio-download a:hover {
+  color: var(--accent);
+  border-bottom-color: color-mix(in srgb, var(--accent) 55%, transparent);
+}
+
 .book-landing {
   display: grid;
   grid-template-columns: 1fr 1fr;
