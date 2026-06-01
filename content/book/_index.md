@@ -15,7 +15,6 @@ version: "6.7"
 
 **Edition 1 • Version 6.7**
 
-Read the book section by section with clean URLs and sequential navigation.
+This is the full version of the book.
 
 - [Open Table of Contents](/book/toc/)
-- [Get it on Amazon / Kindle](https://www.amazon.com/dp/B0H15J3MF8/)

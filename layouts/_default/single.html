@@ -1,6 +1,6 @@
 {{ define "main" }}
 <main class="container prose-shell">
-    <article class="prose">
+  <article class="prose">
     {{ $pages := .CurrentSection.RegularPages.ByWeight }}
     {{ $idx := -1 }}
     {{ range $i, $p := $pages }}
@@ -23,27 +23,6 @@
         {{ end }}
       </nav>
     {{ end }}
-
-    <!-- <h1>{{ .Title }}</h1> -->
-    <!-- {{ if not (eq .Section "book") }}
-    {{ else }}
-      {{- $pathParts := split .RelPermalink "/" -}}
-      {{- $sectionPart := index $pathParts 2 -}}
-      {{- $sectionNum := 0 -}}
-      {{- if $sectionPart -}}
-        {{- $firstPart := index (split $sectionPart "-") 0 -}}
-        {{- if (findRE "^[0-9]+$" $firstPart) -}}
-          {{- $sectionNum = int $firstPart -}}
-        {{- end -}}
-      {{- end -}}
-      {{- if and (ge $sectionNum 11) (le $sectionNum 14) -}}
-        <h1><span class="header-section-number">{{ sub $sectionNum 10 }}</span> {{ .Title }}</h1>
-      {{- else if eq $sectionNum 10 -}}
-        <h1>{{ .Title }}</h1>
-      {{- else -}}
-        <h1>{{ .Title }}</h1>
-      {{- end -}}
-    {{ end }} -->
 
     {{ partial "article-audio.html" . }}
     {{ .Content }}

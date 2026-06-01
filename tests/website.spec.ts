@@ -12,7 +12,7 @@ test("home page renders key content", async ({ page }) => {
 
   await expect(page).toHaveTitle(/The Thread/i);
   await expect(page.locator("h1", { hasText: "The Thread" })).toBeVisible();
-  await expect(page.getByRole("link", { name: /read the book here/i })).toBeVisible();
+  await expect(page.getByRole("link", { name: /Read the book/i })).toBeVisible();
 });
 
 test("core pages respond successfully", async ({ request }) => {

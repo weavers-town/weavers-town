@@ -1,15 +1,5 @@
-:root {
-  --parchment: #f3f5f7;
-  --parchment-mid: #e7ecef;
-  --parchment-dark: #d5dde3;
-  --ink: #121723;
-  --ink-mid: #334154;
-  --ink-light: #607086;
-  --rule: #bdc9d4;
-  --accent: #167a72;
-  --accent-2: #2b6df6;
-  --glow: rgba(43, 109, 246, 0.14);
-}
+/* Design tokens are now defined centrally in layouts/partials/head/branding.html
+   This keeps branding in one place. Only put component-specific overrides here if needed. */
 
 * {
   box-sizing: border-box;
@@ -18,25 +8,16 @@
 html {
   min-height: 100%;
   scrollbar-gutter: stable;
-  -ms-overflow-style: none;
-  scrollbar-width: none;
   scroll-behavior: smooth;
-}
-
-html::-webkit-scrollbar {
-  width: 0;
-  height: 0;
 }
 
 body {
   margin: 0;
   color: var(--ink);
-  background:
-    radial-gradient(circle at 12% 14%, rgba(22, 122, 114, 0.16), transparent 34%),
-    radial-gradient(circle at 88% 8%, rgba(43, 109, 246, 0.15), transparent 30%),
-    linear-gradient(180deg, #f9fbfc 0%, var(--parchment) 52%, #eef2f5 100%);
-  font-family: "EB Garamond", Georgia, serif;
-  line-height: 1.78;
+  background: var(--bg);
+  font-family: var(--font-serif);
+  font-size: 1.05rem;
+  line-height: 1.82;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -48,52 +29,61 @@ main {
 }
 
 .container {
-  width: min(1080px, calc(100% - 2rem));
+  width: min(960px, calc(100% - 2.5rem));
   margin: 0 auto;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+/* Dedicated reading measure for long-form content */
+.reading-container {
+  max-width: 68ch;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .site-nav {
   position: sticky;
   top: 0;
   z-index: 10;
-  backdrop-filter: blur(12px);
-  background: color-mix(in srgb, #f7fafc 82%, transparent);
-  border-bottom: 1px solid color-mix(in srgb, var(--rule) 82%, #ffffff 18%);
-  box-shadow: 0 8px 22px -22px rgba(18, 23, 35, 0.45);
+  background: var(--paper);
+  border-bottom: 1px solid var(--rule-light);
 }
 
 .nav-inner {
-  min-height: 4.4rem;
+  min-height: 4.25rem;
   display: flex;
-  gap: 1rem;
+  gap: 1.5rem;
   align-items: center;
   justify-content: space-between;
-  width: min(1080px, calc(100% - 2rem));
+  width: min(960px, calc(100% - 2.5rem));
   margin: 0 auto;
+  padding: 0 0.25rem;
 }
 
 .nav-brand {
   display: inline-flex;
   align-items: center;
-  gap: 0.6rem;
+  gap: 0.65rem;
   text-decoration: none;
   color: inherit;
 }
 
 .nav-brand img {
-  width: 2rem;
-  height: 2rem;
+  width: 1.85rem;
+  height: 1.85rem;
 }
 
 .nav-brand-name {
-  font-family: "Cormorant Garamond", serif;
-  font-size: 1.3rem;
-  font-weight: 600;
+  font-family: var(--font-heading);
+  font-size: 1.25rem;
+  font-weight: var(--font-weight-semibold);
+  letter-spacing: -0.01em;
 }
 
 .nav-links {
   display: flex;
-  gap: 1.25rem;
+  gap: 1.65rem;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -108,22 +98,24 @@ main {
 }
 
 .nav-links a {
-  color: var(--ink-light);
+  color: var(--ink-mid);
   text-decoration: none;
-  font-family: "IBM Plex Mono", "Courier New", monospace;
-  font-size: 0.8rem;
-  letter-spacing: 0.07em;
-  text-transform: uppercase;
-  transition: color 0.2s ease;
+  font-size: 0.95rem;
+  font-weight: 500;
+  transition: color 0.15s ease;
+  padding: 0.35rem 0;
+}
+
+.nav-links a:hover {
+  color: var(--ink);
 }
 
 .footer-links a {
   color: var(--ink-light);
   text-decoration: none;
-  font-family: "IBM Plex Mono", "Courier New", monospace;
-  font-size: 0.68rem;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
+  font-size: 0.85rem;
+  font-weight: 500;
+  transition: color 0.15s ease;
 }
 
 .nav-links a:hover,
@@ -136,24 +128,24 @@ main {
 .button,
 .btn,
 .pager-link {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   text-decoration: none;
   color: var(--ink);
   border: 1px solid var(--rule);
-  padding: 0.65rem 1.3rem;
-  font-family: "IBM Plex Mono", "Courier New", monospace;
-  font-size: 0.68rem;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  border-radius: 1.5rem;
-  background: #ffffff;
-  transition: background 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+  padding: 0.55rem 1.35rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+  border-radius: 9999px;
+  background: var(--paper);
+  transition: all 0.15s ease;
+  white-space: nowrap;
 }
 
 .site-button:hover,
 .button:hover,
 .btn:hover,
-.btn-filled,
 .pager-link:hover {
   background: var(--ink);
   color: #ffffff;
@@ -169,37 +161,31 @@ main {
 
 .site-button--filled:hover,
 .nav-cta:hover {
-  background: var(--ink-mid);
-  border-color: var(--ink-mid);
-}
-
-.btn-filled:hover {
-  background: var(--ink-mid);
-  border-color: var(--ink-mid);
+  background: var(--accent);
+  border-color: var(--accent);
 }
 
 .prose-shell {
-  padding-top: 2.2rem;
-  padding-bottom: 3rem;
+  padding-top: 2.5rem;
+  padding-bottom: 5rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
 
+/* Clean, direct reading experience — no artificial box */
 .prose {
-  border: 1px solid var(--rule);
-  background: color-mix(in srgb, #ffffff 74%, #edf4f8 26%);
-  padding: clamp(1rem, 2.5vw, 2rem);
-  overflow-x: auto;
-  border-radius: 20px;
-  box-shadow:
-    0 32px 46px -40px rgba(20, 31, 52, 0.6),
-    0 1px 0 0 #ffffff inset;
+  max-width: 68ch;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
 }
 
 .prose nav[role="doc-toc"] {
-  border: 1px solid var(--rule);
-  background: color-mix(in srgb, #f4f8fb 80%, white 20%);
-  padding: 1rem 1.1rem;
-  margin-bottom: 1.5rem;
-  border-radius: 14px;
+  background: var(--bg-alt);
+  padding: 1rem 1.25rem;
+  margin-bottom: 2rem;
+  border-radius: 10px;
+  font-size: 0.95rem;
 }
 
 .prose nav[role="doc-toc"] ul {
@@ -212,43 +198,51 @@ main {
   text-decoration: none;
 }
 
+/* Elegant, premium "Listen to this article" module */
 .article-audio {
-  border: 1px solid var(--rule);
-  border-radius: 14px;
-  background: color-mix(in srgb, #f4f8fb 80%, #ffffff 20%);
-  padding: 1rem 1rem 0.85rem;
-  margin: 0 0 1.4rem;
+  background: #f8f9f7;           /* Very light, almost page background */
+  border: 1px solid #e8e9e6;
+  padding: 1.25rem 1.5rem 1.1rem;
+  margin: 0 0 2.5rem;
+  border-radius: 16px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
 }
 
 .article-audio-title {
-  margin: 0 0 0.5rem;
-  font-family: "IBM Plex Mono", "Courier New", monospace;
-  font-size: 0.78rem;
-  letter-spacing: 0.08em;
+  margin: 0 0 0.85rem;
+  font-family: var(--font-sans);
+  font-size: 0.72rem;
+  letter-spacing: 0.12em;
   text-transform: uppercase;
-  color: var(--ink-light);
+  font-weight: 600;
+  color: #475569;
 }
 
 .article-audio-player {
   width: 100%;
+  margin-bottom: 0.4rem;
+}
+
+/* Basic improvement to native audio look */
+.article-audio-player {
+  height: 42px;
 }
 
 .article-audio-download {
-  margin: 0.55rem 0 0;
-  font-family: "IBM Plex Mono", "Courier New", monospace;
-  font-size: 0.72rem;
-  letter-spacing: 0.04em;
+  margin: 0.35rem 0 0;
+  font-size: 0.75rem;
 }
 
 .article-audio-download a {
-  color: var(--ink-mid);
+  color: var(--accent);
   text-decoration: none;
-  border-bottom: 1px solid color-mix(in srgb, var(--ink-mid) 35%, transparent);
+  font-weight: 500;
+  transition: color 0.15s ease;
 }
 
 .article-audio-download a:hover {
-  color: var(--accent);
-  border-bottom-color: color-mix(in srgb, var(--accent) 55%, transparent);
+  color: #0f766e;
+  text-decoration: underline;
 }
 
 .book-landing {
@@ -261,22 +255,21 @@ main {
 .book-landing img {
   width: 100%;
   height: auto;
-  border: 1px solid var(--rule);
-  border-radius: 16px;
-  box-shadow: 0 28px 40px -32px rgba(20, 31, 52, 0.62);
+  border: 1px solid var(--rule-light);
+  border-radius: 14px;
 }
 
 .book-layout {
   display: grid;
   grid-template-columns: minmax(0, 1fr);
-  gap: 1.2rem;
+  gap: 1.5rem;
 }
 
 .book-side-toc {
-  border: 1px solid var(--rule);
-  border-radius: 16px;
-  background: color-mix(in srgb, #f4f8fb 82%, white 18%);
-  padding: 0.9rem 0.9rem 0.7rem;
+  border: 1px solid var(--rule-light);
+  border-radius: 14px;
+  background: var(--bg-alt);
+  padding: 1rem 1.1rem 0.9rem;
 }
 
 .book-side-toc-inner {
@@ -285,7 +278,7 @@ main {
 }
 
 .book-side-toc-title {
-  font-family: "IBM Plex Mono", "Courier New", monospace;
+  font-family: var(--font-mono);
   font-size: 0.72rem;
   letter-spacing: 0.08em;
   text-transform: uppercase;
@@ -347,45 +340,51 @@ main {
 
 .book-pager-top {
   margin-top: 0;
-  margin-bottom: 1.25rem;
+  margin-bottom: 2.25rem;
+  padding-bottom: 1.25rem;
+  border-bottom: 1px solid var(--rule-light);
 }
 
 .prose :is(h1, h2, h3, h4) {
-  font-family: "Cormorant Garamond", serif;
-  line-height: 1.15;
+  font-family: var(--font-heading);
+  line-height: 1.28;
   color: var(--ink);
 }
 
 .prose h1 {
-  font-size: clamp(2rem, 6vw, 3.2rem);
+  font-size: 2.2rem;
+  margin-top: 0;
+  margin-bottom: 0.9rem;
+  font-weight: 700;
 }
 
 .prose h2 {
-  font-size: clamp(1.55rem, 4vw, 2.2rem);
-  margin-top: 2.1rem;
-  margin-bottom: 0.5rem;
+  font-size: 1.6rem;
+  margin-top: 1.9rem;
+  margin-bottom: 0.7rem;
+  font-weight: 600;
 }
 
 .prose h3 {
-  font-family: "IBM Plex Mono", "Courier New", monospace;
-  font-size: 0.74rem;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  color: var(--ink-light);
+  font-size: 1.18rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  color: var(--ink-mid);
 }
 
 .prose p,
 .prose li,
-.prose blockquote,
-.prose dd,
-.prose dt {
-  font-size: 1.02rem;
-  line-height: 1.72;
+.prose blockquote {
+  font-size: 1.08rem;
+  line-height: 1.85;
+  margin-bottom: 1.15rem;
 }
 
 .prose a {
   color: var(--accent);
-  text-underline-offset: 0.16rem;
+  text-underline-offset: 0.18rem;
+  text-decoration-thickness: 1px;
 }
 
 .toc-preface {
@@ -487,20 +486,20 @@ main {
 }
 
 .site-footer {
-  border-top: 1px solid var(--rule);
-  padding: 1.25rem 0;
+  border-top: 1px solid var(--rule-light);
+  padding: 1.75rem 0;
   color: var(--ink-light);
   margin-top: auto;
-  background: color-mix(in srgb, #eff4f7 78%, var(--parchment) 22%);
+  background: var(--bg-alt);
+  font-size: 0.9rem;
 }
 
 .footer-row {
   display: flex;
   justify-content: space-between;
   gap: 1rem;
-  font-family: "IBM Plex Mono", "Courier New", monospace;
-  font-size: 0.7rem;
-  letter-spacing: 0.04em;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .footer-links {
@@ -521,8 +520,8 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 1.5rem;
-    height: 1.1rem;
+    width: 1.65rem;
+    height: 1.2rem;
     background: none;
     border: none;
     cursor: pointer;
@@ -552,9 +551,9 @@ main {
 
   .nav-mobile-drawer {
     display: none;
-    padding: 1rem 1.25rem 1.5rem;
-    border-top: 1px solid var(--rule);
-    background: color-mix(in srgb, #f7fafc 92%, transparent);
+    padding: 1.25rem 1.5rem 2rem;
+    border-top: 1px solid var(--rule-light);
+    background: var(--paper);
   }
 
   .nav-open .nav-mobile-drawer {
@@ -567,20 +566,17 @@ main {
     padding: 0;
     display: flex;
     flex-direction: column;
-    gap: 0.1rem;
+    gap: 0.35rem;
   }
 
   .nav-mobile-links a {
     display: block;
-    padding: 0.55rem 0;
-    color: var(--ink-light);
+    padding: 0.6rem 0;
+    color: var(--ink-mid);
     text-decoration: none;
-    font-family: "IBM Plex Mono", "Courier New", monospace;
-    font-size: 0.8rem;
-    letter-spacing: 0.07em;
-    text-transform: uppercase;
-    border-bottom: 1px solid var(--parchment-mid);
-    transition: color 0.2s ease;
+    font-size: 1rem;
+    font-weight: 500;
+    border-bottom: 1px solid var(--rule-light);
   }
 
   .nav-mobile-links a:hover {
@@ -627,9 +623,10 @@ main {
 .explorations-description {
   color: var(--ink-light);
   font-style: italic;
-  margin-top: -0.25rem;
-  margin-bottom: 1.75rem;
-  font-size: 1.05rem;
+  margin-top: -0.15rem;
+  margin-bottom: 1.9rem;
+  font-size: 1.08rem;
+  max-width: 68ch;
 }
 
 .explorations-list {
@@ -638,24 +635,24 @@ main {
   padding: 0;
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 1.85rem;
 }
 
 .explorations-item {
-  border-top: 1px solid var(--rule);
-  padding-top: 1.5rem;
+  border-top: 1px solid var(--rule-light);
+  padding-top: 1.65rem;
 }
 
 .explorations-title {
   display: block;
-  font-family: "Cormorant Garamond", serif;
-  font-size: 1.45rem;
-  font-weight: 600;
+  font-family: var(--font-heading);
+  font-size: 1.38rem;
+  font-weight: var(--font-weight-semibold);
   color: var(--ink);
   text-decoration: none;
-  line-height: 1.3;
-  margin-bottom: 0.25rem;
-  transition: color 0.2s ease;
+  line-height: 1.35;
+  margin-bottom: 0.3rem;
+  transition: color 0.15s ease;
 }
 
 .explorations-title:hover {
@@ -664,19 +661,17 @@ main {
 
 .explorations-date {
   display: block;
-  font-family: "IBM Plex Mono", "Courier New", monospace;
-  font-size: 0.72rem;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  color: var(--ink-light);
-  margin-bottom: 0.55rem;
+  font-size: 0.82rem;
+  color: var(--ink-muted);
+  margin-bottom: 0.45rem;
 }
 
 .explorations-summary {
   margin: 0;
   color: var(--ink-mid);
-  font-size: 1rem;
-  line-height: 1.65;
+  font-size: 1.01rem;
+  line-height: 1.7;
+  max-width: 68ch;
 }
 
 .explorations-empty {

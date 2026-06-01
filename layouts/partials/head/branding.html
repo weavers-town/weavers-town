@@ -1,0 +1,78 @@
+{{/* 
+  CENTRALIZED BRANDING / DESIGN TOKENS
+  This is the single source of truth for:
+  - Fonts (Google Fonts loading + CSS variables)
+  - Colors (design system palette)
+  - Typography scales
+  - Common design tokens (radii, etc.)
+
+  Change branding here and it updates site-wide.
+*/}}
+
+{{/* === GOOGLE FONTS === */}}
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+{{/* 
+  Fonts used across the site:
+  - Merriweather → Body text (highly readable on screens)
+  - Cormorant Garamond → Heading 1 & 2 on content pages (original elegant look)
+  - Playfair Display → Big hero / display type (homepage)
+*/}}
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Merriweather:ital,wght@0,400;0,700;1,400&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+
+{{/* === DESIGN TOKENS (CSS Custom Properties) === */}}
+<style>
+:root {
+  /* ============================================
+     TYPOGRAPHY
+  ============================================ */
+  --font-serif: "Merriweather", Georgia, serif;           /* Body text - optimized for readability */
+  --font-heading: "Cormorant Garamond", Georgia, serif;   /* Heading 1 & 2 on content pages (book, explorations) */
+  --font-display: "Playfair Display", Georgia, serif;     /* Big hero / display headlines on homepage */
+  --font-sans: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-mono: "IBM Plex Mono", "Courier New", monospace;
+
+  /* Font weights */
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+
+  /* ============================================
+     COLORS - Core Palette
+     (Single source of truth for the whole site)
+  ============================================ */
+  --bg: #f8f9f7;
+  --bg-alt: #f1f3f0;
+  --paper: #fdfdfb;
+
+  --ink: #1a1f2e;
+  --ink-mid: #3a4558;
+  --ink-light: #5c6b82;
+  --ink-muted: #7c8a9f;
+
+  --rule: #d2d9d4;
+  --rule-light: #e6e9e5;
+
+  /* Accent colors */
+  --accent: #145f58;
+  --accent-2: #2a5f9e;
+  --accent-soft: #e0edeb;
+
+  /* ============================================
+     SPACING & SIZING
+  ============================================ */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+  --radius-full: 9999px;
+
+  /* ============================================
+     CONTENT
+  ============================================ */
+  --content-max-width: 68ch;   /* Ideal reading measure */
+  --container-max-width: 960px;
+}
+</style>
