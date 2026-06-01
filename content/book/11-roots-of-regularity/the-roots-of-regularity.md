@@ -2,7 +2,7 @@
 title: "Chapter 1: The Roots of Regularity"
 weight: 4
 edition: "1"
-version: "6.7"
+version: "6.8"
 slug: "the-roots-of-regularity"
 ---
 

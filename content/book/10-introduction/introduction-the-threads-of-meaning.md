@@ -2,7 +2,7 @@
 title: "Introduction: The Threads of Meaning"
 weight: 3
 edition: "1"
-version: "6.7"
+version: "6.8"
 slug: "introduction-the-threads-of-meaning"
 ---
 

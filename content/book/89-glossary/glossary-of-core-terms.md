@@ -2,7 +2,7 @@
 title: "Glossary of Core Terms"
 weight: 11
 edition: "1"
-version: "6.7"
+version: "6.8"
 slug: "glossary-of-core-terms"
 ---
 

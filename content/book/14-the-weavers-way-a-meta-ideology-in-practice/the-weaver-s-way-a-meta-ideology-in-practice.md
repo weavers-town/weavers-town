@@ -2,7 +2,7 @@
 title: "Chapter 4: The Weaver's Way: A Meta-Ideology in Practice"
 weight: 7
 edition: "1"
-version: "6.7"
+version: "6.8"
 slug: "the-weaver-s-way-a-meta-ideology-in-practice"
 ---
 

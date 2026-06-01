@@ -2,7 +2,7 @@
 title: "Conclusion: The Weaving Continues"
 weight: 9
 edition: "1"
-version: "6.7"
+version: "6.8"
 slug: "conclusion-the-weaving-continues"
 ---
 

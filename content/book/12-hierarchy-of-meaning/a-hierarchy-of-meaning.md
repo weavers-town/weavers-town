@@ -2,7 +2,7 @@
 title: "Chapter 2: A Hierarchy of Meaning"
 weight: 5
 edition: "1"
-version: "6.7"
+version: "6.8"
 slug: "a-hierarchy-of-meaning"
 ---
 
@@ -158,6 +158,39 @@ alt="Compartmentalization Process" />
 *Figure 3: Parts interact and focus their finite capacity internally,
 causing an emergent boundary that creates a new stable higher-level
 unit.*
+
+This same logic scales one level higher when we look at the evolution of
+nervous systems. Simple organisms react directly to their immediate
+chemical environment. But at some point, certain lineages evolved a new
+kind of container: a nervous system. This was not just another membrane.
+It was an internal gap — a space between sensory input and motor output
+— whose entire purpose was to detect recurring patterns in the
+environment, remember them, and use them to predict what would happen
+next.
+
+The advantage was enormous. An organism that could notice “when the
+shadow appears, the predator is near” or “when the days grow shorter,
+food will become scarce” could prepare in advance instead of reacting
+after the fact. Even very simple nervous systems show this capacity.
+Roundworms, with only 302 neurons, can learn that something is harmful
+and retain that memory long enough to change their behavior for hours.
+Bees, with roughly one million neurons, build detailed mental maps of
+flowers across square kilometers, take shortcuts, and even teach the
+location of food sources to others through dance. The better the
+internal model matched the actual recurring patterns of reality, the
+greater the survival advantage.
+
+Brains, in other words, evolved as pattern-detection and prediction
+machines — precisely because reality itself is full of stable, repeating
+patterns. This evolutionary step completes the hierarchy. The Thread
+does not leap from chemistry straight into culture. It moves through the
+emergence of nervous systems — internal modeling layers built to exploit
+the very regularities we have already seen at lower levels. The brain
+creates a layer between the organism and the raw environment: sensory
+input is processed one step removed, then the organism reacts based on
+its model rather than raw sensation. Anyone with a better model has more
+power. Animals have ideologies. Humans have ideologies. They are simply
+different qualities of world-model.
 
 ## Stability Thresholds: Where Patterns Hold or Break
 

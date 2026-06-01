@@ -2,7 +2,7 @@
 title: "Preface"
 weight: 2
 edition: "1"
-version: "6.7"
+version: "6.8"
 slug: "preface"
 ---
 

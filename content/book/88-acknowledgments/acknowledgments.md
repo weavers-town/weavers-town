@@ -2,7 +2,7 @@
 title: "Acknowledgments"
 weight: 10
 edition: "1"
-version: "6.7"
+version: "6.8"
 slug: "acknowledgments"
 ---
 
