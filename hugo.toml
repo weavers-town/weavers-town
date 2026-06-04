@@ -1,7 +1,7 @@
 baseURL = "https://weavers.town/"
 languageCode = "en-us"
 title = "Weaver's Town"
-disableKinds = ["taxonomy", "term", "RSS", "sitemap", "robotsTXT"]
+disableKinds = ["taxonomy", "term", "RSS"]
 
 [params]
   author = "Arman Fatahi"
