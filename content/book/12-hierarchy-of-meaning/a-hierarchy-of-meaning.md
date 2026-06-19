@@ -84,6 +84,33 @@ becomes more self-maintaining. The pattern lasts longer. This is the
 quiet engine of every stable relationship, every durable institution,
 and every life-giving habit.
 
+The full cycle — **The Thread** — runs like this:
+
+Parts interact repeatedly, focusing their finite capacity inward. This
+creates an emergent protective container (compartmentalization). From
+this focused interaction arises a stable pattern — a durable, reusable
+configuration.
+
+Crucially, this new structure confers **emergent higher-level
+interaction capabilities and capacity** on the compound as a whole. The
+higher-level part can now engage in forms of interaction, bonding, and
+coordination that were unavailable to the original parts acting
+separately. These upgraded capabilities then enable the new part to
+participate in further rounds of organization at larger scales. I call
+this the **capability ratchet**: each successful weave does not merely
+stack parts — it unlocks new modes of engagement at the next scale.
+
+The ratchet is visible across reality. Humans with personal
+communication form a company, gaining corporate identity, email systems,
+legal contracting power, and brand voice — new ways of interacting with
+the world as a unified entity. Subatomic particles, through structured
+organization, give rise to atoms with new electromagnetic interaction
+modes that enable molecular bonding. The same pattern repeats at every
+level.
+
+**Parts → Repeated Interaction → Protective Container → Stable Pattern →
+New Higher-Level Part**
+
 ## Why the Same Architecture Repeats Across Levels
 
 This chapter's central claim is bold but simple: the same organizing
@@ -92,7 +119,13 @@ logic appears at every scale of reality.
 Not identical details. The *same logic*.
 
 At one level, stable parts become the raw material for the next level.
-Each layer depends on protected regularity below it.
+But they are not merely stacked — each successful compound gains
+emergent higher-level interaction capabilities and capacity, enabling
+forms of bonding and coordination that the original parts could not
+perform alone. This capability ratchet is what lets the new whole act as
+a genuine “part” at the next scale. Each layer depends on protected
+regularity below it — and on the upgraded interaction modes that
+regularity unlocks.
 
 - Stable physical structures make chemistry possible.
 - Stable chemistry in membranes makes life possible.
@@ -111,8 +144,10 @@ begins to wobble.
 </figure>
 
 *Figure 2: Stabilized regularities build upward through repeated
-compartmentalization at every scale. The same triad — parts interacting,
-container forming, stable pattern persisting — recurs at every level.*
+compartmentalization at every scale. Emergent higher-level interaction
+capabilities — the key output that enables scaling — arise as the same
+triad (parts interacting, container forming, stable pattern persisting)
+recurs at every level.*
 
 ## Biology Makes It Easy to See
 
@@ -125,8 +160,9 @@ repair, signaling, replication.
 
 Without the boundary, reactions disperse. With the boundary, reactions
 accumulate and coordinate. The membrane allows enough inward focus for a
-stable pattern to persist — and that persistence is what lets life do
-more than flicker momentarily and vanish.
+stable pattern to persist — and that persistence confers new interaction
+capabilities on the cell as a whole, letting life do more than flicker
+momentarily and vanish.
 
 In plain language: **life needs a room**.
 
@@ -155,9 +191,10 @@ alt="Compartmentalization Process" />
 <figcaption aria-hidden="true">Compartmentalization Process</figcaption>
 </figure>
 
-*Figure 3: Parts interact and focus their finite capacity internally,
-causing an emergent boundary that creates a new stable higher-level
-unit.*
+*Figure 3: The Compartmentalization Process. Repeated interaction +
+finite capacity → protective container → stable pattern → new
+higher-level part with emergent interaction capabilities that enable
+further scaling.*
 
 This same logic scales one level higher when we look at the evolution of
 nervous systems. Simple organisms react directly to their immediate
@@ -231,8 +268,9 @@ load-bearing walls.**
 <figcaption aria-hidden="true">Stability Thresholds</figcaption>
 </figure>
 
-*Figure 4: Reality acts as a filter — only configurations that cross the
-stability threshold persist long enough to scale upward.*
+*Figure 4: Reality acts as a filter; only configurations that cross the
+stability threshold persist long enough to gain emergent capabilities
+and scale upward.*
 
 > **What This Looks Like in Real Life**
 >
@@ -316,7 +354,9 @@ alt="Expanding Possibility Space" />
 </figure>
 
 *Figure 6: The space of possible configurations grows exponentially at
-higher levels of the hierarchy while resting on stable foundations.*
+higher levels of the hierarchy as emergent interaction capabilities
+unlock new forms of organization, while resting on stable foundations
+below.*
 
 **Figure 9: Scales of Compartments**
 
@@ -326,8 +366,9 @@ alt="Scales of Compartments" />
 <figcaption aria-hidden="true">Scales of Compartments</figcaption>
 </figure>
 
-*Figure 9: Compartments nest from subatomic particles to cultures, with
-each level inheriting stability from the level below.*
+*Figure 9: Compartments nest from subatomic particles to cultures, each
+level inheriting stability from below and gaining emergent interaction
+capabilities that drive the capability ratchet upward.*
 
 **Figure 10: The Grand Search**
 
@@ -337,7 +378,8 @@ each level inheriting stability from the level below.*
 </figure>
 
 *Figure 10: Reality explores vast possibility space and retains
-configurations that are stable enough to persist and scale.*
+configurations stable enough to persist, confer emergent capabilities,
+and scale.*
 
 > **What This Looks Like in Real Life**
 >
@@ -357,11 +399,12 @@ the way down.
 Even at the smallest scales physicists have found, stable wholes emerge
 from interactions that focus inward. One vivid image: quarks are held
 together so tightly by the strong nuclear force that they form protons —
-extraordinarily reliable units that become dependable building blocks
-for everything above them. The container here is not a membrane; it is a
-field of force so binding that the “parts” never exist in isolation. The
-result is the same: protected interaction produces stable pattern, which
-becomes raw material for the next level.
+extraordinarily reliable units with interaction modes unavailable to
+isolated quarks, becoming dependable building blocks for everything
+above them. The container here is not a membrane; it is a field of force
+so binding that the “parts” never exist in isolation. The result is the
+same: protected interaction produces stable pattern, confers emergent
+capabilities on the compound, and the new part ratchets upward.
 
 The technical details are preserved in full in **Appendix A** for those
 who want the scientific depth. The conceptual point here is enough:
@@ -380,7 +423,9 @@ strategy.
 
 Meaning is not only emotional intensity. It is **durable organization**.
 It is what happens when finite capacity is allocated in ways that
-protect valuable patterns over time.
+protect valuable patterns over time — and when those patterns, once
+stable, unlock emergent capabilities that let the weave continue at the
+next scale.
 
 This does not reduce love, purpose, faith, art, or moral life. It gives
 them a scaffold.
@@ -397,8 +442,9 @@ deliberately — which is exactly what the rest of this book is about.
 - Every system has finite capacity, so boundary design is not optional.
 - Protective containers (compartmentalization) emerge naturally when
   interactions focus inward — they are not imposed from outside.
-- Stable patterns at one level become the building blocks for the next
-  level up.
+- Stable patterns at one level become building blocks for the next level
+  up, conferring emergent higher-level interaction capabilities — the
+  capability ratchet that enables genuine scaling.
 - Stability thresholds determine whether a pattern can endure; sincerity
   alone cannot substitute for meeting them.
 - The same organizing logic appears at every scale — from subatomic

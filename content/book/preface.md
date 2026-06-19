@@ -77,8 +77,10 @@ stable pattern of psychological and social behavior that persists
 through time.
 
 That insight opened a larger view: stable regularities at one level
-become the foundation for meaning at the next. Routines and rituals are
-not decorations on top of life. They are the architecture of life.
+become the foundation for meaning at the next, conferring emergent
+interaction capabilities that let the weave continue upward. Routines
+and rituals are not decorations on top of life. They are the
+architecture of life.
 
 This book is my attempt to make that view usable.
 

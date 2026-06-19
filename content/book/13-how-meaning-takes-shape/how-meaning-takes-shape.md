@@ -36,7 +36,8 @@ replacement container.
 
 What Nadia needed was not more self-reflection. She needed structural
 design: new protective containers for the patterns she actually wanted
-to sustain.
+to sustain — containers that could confer the interaction capabilities
+her new life actually required.
 
 This capacity did not appear suddenly in humans. It evolved because it
 gave organisms a decisive advantage in a universe full of recurring
@@ -291,7 +292,11 @@ The Weaver's approach to world-model revision:
 
 The goal is not to force rapid rewrites. It is to protect what already
 sustains life while slowly weaving stronger, more accurate threads where
-they can take hold.
+they can take hold. When we upgrade or replace a container, we are not
+just preserving patterns — we are shaping what new interaction
+capabilities the next higher-level structure will possess. Inherited
+compartments often carry valuable capabilities that new designs must
+thoughtfully match or exceed.
 
 ## Structure and Freedom
 
@@ -325,7 +330,8 @@ those patterns and build world-models from them. Human communities then
 build practices that preserve the most valuable forms.
 
 When discovered order, living continuity, and created form align,
-meaning becomes durable.
+meaning becomes durable — and the resulting structures gain the
+interaction capabilities needed to participate at the next scale.
 
 Understanding the mechanics of world-model construction — how brains
 detect patterns, how groups sustain shared ideologies, and how

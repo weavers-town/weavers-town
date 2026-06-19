@@ -23,8 +23,9 @@ as a fundamental architecture of reality itself. From the first stable
 particles locked in their quiet compartments to the rich inner worlds of
 human minds and the shared cultures we build together, the same quiet
 process unfolds: parts interact, boundaries form through the saturation
-of finite capacity, and stable configurations emerge that carry order
-and meaning upward across every scale.
+of finite capacity, stable configurations emerge, and each successful
+compound gains new interaction capabilities that let the weave ratchet
+upward across every scale.
 
 This is not a cold mechanical process. It is a living fabric — thread by
 thread, the universe weaves stable patterns into ever more complex
@@ -45,6 +46,12 @@ quiet rituals that shape your days. We do not need to invent the thread.
 We only need to learn to weave it more consciously, protect the patterns
 that matter, and add our own strand to the larger fabric with greater
 intention and kindness.
+
+Each stable pattern we protect becomes a higher-level part equipped with
+new interaction capabilities — ready to weave itself into ever larger
+fabrics of meaning. As Weavers, we participate consciously in this
+ratchet: safeguarding what endures, gently upgrading what no longer
+serves, and adding strands with care for finite capacity.
 
 The five diagnostic questions in Chapter 4 give you immediate ways to
 begin. The rest of the book shows why they work.

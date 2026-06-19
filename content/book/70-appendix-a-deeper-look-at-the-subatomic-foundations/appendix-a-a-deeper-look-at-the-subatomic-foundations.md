@@ -89,8 +89,9 @@ alt="Subatomic Compartments" />
 </figure>
 
 *Figure 7: Quarks achieve compartmentalization through color charge
-saturation, forming extraordinarily stable protons that serve as
-building blocks for higher levels.*
+saturation, forming extraordinarily stable protons with interaction
+modes unavailable to isolated quarks — the first step in the capability
+ratchet upward.*
 
 Over immense stretches of time, these stable particles build up in the
 hearts of stars. There they come together in fusion, forging heavier
@@ -130,8 +131,8 @@ Stability thresholds are not arbitrary rules imposed from outside. They
 emerge naturally from the finite interaction capacity of the parts
 themselves. Below the threshold a configuration decomposes and returns
 to disorder. Above it, the arrangement becomes a stable configuration, a
-dependable new part that can be handed upward to the next layer of the
-hierarchy.
+dependable new part with emergent interaction capabilities that can be
+handed upward to the next layer of the hierarchy.
 
 Electrons follow a similar story, though with a different force. They
 carry electric charge and interact through the electromagnetic force,

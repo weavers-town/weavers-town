@@ -143,7 +143,11 @@ The calendar, the rite, and the story were early vessels. Their quiet
 mission was to protect stable patterns from slipping back into chaos.
 Every functioning family, team, and institution today does something
 structurally identical — even if the rituals are as modest as a standing
-meeting or a morning routine.
+meeting or a morning routine. These protective containers do more than
+create stability — they enable the formation of higher-level entities
+with new interaction capabilities. A shared family rhythm, for example,
+creates not only belonging but new collective coordination abilities
+unavailable to isolated individuals.
 
 **Figure 1: Regularity Formation Cycle**
 
@@ -193,8 +197,9 @@ to the next.
 
 Chapter 2 builds that bridge. It takes the ancient intuition — *protect
 the pattern, and life becomes livable* — and gives it a cleaner,
-evidence-based model. That model is what lets us move from inherited
-insight to deliberate practice.
+evidence-based model, including how each stable compound gains emergent
+interaction capabilities that let the weave continue upward. That model
+is what lets us move from inherited insight to deliberate practice.
 
 We have trusted these patterns for millennia. Chapter 2 shows precisely
 why they work — and how you can apply the same logic to your own life.

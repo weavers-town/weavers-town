@@ -35,6 +35,13 @@ you can learn to read and shape.
 
 I call this structure **The Thread**.
 
+Parts interact repeatedly, focusing their finite capacity inward to form
+a protective container. A stable pattern emerges that confers new
+higher-level interaction capabilities and capacity on the resulting
+compound. This upgraded part can now participate in further rounds of
+organization at larger scales — creating the hierarchical ladder of
+meaning we see from particles to people to institutions.
+
 ## How to Read This Book
 
 This book has two goals:
@@ -54,10 +61,11 @@ redesigning what no longer serves.
 
 ## What Is Distinctive About The Thread
 
-The central pattern this book explores — parts interacting repeatedly,
-their energy focusing inward to form a protective container, a stable
-pattern emerging that then serves as a building block for something
-larger — has been observed and studied before.
+The central pattern this book explores — parts focusing inward to form
+protective containers, stable patterns emerging that confer emergent
+interaction capabilities on the compound, and upgraded wholes
+participating in organization at the next scale — has been observed and
+studied before.
 
 Systems theorist Herbert Simon described it in 1962 as
 “near-decomposability,” showing how strong internal interactions create
@@ -76,6 +84,11 @@ cognition, and culture — including the way minds and societies build
 artificial, shared meaning-structures.
 
 So what is distinctive about *The Thread*?
+
+The Thread highlights not only how stable patterns form, but how each
+successful stabilization equips the new higher-level entity with
+emergent interaction capabilities — a ratchet that drives increasing
+complexity across all scales of reality.
 
 This book does three things differently.
 
@@ -105,10 +118,12 @@ and invites you to become a conscious Weaver.
 ## The Hierarchy of Meaning
 
 Meaning is hierarchical because each level hands stable order to the
-next. Quantum regularities enable atoms. Atoms enable chemistry.
-Chemistry enables life. Life enables mind. Minds build culture. The
-details differ at every step, but the organizing logic stays the same:
-higher meaning depends on lower-level stability.
+next — and equips the new whole with interaction capabilities
+unavailable to the parts below. Quantum regularities enable atoms. Atoms
+enable chemistry. Chemistry enables life. Life enables mind. Minds build
+culture. The details differ at every step, but the organizing logic
+stays the same: higher meaning depends on lower-level stability and on
+the capability ratchet that stability unlocks.
 
 The book follows that arc. Chapter 1 shows how humans first turned
 recurring patterns into calendars, rituals, and stories. Chapter 2
