@@ -22,7 +22,7 @@ Across every scale of reality — from the first moments after the Big Bang to h
 Simple units emerge.  
 Some prove stable.  
 Stable units accumulate.  
-When accumulation crosses a critical threshold, a higher-level structure appears that can *feed* on that accumulated stock.  
+When accumulation crosses a critical threshold, a higher-level structure appears that can *feed* on that accumulated stock — and gains new interaction capabilities unavailable to the parts below.  
 This higher structure then refines the material into even more regular, higher-quality building blocks.  
 These new blocks accumulate, and the cycle continues upward.
 

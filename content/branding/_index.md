@@ -41,7 +41,7 @@ A Hierarchy of Meaning
 Main reading font — chosen for long-form readability.
 
 <div style="font-family: var(--font-serif); font-size: 1.15rem; line-height: 1.85; max-width: 68ch;">
-This is the body text. The Thread is a practical, cross-scale framework for understanding how meaning emerges from stabilized regularities. Stable patterns become the foundation for higher levels of organization and meaning.
+This is the body text. The Thread is a practical, cross-scale framework for understanding how meaning emerges from stabilized regularities. Stable patterns become the foundation for higher levels of organization and meaning — each conferring emergent interaction capabilities that enable the weave to continue upward.
 </div>
 
 **Variable:** `--font-serif`

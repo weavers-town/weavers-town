@@ -61,7 +61,7 @@ To stay where you are, you must keep feeding the foundations. To become somethin
 
 This principle runs through the entire framework of *Threads of Meaning*.
 
-The Thread describes how stable patterns emerge when parts interact repeatedly inside protective containers that respect finite capacity. Those containers exist precisely because they focus limited resources on sustaining the pattern. Without that focused input, the interaction disperses and the higher-level regularity never forms or collapses.
+The Thread describes how stable patterns emerge when parts interact repeatedly inside protective containers that respect finite capacity. Those containers exist precisely because they focus limited resources on sustaining the pattern — and, when stable, confer emergent interaction capabilities on the compound. Without that focused input, the interaction disperses and the higher-level regularity never forms or collapses.
 
 The Stability Drive is the tendency of reality to settle into configurations that successfully manage this feeding relationship. The Grand Search explores configurations until it finds ones that can maintain themselves above threshold. Gentle Upgrading is the conscious practice of changing how a container feeds without destroying the stability it already provides.
 

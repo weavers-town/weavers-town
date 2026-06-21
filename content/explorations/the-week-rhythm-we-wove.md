@@ -75,7 +75,7 @@ We gave ourselves the week — but we were only finishing what nature had alread
 
 In the language of *The Thread*, the week is one of the most beautiful examples of meaning-making we have.
 
-We didn’t just copy the sky. We looked inward, noticed the quiet weekly pulse already running through our physiology and psychology, and gave it a visible shape. Then we repeated it until it became stable. Over centuries, that stable pattern accumulated meaning: rest as sacred, markets as reliable, community as rhythmic, personal goals as trackable.
+We didn’t just copy the sky. We looked inward, noticed the quiet weekly pulse already running through our physiology and psychology, and gave it a visible shape. Then we repeated it until it became stable. Over centuries, that stable pattern accumulated meaning — and conferred new collective coordination capabilities on everyone who lived inside it: rest as sacred, markets as reliable, community as rhythmic, personal goals as trackable.
 
 The week is not a law of physics.  
 It is a human technology that turned an internal biological rhythm into a shared social rhythm.
