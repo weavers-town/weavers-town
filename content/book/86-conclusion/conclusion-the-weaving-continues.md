@@ -2,7 +2,7 @@
 title: "Conclusion: The Weaving Continues"
 weight: 9
 edition: "1"
-version: "6.8"
+version: "7.2"
 slug: "conclusion-the-weaving-continues"
 ---
 
@@ -24,8 +24,8 @@ particles locked in their quiet compartments to the rich inner worlds of
 human minds and the shared cultures we build together, the same quiet
 process unfolds: parts interact, boundaries form through the saturation
 of finite capacity, stable configurations emerge, and each successful
-compound gains new interaction capabilities that let the weave ratchet
-upward across every scale.
+compound gains emergent capabilities that let the weave continue upward
+across every scale.
 
 This is not a cold mechanical process. It is a living fabric — thread by
 thread, the universe weaves stable patterns into ever more complex
@@ -50,7 +50,7 @@ intention and kindness.
 Each stable pattern we protect becomes a higher-level part equipped with
 new interaction capabilities — ready to weave itself into ever larger
 fabrics of meaning. As Weavers, we participate consciously in this
-ratchet: safeguarding what endures, gently upgrading what no longer
+upward weave: safeguarding what endures, gently upgrading what no longer
 serves, and adding strands with care for finite capacity.
 
 The five diagnostic questions in Chapter 4 give you immediate ways to

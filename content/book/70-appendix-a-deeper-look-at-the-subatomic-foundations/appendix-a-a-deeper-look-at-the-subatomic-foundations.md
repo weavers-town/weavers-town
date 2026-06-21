@@ -2,7 +2,7 @@
 title: "Appendix A: A Deeper Look at the Subatomic Foundations"
 weight: 8
 edition: "1"
-version: "6.8"
+version: "7.2"
 slug: "appendix-a-a-deeper-look-at-the-subatomic-foundations"
 ---
 
@@ -90,8 +90,8 @@ alt="Subatomic Compartments" />
 
 *Figure 7: Quarks achieve compartmentalization through color charge
 saturation, forming extraordinarily stable protons with interaction
-modes unavailable to isolated quarks — the first step in the capability
-ratchet upward.*
+modes unavailable to isolated quarks — the first emergence of
+capabilities at a higher scale.*
 
 Over immense stretches of time, these stable particles build up in the
 hearts of stars. There they come together in fusion, forging heavier

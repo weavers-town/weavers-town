@@ -2,7 +2,7 @@
 title: "Threads of Meaning"
 weight: 0
 edition: "1"
-version: "6.8"
+version: "7.2"
 ---
 
 ![Book cover](/images/front-page.jpg)
@@ -13,7 +13,7 @@ version: "6.8"
 
 **2026**
 
-**Edition 1 • Version 6.8**
+**Edition 1 • Version 7.2**
 
 This is the full version of the book.
 

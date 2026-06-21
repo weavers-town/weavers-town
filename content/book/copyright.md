@@ -2,7 +2,7 @@
 title: "Copyright & Licensing"
 weight: 101
 edition: "1"
-version: "6.8"
+version: "7.2"
 slug: "copyright"
 ---
 

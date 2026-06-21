@@ -3,7 +3,7 @@ title: "Table of Figures"
 weight: 999
 slug: "table-of-figures"
 edition: "1"
-version: "6.8"
+version: "7.2"
 ---
 
 # Table of Figures

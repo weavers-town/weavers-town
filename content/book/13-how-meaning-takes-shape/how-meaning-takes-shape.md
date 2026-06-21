@@ -2,7 +2,7 @@
 title: "Chapter 3: How Meaning Takes Shape"
 weight: 6
 edition: "1"
-version: "6.8"
+version: "7.2"
 slug: "how-meaning-takes-shape"
 ---
 

@@ -2,7 +2,7 @@
 title: "Glossary of Core Terms"
 weight: 11
 edition: "1"
-version: "6.8"
+version: "7.2"
 slug: "glossary-of-core-terms"
 ---
 
@@ -53,13 +53,15 @@ lower-level elements interact in a stable way and compartmentalization
 gives that interaction a durable boundary — including new interaction
 capabilities at the higher level.
 
-**Emergent Higher-Level Interaction Capabilities** (or **Capability
-Ratchet**): New interaction primitives or affordances that become
-available to a stable compound. These enable the higher-level part to
-participate effectively at the next scale of organization. Examples
-include a company gaining corporate communication channels or atoms
-gaining electromagnetic bonding modes. This ratchet explains the upward
-scaling of complexity in the Thread model.
+**Emergent Capabilities** (or **Emergent Higher-Level Interaction
+Capabilities**): New interaction primitives or affordances that become
+available when lower-level parts form a stable higher-level whole —
+possibilities that were not available to the parts alone. These enable
+the higher-level part to participate effectively at the next scale of
+organization. Examples include a company gaining corporate communication
+channels or atoms gaining electromagnetic bonding modes. These emergent
+capabilities explain the upward scaling of complexity in the Thread
+model.
 
 **Hierarchy**: An arrangement in which higher levels depend on lower
 ones while adding new forms of organization and meaning — each level

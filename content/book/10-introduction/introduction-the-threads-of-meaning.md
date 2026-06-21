@@ -2,7 +2,7 @@
 title: "Introduction: The Threads of Meaning"
 weight: 3
 edition: "1"
-version: "6.8"
+version: "7.2"
 slug: "introduction-the-threads-of-meaning"
 ---
 
@@ -87,8 +87,8 @@ So what is distinctive about *The Thread*?
 
 The Thread highlights not only how stable patterns form, but how each
 successful stabilization equips the new higher-level entity with
-emergent interaction capabilities — a ratchet that drives increasing
-complexity across all scales of reality.
+emergent capabilities that drive increasing complexity across all scales
+of reality.
 
 This book does three things differently.
 
@@ -123,7 +123,7 @@ unavailable to the parts below. Quantum regularities enable atoms. Atoms
 enable chemistry. Chemistry enables life. Life enables mind. Minds build
 culture. The details differ at every step, but the organizing logic
 stays the same: higher meaning depends on lower-level stability and on
-the capability ratchet that stability unlocks.
+the emergent capabilities that stability unlocks.
 
 The book follows that arc. Chapter 1 shows how humans first turned
 recurring patterns into calendars, rituals, and stories. Chapter 2

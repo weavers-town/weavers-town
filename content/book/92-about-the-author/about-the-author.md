@@ -2,7 +2,7 @@
 title: "About the Author"
 weight: 13
 edition: "1"
-version: "6.8"
+version: "7.2"
 slug: "about-the-author"
 ---
 

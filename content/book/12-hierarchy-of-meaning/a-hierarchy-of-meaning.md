@@ -2,7 +2,7 @@
 title: "Chapter 2: A Hierarchy of Meaning"
 weight: 5
 edition: "1"
-version: "6.8"
+version: "7.2"
 slug: "a-hierarchy-of-meaning"
 ---
 
@@ -96,11 +96,12 @@ interaction capabilities and capacity** on the compound as a whole. The
 higher-level part can now engage in forms of interaction, bonding, and
 coordination that were unavailable to the original parts acting
 separately. These upgraded capabilities then enable the new part to
-participate in further rounds of organization at larger scales. I call
-this the **capability ratchet**: each successful weave does not merely
-stack parts — it unlocks new modes of engagement at the next scale.
+participate in further rounds of organization at larger scales. Each
+successful weave does not merely stack parts — it gives rise to
+**emergent capabilities** that unlock new modes of engagement at the
+next scale.
 
-The ratchet is visible across reality. Humans with personal
+This pattern is visible across reality. Humans with personal
 communication form a company, gaining corporate identity, email systems,
 legal contracting power, and brand voice — new ways of interacting with
 the world as a unified entity. Subatomic particles, through structured
@@ -122,10 +123,10 @@ At one level, stable parts become the raw material for the next level.
 But they are not merely stacked — each successful compound gains
 emergent higher-level interaction capabilities and capacity, enabling
 forms of bonding and coordination that the original parts could not
-perform alone. This capability ratchet is what lets the new whole act as
-a genuine “part” at the next scale. Each layer depends on protected
-regularity below it — and on the upgraded interaction modes that
-regularity unlocks.
+perform alone. These emergent capabilities are what let the new whole
+act as a genuine “part” at the next scale. Each layer depends on
+protected regularity below it — and on the upgraded interaction modes
+that regularity unlocks.
 
 - Stable physical structures make chemistry possible.
 - Stable chemistry in membranes makes life possible.
@@ -367,8 +368,8 @@ alt="Scales of Compartments" />
 </figure>
 
 *Figure 9: Compartments nest from subatomic particles to cultures, each
-level inheriting stability from below and gaining emergent interaction
-capabilities that drive the capability ratchet upward.*
+level inheriting stability from below and gaining emergent capabilities
+that enable participation at the next scale.*
 
 **Figure 10: The Grand Search**
 
@@ -404,7 +405,8 @@ isolated quarks, becoming dependable building blocks for everything
 above them. The container here is not a membrane; it is a field of force
 so binding that the “parts” never exist in isolation. The result is the
 same: protected interaction produces stable pattern, confers emergent
-capabilities on the compound, and the new part ratchets upward.
+capabilities on the compound, and the new part can participate at the
+next scale.
 
 The technical details are preserved in full in **Appendix A** for those
 who want the scientific depth. The conceptual point here is enough:
@@ -443,8 +445,7 @@ deliberately — which is exactly what the rest of this book is about.
 - Protective containers (compartmentalization) emerge naturally when
   interactions focus inward — they are not imposed from outside.
 - Stable patterns at one level become building blocks for the next level
-  up, conferring emergent higher-level interaction capabilities — the
-  capability ratchet that enables genuine scaling.
+  up, conferring emergent capabilities that enable genuine scaling.
 - Stability thresholds determine whether a pattern can endure; sincerity
   alone cannot substitute for meeting them.
 - The same organizing logic appears at every scale — from subatomic
