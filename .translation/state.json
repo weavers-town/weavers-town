@@ -26,19 +26,19 @@
     },
     "the-week-rhythm-we-wove.md": {
       "source_sha256": "fe54b1840a313c10d45a45fbe59d3f338159521ca0ecc1816d599e08baf528d3",
-      "translated_at": "2026-07-04T14:52:57.179511+00:00",
+      "translated_at": "2026-07-04T14:53:20.726460+00:00",
       "provider": "xai",
       "model": "grok-4-1-fast-non-reasoning"
     },
     "what-do-atoms-eat-why-nothing-persists-without-feeding.md": {
       "source_sha256": "0d900fcf7368ade7d3942d87c45480844a7b25d4b586dd3daf9e0abf17c77183",
-      "translated_at": "2026-07-04T14:52:39.466352+00:00",
+      "translated_at": "2026-07-04T14:53:02.644448+00:00",
       "provider": "xai",
       "model": "grok-4-1-fast-non-reasoning"
     },
     "what-do-companies-eat-reservoirs-funding-and-the-need-to-digest.md": {
       "source_sha256": "264d9cbb79d81ec324abe0fbab9d735cd15f3fabc3b1c8c317a747366f20516a",
-      "translated_at": "2026-07-04T14:53:55.851559+00:00",
+      "translated_at": "2026-07-04T14:54:23.423961+00:00",
       "provider": "xai",
       "model": "grok-4-1-fast-non-reasoning"
     },
