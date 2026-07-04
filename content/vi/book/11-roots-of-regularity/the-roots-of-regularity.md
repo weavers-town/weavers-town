@@ -3,7 +3,7 @@ title: "Chương 1: Nguồn Cội Của Tính Quy Luật"
 weight: 4
 edition: "1"
 version: "7.2"
-slug: "ngu-n-c-i-c-a-t-nh-quy-lu-t"
+slug: "the-roots-of-regularity"
 ---
 
 # Chương 1: Nguồn Cội Của Tính Quy Luật

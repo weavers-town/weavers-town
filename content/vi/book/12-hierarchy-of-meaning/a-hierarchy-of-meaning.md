@@ -3,7 +3,7 @@ title: "Chương 2: Một Bậc Thang Ý Nghĩa"
 weight: 5
 edition: "1"
 version: "7.2"
-slug: "m-t-b-c-thang-ngh-a"
+slug: "a-hierarchy-of-meaning"
 ---
 
 # Chương 2: Một Bậc Thang Ý Nghĩa

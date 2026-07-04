@@ -3,7 +3,7 @@ title: "Kết Luận: Sự Dệt Vẫn Tiếp Diễn"
 weight: 9
 edition: "1"
 version: "7.2"
-slug: "k-t-lu-n-s-d-t-v-n-ti-p-di-n"
+slug: "conclusion-the-weaving-continues"
 ---
 
 # Kết Luận: Sự Dệt Vẫn Tiếp Diễn

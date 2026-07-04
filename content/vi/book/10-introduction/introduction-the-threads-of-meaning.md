@@ -3,7 +3,7 @@ title: "Giới thiệu: Chỉ Duyên Nghĩa"
 weight: 3
 edition: "1"
 version: "7.2"
-slug: "gi-i-thi-u-ch-duy-n-ngh-a"
+slug: "introduction-the-threads-of-meaning"
 ---
 
 # Giới thiệu: Chỉ Duyên Nghĩa

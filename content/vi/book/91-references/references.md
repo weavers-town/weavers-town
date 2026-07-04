@@ -3,7 +3,7 @@ title: "Tài liệu tham khảo"
 weight: 12
 edition: "1"
 version: "7.2"
-slug: "t-i-li-u-tham-kh-o"
+slug: "references"
 ---
 
 # Tài liệu tham khảo

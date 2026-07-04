@@ -3,7 +3,7 @@ title: "Chương 4: Con Đường Người Dệt: Một Siêu Hệ Tưởng Tron
 weight: 7
 edition: "1"
 version: "7.2"
-slug: "con-ng-ng-i-d-t-m-t-si-u-h-t-ng-trong-th-c-h-nh"
+slug: "the-weaver-s-way-a-meta-ideology-in-practice"
 ---
 
 # Chương 4: Con Đường Người Dệt: Một Siêu Hệ Tưởng Trong Thực Hành

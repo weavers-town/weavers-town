@@ -3,7 +3,7 @@ title: "Bảng Thuật Ngữ Cốt Lõi"
 weight: 11
 edition: "1"
 version: "7.2"
-slug: "b-ng-thu-t-ng-c-t-l-i"
+slug: "glossary-of-core-terms"
 ---
 
 # Bảng Thuật Ngữ Cốt Lõi

@@ -3,7 +3,7 @@ title: "Về Tác Giả"
 weight: 13
 edition: "1"
 version: "7.2"
-slug: "v-t-c-gi"
+slug: "about-the-author"
 ---
 
 # Về Tác Giả

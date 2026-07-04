@@ -3,7 +3,7 @@ title: "Chương 3: Ý Nghĩa Hình Thành Như Thế Nào"
 weight: 6
 edition: "1"
 version: "7.2"
-slug: "ngh-a-h-nh-th-nh-nh-th-n-o"
+slug: "how-meaning-takes-shape"
 ---
 
 # Chương 3: Ý Nghĩa Hình Thành Như Thế Nào
