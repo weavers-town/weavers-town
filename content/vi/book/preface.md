@@ -8,96 +8,105 @@ slug: "preface"
 
 # Lời nói đầu
 
-*To my parents, for their unwavering love and guidance.*
+*Gửi cha mẹ, vì tình yêu và sự dẫn dắt không bao giờ lay chuyển của các
+con.*
 
 ------------------------------------------------------------------------
 
-**A Personal Journey into Meaning**
+**Một Hành Trình Cá Nhân Vào Ý Nghĩa**
 
-I grew up inside a world of rhythm.
+Tôi lớn lên trong một thế giới nhịp nhàng.
 
-Prayer times, fasting seasons, shared rituals, familiar voices. Life had
-structure. It had a script. It had belonging. As a child, I did not
-think of these patterns as choices. They were simply the air I breathed.
+Giờ cầu nguyện, mùa chay, những nghi thức chung, những giọng nói quen
+thuộc. Cuộc sống có cấu trúc. Nó có một kịch bản. Nó có sự thuộc về. Khi
+còn nhỏ, tôi không nghĩ những khuôn mẫu ấy là những lựa chọn. Chúng đơn
+giản là không khí tôi thở.
 
-Then university opened another world. In classrooms, cafés, and
-late-night debates, everything I had taken for granted met a challenge.
-Religious certainty met scientific skepticism. Cultural loyalty met
-universal ethics. Personal conviction met evidence. These encounters
-were exhilarating and destabilizing in equal measure.
+Sau đó, đại học mở ra một thế giới khác. Trong các giảng đường, quán cà
+phê và những cuộc tranh luận khuya, mọi thứ tôi từng coi là hiển nhiên
+đều gặp phải thách thức. Sự chắc chắn tôn giáo gặp phải sự hoài nghi
+khoa học. Lòng trung thành văn hóa gặp phải đạo đức phổ quát. Niềm tin
+cá nhân gặp phải bằng chứng. Những cuộc gặp gỡ ấy vừa phấn khích vừa gây
+bất ổn như nhau.
 
-I did not leave religion in one dramatic break. I drifted out slowly,
-over years. To avoid an abrupt void, I kept praying while deliberately
-building new routines — trying to preserve structure while testing new
-ground. Yoga helped my body find a daily rhythm again. But it could not
-fully replace what faith and community had held together.
+Tôi không rời bỏ tôn giáo trong một sự đứt gãy kịch tính. Tôi trôi ra
+ngoài chậm rãi, qua nhiều năm. Để tránh một khoảng trống đột ngột, tôi
+vẫn cầu nguyện trong khi cố tình xây dựng những thói quen mới — cố gắng
+giữ lại cấu trúc trong khi thử nghiệm trên vùng đất mới. Yoga giúp cơ
+thể tôi tìm lại nhịp điệu hàng ngày. Nhưng nó không thể thay thế hoàn
+toàn những gì đức tin và cộng đồng từng gắn kết.
 
-Nature abhors a vacuum.
+Tự nhiên ghét chân không.
 
-Dietary experiments followed: first vegetarianism, then veganism, each
-driven by a genuine desire for more meaning. Some changes helped. Others
-harmed. Without sufficient knowledge or support, my physical and
-emotional balance worsened. Long cycles of mental clarity and fog
-intensified into sharper mood swings.
+Những thử nghiệm ăn uống tiếp nối: trước hết là ăn chay, rồi ăn chay
+trường, mỗi thay đổi đều được thúc đẩy bởi một khát khao thực sự về ý
+nghĩa sâu sắc hơn. Một số thay đổi đã giúp ích. Những cái khác gây hại.
+Thiếu kiến thức và sự hỗ trợ đầy đủ, sự cân bằng thể chất và cảm xúc của
+tôi ngày càng xấu đi. Những chu kỳ dài rõ ràng về tinh thần và sương mù
+ngày càng trở nên những dao động tâm trạng sắc bén hơn.
 
-At a low point — sitting alone by a lake — I confronted a crisis of
-meaning directly. A clarifying thought arrived: *if nothing ultimately
-matters, then nothing can truly harm me either.* That thought freed
-something in me. And immediately behind it came a warmer one: *my
-parents matter. Their love was real before any theory.*
+Ở một thời điểm thấp nhất — ngồi một mình bên hồ — tôi đối diện trực
+tiếp với một cuộc khủng hoảng ý nghĩa. Một suy nghĩ làm sáng tỏ đã đến:
+*nếu cuối cùng chẳng có gì quan trọng, thì chẳng có gì thực sự có thể
+làm hại tôi.* Suy nghĩ ấy đã giải phóng điều gì đó trong tôi. Và ngay
+sau đó là một suy nghĩ ấm áp hơn: *cha mẹ tôi quan trọng. Tình yêu của
+họ là có thật trước khi có bất kỳ lý thuyết nào.*
 
-That moment became a turning point. I started rebuilding life through
-repeatable structure: daily movement, better food, consistent sleep —
-and one hour a day in an online game with the same group of friends.
-That gaming hour looked like entertainment from the outside. From the
-inside it had become rhythm, shared language, mutual reliability. We
-showed up at the same time, with the same people, inside a shared world
-with its own rules and goals. It was, in every structural sense, a
-ritual. It has held together for more than thirteen years.
+Khoảnh khắc ấy trở thành một bước ngoặt. Tôi bắt đầu xây dựng lại cuộc
+sống thông qua cấu trúc lặp lại: vận động hàng ngày, ăn uống tốt hơn,
+ngủ đều đặn — và một giờ mỗi ngày trong một trò chơi trực tuyến cùng
+nhóm bạn cũ. Giờ chơi game ấy trông giống như giải trí từ bên ngoài. Từ
+bên trong, nó đã trở thành nhịp điệu, ngôn ngữ chung, sự tin cậy lẫn
+nhau. Chúng tôi xuất hiện cùng một lúc, với cùng những con người, bên
+trong một thế giới chung với những luật lệ và mục tiêu riêng. Về mọi mặt
+cấu trúc, đó là một nghi thức. Nó đã duy trì được hơn mười ba năm.
 
-One question kept following me through all of this:
+Một câu hỏi cứ theo tôi qua tất cả những điều này:
 
-*Why do repeated patterns have such power over us?*
+*Tại sao những khuôn mẫu lặp lại lại có sức mạnh lớn đến vậy đối với
+chúng ta?*
 
-Why do some routines heal while others trap us? Why is it so hard to
-replace a harmful habit even when we fully understand it? Why does
-belonging feel like oxygen, and its absence like drowning?
+Tại sao một số thói quen chữa lành trong khi những cái khác lại giam cầm
+chúng ta? Tại sao việc thay thế một thói quen có hại lại khó đến vậy
+ngay cả khi chúng ta hoàn toàn hiểu rõ nó? Tại sao sự thuộc về lại giống
+như oxy, và sự vắng mặt của nó lại giống như đang chìm?
 
-Those questions eventually reshaped how I see everything.
+Những câu hỏi ấy cuối cùng đã định hình lại cách tôi nhìn nhận mọi thứ.
 
-My background in software once trained me to see the world as objects
-with properties and behaviors. Then a pivotal realization arrived: even
-properties are themselves the products of underlying behaviors and
-regularities. A red car is not simply “red” — its surface selectively
-absorbs and reflects specific wavelengths of light according to stable
-physical laws. A person’s height emerges from the coordinated
-regularities of genetic expression, cellular division, hormonal
-signaling, and nutrition sustained over years. Identity itself is a
-stable pattern of psychological and social behavior that persists
-through time.
+Nền tảng về phần mềm của tôi từng huấn luyện tôi nhìn thế giới như những
+đối tượng có tính chất và hành vi. Sau đó một nhận thức then chốt đã
+đến: ngay cả những tính chất cũng chính là sản phẩm của những hành vi và
+quy luật nền tảng. Một chiếc xe đỏ không đơn giản là “đỏ” — bề mặt của
+nó chọn lọc hấp thụ và phản xạ các bước sóng ánh sáng cụ thể theo những
+định luật vật lý ổn định. Chiều cao của một người xuất hiện từ những quy
+luật phối hợp của sự biểu hiện gen, sự phân chia tế bào, tín hiệu
+hormone và dinh dưỡng được duy trì qua nhiều năm. Bản sắc chính là một
+khuôn mẫu ổn định của hành vi tâm lý và xã hội tồn tại qua thời gian.
 
-That insight opened a larger view: stable regularities at one level
-become the foundation for meaning at the next, conferring emergent
-interaction capabilities that let the weave continue upward. Routines
-and rituals are not decorations on top of life. They are the
-architecture of life.
+Nhận thức ấy đã mở ra một cái nhìn rộng lớn hơn: những quy luật ổn định
+ở một cấp độ trở thành nền tảng cho ý nghĩa ở cấp độ tiếp theo, ban tặng
+những khả năng tương tác mới nổi cho phép sợi dệt tiếp tục vươn lên.
+Thói quen và nghi thức không phải là những trang trí trên đỉnh cuộc
+sống. Chúng là kiến trúc của cuộc sống.
 
-This book is my attempt to make that view usable.
+Cuốn sách này là nỗ lực của tôi để làm cho cái nhìn ấy trở nên hữu dụng.
 
-I call the lens **The Thread**. People who learn to see and shape these
-patterns consciously I call **Weavers**. This is not a new religion and
-not a final doctrine. It is a practical way of noticing what sustains
-life — and shaping it with more clarity, humility, and care.
+Tôi gọi cái thấu kính ấy là **Sợi Chỉ**. Những người học cách nhìn và
+định hình những khuôn mẫu này một cách có ý thức tôi gọi là **Những
+Người Dệt**. Đây không phải là một tôn giáo mới và cũng không phải là
+một giáo lý cuối cùng. Nó là một cách thực tiễn để nhận biết những gì
+duy trì sự sống — và định hình nó với sự rõ ràng, khiêm nhường và quan
+tâm nhiều hơn.
 
-If you have ever felt caught between inherited meaning that no longer
-fully fits and a modern landscape that explains everything except how to
-live, this book is for you.
+Nếu bạn từng cảm thấy bị kẹt giữa ý nghĩa được kế thừa không còn hoàn
+toàn phù hợp và một cảnh quan hiện đại giải thích mọi thứ ngoại trừ cách
+sống, cuốn sách này là dành cho bạn.
 
-My hope is simple: that you finish these pages with more compassion for
-your past, more clarity about your present, and more agency in how you
-build what comes next.
+Hy vọng đơn giản của tôi là: bạn kết thúc những trang sách này với nhiều
+lòng trắc ẩn hơn cho quá khứ của mình, nhiều sự rõ ràng hơn về hiện tại,
+và nhiều khả năng hành động hơn trong việc xây dựng những gì sắp tới.
 
-Arman Fatahi, April 2026
+Arman Fatahi, Tháng Tư 2026
 
 <div style="page-break-after: always;">
 

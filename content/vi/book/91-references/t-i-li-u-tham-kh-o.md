@@ -1,17 +1,21 @@
 ---
-title: "References"
+title: "Tài liệu tham khảo"
 weight: 12
 edition: "1"
 version: "7.2"
-slug: "references"
+slug: "t-i-li-u-tham-kh-o"
 ---
 
-# References
+# Tài liệu tham khảo
 
 <div style="page-break-before: always;">
 
 </div>
 
+
+<div class="<<PROTECTED_3>>">
+
+</div>
 
 <div id="refs" class="references csl-bib-body hanging-indent"
 entry-spacing="0">

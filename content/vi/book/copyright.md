@@ -9,13 +9,13 @@ slug: "copyright"
 # Bản quyền & Giấy phép
 
 
-Copyright © 2026 Arman Fatahi
+Bản quyền © 2026 Arman Fatahi
 
-All rights reserved. No part of this book may be reproduced,
-distributed, or transmitted in any form or by any means without prior
-written permission of the author, except in the case of brief quotations
-in reviews and certain other noncommercial uses permitted by copyright
-law.
+Đã đăng ký bản quyền. Không phần nào của cuốn sách này được sao chép,
+phân phối hay truyền tải dưới bất kỳ hình thức nào hoặc bằng bất kỳ
+phương tiện nào mà không có sự cho phép bằng văn bản trước của tác giả,
+ngoại trừ trường hợp trích dẫn ngắn gọn trong các bài bình luận và một
+số sử dụng phi thương mại khác được luật bản quyền cho phép.
 
 <div style="page-break-after: always;">
 

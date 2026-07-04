@@ -11,7 +11,7 @@ version: "7.2"
 
 **Arman Fatahi**
 
-**2026**
+**date: '2026-04-01'**
 
 **Ấn bản 1 • Phiên bản 7.2**
 
