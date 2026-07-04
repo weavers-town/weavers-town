@@ -11,11 +11,21 @@ It contains:
 
 It does not own the book manuscript. The book source of truth lives in the `threads-of-meaning` repository.
 
+## Languages
+
+The site supports English (default) and Vietnamese.
+
+- English: `/`, `/book/`, `/explorations/`
+- Vietnamese: `/vi/`, `/vi/book/`, `/vi/explorations/`
+
+Site UI strings live in `i18n/en.yaml` and `i18n/vi.yaml`. The header includes an EN | VI language switcher.
+
 ## How book updates arrive here
 
 The book repo generates Hugo-ready content and syncs these paths into this repo:
 
-- `content/book/`
+- `content/book/` (English)
+- `content/vi/book/` (Vietnamese, from `manuscript-vi/` in the book repo)
 - `static/images/`
 
 That sync happens either:

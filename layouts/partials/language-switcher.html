@@ -1,0 +1,31 @@
+{{ $page := . }}
+{{ $currentLang := .Site.Language.Lang }}
+{{ $path := .RelPermalink }}
+{{ range hugo.Sites }}
+  {{ $targetLang := .Language.Lang }}
+  {{ $url := "" }}
+  {{ if $page.IsTranslated }}
+    {{ range $page.AllTranslations }}
+      {{ if eq .Lang $targetLang }}
+        {{ $url = .RelPermalink }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+  {{ if not $url }}
+    {{ if eq $currentLang "vi" }}
+      {{ $url = strings.TrimPrefix "/vi" $path }}
+      {{ if not $url }}{{ $url = "/" }}{{ end }}
+    {{ else }}
+      {{ if eq $path "/" }}
+        {{ $url = printf "/%s/" $targetLang }}
+      {{ else }}
+        {{ $url = printf "/%s%s" $targetLang $path }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+  {{ if eq $targetLang $currentLang }}
+    <span class="lang-switcher__current" aria-current="true">{{ .Language.Params.languageShort }}</span>
+  {{ else }}
+    <a class="lang-switcher__link" href="{{ $url }}" hreflang="{{ $targetLang }}" lang="{{ $targetLang }}">{{ .Language.Params.languageShort }}</a>
+  {{ end }}
+{{ end }}

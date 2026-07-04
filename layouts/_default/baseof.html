@@ -1,17 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ .Site.Language.Lang }}">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>{{ if .IsHome }}The Thread | Weaver's Town{{ else }}{{ .Title }} | Weaver's Town{{ end }}</title>
+  <title>{{ if .IsHome }}{{ i18n "heroTitle" }} | {{ i18n "siteName" }}{{ else }}{{ .Title }} | {{ i18n "siteName" }}{{ end }}</title>
   <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ site.Params.description }}{{ end }}" />
   <meta name="robots" content="index, follow" />
   <meta name="author" content="{{ site.Params.author }}" />
-  <meta property="og:title" content="{{ if .IsHome }}The Thread | Weaver's Town{{ else }}{{ .Title }} | Weaver's Town{{ end }}" />
+  <meta property="og:title" content="{{ if .IsHome }}{{ i18n "heroTitle" }} | {{ i18n "siteName" }}{{ else }}{{ .Title }} | {{ i18n "siteName" }}{{ end }}" />
   <meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{ site.Params.description }}{{ end }}" />
   <meta property="og:type" content="website" />
-  <meta property="og:site_name" content="{{ site.Title }}" />
-  <meta property="og:locale" content="en_US" />
+  <meta property="og:site_name" content="{{ i18n "siteName" }}" />
+  <meta property="og:locale" content="{{ if eq .Site.Language.Lang "vi" }}vi_VN{{ else }}en_US{{ end }}" />
   <meta property="og:image" content="https://weavers.town/images/front-page.jpg" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="{{ if .IsHome }}The Thread | Weaver's Town{{ else }}{{ .Title }} | Weaver's Town{{ end }}" />

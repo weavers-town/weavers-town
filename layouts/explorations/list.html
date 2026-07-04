@@ -5,7 +5,8 @@
     {{ with .Description }}<p class="explorations-description">{{ . }}</p>{{ end }}
     {{ .Content }}
 
-    {{ $pages := where .Site.RegularPages "Section" "explorations" }}
+    {{ $pages := where .Site.RegularPages "Lang" .Site.Language.Lang }}
+    {{ $pages = where $pages "Section" "explorations" }}
     {{ $pages = $pages | first 100 }}
     {{ if $pages }}
     <ul class="explorations-list">
@@ -20,7 +21,7 @@
       {{ end }}
     </ul>
     {{ else }}
-    <p class="explorations-empty">Nothing here yet — but the thinking has begun.</p>
+    <p class="explorations-empty">{{ i18n "explorationsEmpty" }}</p>
     {{ end }}
   </article>
 </main>

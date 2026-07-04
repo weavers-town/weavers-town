@@ -15,6 +15,24 @@ test("home page renders key content", async ({ page }) => {
   await expect(page.getByRole("link", { name: /Read the book/i })).toBeVisible();
 });
 
+test("vietnamese home page renders key content", async ({ page }) => {
+  await page.goto("/vi/");
+
+  await expect(page).toHaveTitle(/Sợi Chỉ/i);
+  await expect(page.locator("h1", { hasText: "Sợi Chỉ" })).toBeVisible();
+  await expect(page.getByRole("link", { name: /Đọc sách/i }).first()).toBeVisible();
+});
+
+test("language switcher links between locales", async ({ page }) => {
+  await page.goto("/book/");
+  await page.getByRole("link", { name: "VI" }).click();
+  await expect(page).toHaveURL(/\/vi\/book\//);
+  await expect(page.locator(".lang-switcher__current")).toHaveText("VI");
+
+  await page.getByRole("link", { name: "EN" }).click();
+  await expect(page).toHaveURL(/\/book\/$/);
+});
+
 test("core pages respond successfully", async ({ request }) => {
   for (const path of corePaths) {
     const response = await request.get(path);

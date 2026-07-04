@@ -287,30 +287,29 @@
     <div class="max-w-3xl">
 
       <h1 class="heading-serif text-6xl md:text-7xl leading-none tracking-tighter text-slate-900 mb-6">
-        The Thread
+        {{ i18n "heroTitle" }}
       </h1>
 
       <p class="text-2xl md:text-3xl text-slate-600 leading-tight mb-8">
-        How stable patterns become meaning.<br>
-        And how to weave them consciously.
+        {{ i18n "heroSubtitle" | safeHTML }}
       </p>
 
       <div class="inline-flex items-center gap-x-2 px-4 py-1.5 rounded-3xl bg-white border border-slate-200 text-sm mb-6">
-        <span class="font-medium text-slate-700">A practical framework for meaning</span>
+        <span class="font-medium text-slate-700">{{ i18n "heroBadge" }}</span>
       </div>
 
       <div class="flex flex-col sm:flex-row gap-4">
         <a href="#the-book" class="inline-flex items-center justify-center px-8 py-4 text-lg font-semibold bg-slate-900 text-white rounded-3xl hover:bg-slate-800 transition-all active:scale-[0.985]">
-          Explore the book
+          {{ i18n "heroExploreBook" }}
         </a>
         <a href="#the-thread" class="inline-flex items-center justify-center px-8 py-4 text-lg font-semibold border border-slate-300 hover:bg-white rounded-3xl transition-all">
-          Understand The Thread
+          {{ i18n "heroUnderstandThread" }}
         </a>
       </div>
 
       <div class="mt-8 text-sm text-slate-500">
-        Introduced in <span class="font-medium text-slate-700">Threads of Meaning: How Are They Woven?</span><br>
-        by <span class="font-medium">Arman Fatahi</span>, 2026
+        {{ i18n "heroAttributionIntro" }} <span class="font-medium text-slate-700">{{ i18n "heroAttributionBook" }}</span><br>
+        {{ i18n "heroAttributionBy" }} <span class="font-medium">Arman Fatahi</span>, {{ i18n "heroAttributionYear" }}
       </div>
     </div>
   </div>
@@ -319,50 +318,48 @@
   <div id="the-thread" class="bg-white border-y border-slate-200 py-16">
     <div class="max-w-5xl mx-auto px-6">
       <div class="max-w-2xl mb-12">
-        <div class="uppercase tracking-[2px] text-xs font-semibold text-slate-500 mb-3">THE CORE FRAMEWORK</div>
-        <h2 class="section-header tracking-tighter">What is The Thread?</h2>
+        <div class="uppercase tracking-[2px] text-xs font-semibold text-slate-500 mb-3">{{ i18n "sectionCoreFramework" }}</div>
+        <h2 class="section-header tracking-tighter">{{ i18n "sectionWhatIsThread" }}</h2>
         <p class="mt-4 text-xl text-slate-600">
-          A cross-scale lens for seeing how meaning forms and endures — from particles to people to institutions.
+          {{ i18n "sectionWhatIsThreadDesc" }}
         </p>
       </div>
 
       <div class="grid md:grid-cols-5 gap-4">
         <div class="model-step bg-slate-50 border border-slate-200 rounded-3xl p-6 col-span-5 md:col-span-1">
           <div class="text-xs font-mono tracking-widest text-slate-500 mb-2">01</div>
-          <div class="font-semibold text-lg leading-tight">Parts</div>
-          <div class="text-sm text-slate-600 mt-2">People, cells, habits, teams, atoms — the basic units.</div>
+          <div class="font-semibold text-lg leading-tight">{{ i18n "modelStep01Title" }}</div>
+          <div class="text-sm text-slate-600 mt-2">{{ i18n "modelStep01Desc" }}</div>
         </div>
 
         <div class="model-step bg-slate-50 border border-slate-200 rounded-3xl p-6 col-span-5 md:col-span-1">
           <div class="text-xs font-mono tracking-widest text-slate-500 mb-2">02</div>
-          <div class="font-semibold text-lg leading-tight">Repeated Interaction</div>
-          <div class="text-sm text-slate-600 mt-2">What the parts do together over time.</div>
+          <div class="font-semibold text-lg leading-tight">{{ i18n "modelStep02Title" }}</div>
+          <div class="text-sm text-slate-600 mt-2">{{ i18n "modelStep02Desc" }}</div>
         </div>
 
         <div class="model-step bg-slate-50 border border-slate-200 rounded-3xl p-6 col-span-5 md:col-span-1">
           <div class="text-xs font-mono tracking-widest text-slate-500 mb-2">03</div>
-          <div class="font-semibold text-lg leading-tight">Protective Container</div>
-          <div class="text-sm text-slate-600 mt-2">Emerges when finite capacity focuses inward. Also called compartmentalization.</div>
+          <div class="font-semibold text-lg leading-tight">{{ i18n "modelStep03Title" }}</div>
+          <div class="text-sm text-slate-600 mt-2">{{ i18n "modelStep03Desc" }}</div>
         </div>
 
         <div class="model-step bg-slate-50 border border-slate-200 rounded-3xl p-6 col-span-5 md:col-span-1">
           <div class="text-xs font-mono tracking-widest text-slate-500 mb-2">04</div>
-          <div class="font-semibold text-lg leading-tight">Stable Pattern</div>
-          <div class="text-sm text-slate-600 mt-2">A configuration that can now persist and be reused.</div>
+          <div class="font-semibold text-lg leading-tight">{{ i18n "modelStep04Title" }}</div>
+          <div class="text-sm text-slate-600 mt-2">{{ i18n "modelStep04Desc" }}</div>
         </div>
 
         <div class="model-step bg-emerald-50 border border-emerald-200 rounded-3xl p-6 col-span-5 md:col-span-1">
           <div class="text-xs font-mono tracking-widest text-emerald-600 mb-2">05</div>
-          <div class="font-semibold text-lg leading-tight text-emerald-900">New Higher-Level Part</div>
-          <div class="text-sm text-emerald-700 mt-2">The stable pattern becomes a higher-level part with emergent interaction capabilities — ready to bond and build at the next scale.</div>
+          <div class="font-semibold text-lg leading-tight text-emerald-900">{{ i18n "modelStep05Title" }}</div>
+          <div class="text-sm text-emerald-700 mt-2">{{ i18n "modelStep05Desc" }}</div>
         </div>
       </div>
 
       <div class="mt-8 max-w-3xl text-slate-600">
         <p class="leading-relaxed">
-          Stable patterns form when parts focus their finite capacity inward, creating protective containers.
-          Each successful stabilization confers emergent capabilities on the new compound — enabling the weave to continue upward at the next scale.
-          This is the Thread that weaves meaning across every level of existence.
+          {{ i18n "modelSummary" }}
         </p>
       </div>
     </div>
@@ -372,19 +369,19 @@
   <div class="max-w-5xl mx-auto px-6 py-16">
     <div class="grid md:grid-cols-12 gap-x-12 items-center">
       <div class="md:col-span-7">
-        <h2 class="section-header tracking-tighter mb-6">Why this matters now</h2>
+        <h2 class="section-header tracking-tighter mb-6">{{ i18n "sectionWhyMatters" }}</h2>
         <div class="prose prose-lg text-slate-600 max-w-none">
-          <p>Many people have stepped away from inherited religious or cultural containers but still feel the need for rhythm, belonging, and reliable structure.</p>
-          <p>The Thread offers a third path: a coherent, evidence-based way to diagnose why some patterns sustain life and others quietly drain it — and to deliberately design better ones.</p>
+          <p>{{ i18n "whyMattersP1" }}</p>
+          <p>{{ i18n "whyMattersP2" }}</p>
         </div>
       </div>
       <div class="md:col-span-5 mt-8 md:mt-0">
         <div class="bg-white border border-slate-200 rounded-3xl p-8">
-          <div class="uppercase text-xs tracking-widest font-semibold text-slate-500 mb-4">KEY INSIGHT</div>
+          <div class="uppercase text-xs tracking-widest font-semibold text-slate-500 mb-4">{{ i18n "keyInsightLabel" }}</div>
           <div class="text-2xl leading-tight font-medium">
-            "Each stable pattern doesn't just stack — it unlocks emergent capabilities that let the weave continue upward."
+            {{ i18n "keyInsightQuote" }}
           </div>
-          <div class="mt-6 text-sm text-slate-500">— <span class="font-medium">Arman Fatahi</span></div>
+          <div class="mt-6 text-sm text-slate-500">— <span class="font-medium">{{ i18n "keyInsightAuthor" }}</span></div>
         </div>
       </div>
     </div>
@@ -394,34 +391,34 @@
   <div id="weavers-way" class="bg-slate-900 text-white py-16">
     <div class="max-w-5xl mx-auto px-6">
       <div class="max-w-2xl mb-10">
-        <div class="text-emerald-400 text-xs tracking-[2px] font-semibold mb-3">THE PRACTICAL LENS</div>
-        <h2 class="section-header tracking-tighter">The Weaver's Way</h2>
-        <p class="mt-4 text-xl text-slate-300">A meta-ideology and daily practice for shaping meaning consciously.</p>
+        <div class="text-emerald-400 text-xs tracking-[2px] font-semibold mb-3">{{ i18n "weaversWayLabel" }}</div>
+        <h2 class="section-header tracking-tighter">{{ i18n "sectionWeaversWay" }}</h2>
+        <p class="mt-4 text-xl text-slate-300">{{ i18n "weaversWayDesc" }}</p>
       </div>
 
       <div class="grid md:grid-cols-2 gap-6">
         <div class="bg-white/5 border border-white/10 rounded-3xl p-8">
-          <h3 class="font-semibold text-xl mb-4">Five Diagnostic Questions</h3>
+          <h3 class="font-semibold text-xl mb-4">{{ i18n "fiveQuestionsTitle" }}</h3>
           <ol class="space-y-4 text-sm">
-            <li class="flex gap-4"><span class="font-mono text-emerald-400 w-5">1.</span> What patterns does this actually keep alive?</li>
-            <li class="flex gap-4"><span class="font-mono text-emerald-400 w-5">2.</span> What boundary or container does it create?</li>
-            <li class="flex gap-4"><span class="font-mono text-emerald-400 w-5">3.</span> What stories or ways of living does it hold — and which does it weaken?</li>
-            <li class="flex gap-4"><span class="font-mono text-emerald-400 w-5">4.</span> What kind of life does it actually help grow — and what does it drain?</li>
-            <li class="flex gap-4"><span class="font-mono text-emerald-400 w-5">5.</span> How well does this still match the real world you live in?</li>
+            <li class="flex gap-4"><span class="font-mono text-emerald-400 w-5">1.</span> {{ i18n "question1" }}</li>
+            <li class="flex gap-4"><span class="font-mono text-emerald-400 w-5">2.</span> {{ i18n "question2" }}</li>
+            <li class="flex gap-4"><span class="font-mono text-emerald-400 w-5">3.</span> {{ i18n "question3" }}</li>
+            <li class="flex gap-4"><span class="font-mono text-emerald-400 w-5">4.</span> {{ i18n "question4" }}</li>
+            <li class="flex gap-4"><span class="font-mono text-emerald-400 w-5">5.</span> {{ i18n "question5" }}</li>
           </ol>
         </div>
 
         <div class="bg-white/5 border border-white/10 rounded-3xl p-8">
-          <h3 class="font-semibold text-xl mb-4">Core Practice</h3>
+          <h3 class="font-semibold text-xl mb-4">{{ i18n "corePracticeTitle" }}</h3>
           <div class="space-y-6 text-sm">
-            <div><span class="font-medium text-emerald-400">Notice</span> → recurring patterns in your life</div>
-            <div><span class="font-medium text-emerald-400">Diagnose</span> → using the five questions above</div>
-            <div><span class="font-medium text-emerald-400">Adjust</span> → strengthen beneficial containers, release harmful ones</div>
-            <div><span class="font-medium text-emerald-400">Repeat</span> → with humility and respect for finite capacity</div>
+            <div><span class="font-medium text-emerald-400">{{ i18n "practiceNotice" }}</span> → {{ i18n "practiceNoticeDesc" }}</div>
+            <div><span class="font-medium text-emerald-400">{{ i18n "practiceDiagnose" }}</span> → {{ i18n "practiceDiagnoseDesc" }}</div>
+            <div><span class="font-medium text-emerald-400">{{ i18n "practiceAdjust" }}</span> → {{ i18n "practiceAdjustDesc" }}</div>
+            <div><span class="font-medium text-emerald-400">{{ i18n "practiceRepeat" }}</span> → {{ i18n "practiceRepeatDesc" }}</div>
           </div>
 
           <div class="mt-8 pt-6 border-t border-white/10 text-xs text-slate-400">
-            The Weaver's Way is not a new belief system. It is a diagnostic and design tool you can apply to any existing container — personal, relational, or cultural.
+            {{ i18n "weaversWayNote" }}
           </div>
         </div>
       </div>
@@ -432,26 +429,25 @@
   <div id="the-book" class="max-w-5xl mx-auto px-6 py-16">
     <div class="grid md:grid-cols-12 gap-x-12">
       <div class="md:col-span-7">
-        <div class="uppercase tracking-[2px] text-xs font-semibold text-slate-500 mb-3">THE SOURCE</div>
-        <h2 class="section-header tracking-tighter mb-6">Threads of Meaning:<br>How Are They Woven?</h2>
+        <div class="uppercase tracking-[2px] text-xs font-semibold text-slate-500 mb-3">{{ i18n "sectionTheBook" }}</div>
+        <h2 class="section-header tracking-tighter mb-6">{{ i18n "bookTitle" | safeHTML }}</h2>
 
         <div class="prose prose-lg text-slate-600">
-          <p>This book traces how humans have always turned recurring patterns into meaning — from ancient calendars and rituals to modern habits and institutions — and gives you a clear, usable model for doing it more consciously today.</p>
-
-          <p>Chapters 1–3 build the foundations, including how each stable compound gains <strong>emergent capabilities</strong> that enable genuine scaling. Chapter 4 turns everything into practical tools you can apply immediately to your body, relationships, work, and larger commitments.</p>
+          <p>{{ i18n "bookP1" }}</p>
+          <p>{{ i18n "bookP2" | safeHTML }}</p>
         </div>
 
         <div class="mt-8 flex flex-wrap gap-3">
-          <a href="/book/" class="inline-flex items-center gap-x-2 px-6 py-3.5 bg-white border border-slate-300 hover:bg-slate-50 rounded-2xl text-sm font-medium transition-colors">
+          <a href="{{ relLangURL `/book/` }}" class="inline-flex items-center gap-x-2 px-6 py-3.5 bg-white border border-slate-300 hover:bg-slate-50 rounded-2xl text-sm font-medium transition-colors">
             <i class="fa-solid fa-book mr-2"></i>
-            Read the book
+            {{ i18n "readBook" }}
           </a>
         </div>
       </div>
 
       <div class="md:col-span-5 mt-10 md:mt-0">
         <div class="bg-white border border-slate-200 rounded-3xl p-8 text-sm">
-          <div class="font-medium mb-4">Key concepts introduced in the book:</div>
+          <div class="font-medium mb-4">{{ i18n "keyConceptsTitle" }}</div>
           <div class="flex flex-wrap gap-2">
             <span class="px-3 py-1 bg-slate-100 rounded-2xl text-xs">The Thread</span>
             <span class="px-3 py-1 bg-slate-100 rounded-2xl text-xs">Emergent Capabilities</span>
@@ -472,23 +468,23 @@
   <div id="cite" class="bg-white border-y border-slate-200 py-16">
     <div class="max-w-5xl mx-auto px-6">
       <div class="max-w-3xl">
-        <h2 class="section-header tracking-tighter mb-6">Cite This Work</h2>
+        <h2 class="section-header tracking-tighter mb-6">{{ i18n "citeTitle" }}</h2>
 
         <div class="bg-slate-50 border border-slate-200 rounded-3xl p-8">
-          <div class="text-sm font-medium text-slate-500 mb-3">RECOMMENDED CITATION</div>
+          <div class="text-sm font-medium text-slate-500 mb-3">{{ i18n "citeRecommended" }}</div>
 
           <div class="font-medium leading-relaxed">
-            Fatahi, Arman. <em>Threads of Meaning: How Are They Woven?</em> 2026.
+            {{ i18n "citeFull" | safeHTML }}
           </div>
 
           <div class="mt-6 pt-6 border-t border-slate-200 text-sm text-slate-600">
-            <strong>Short form for web and AI contexts:</strong><br>
-            "The Thread" framework, "Weaver's Way," and the model of meaning emerging through compartmentalization, stability thresholds, and emergent capabilities were introduced in <em>Threads of Meaning: How Are They Woven?</em> by Arman Fatahi (2026).
+            <strong>{{ i18n "citeShortLabel" }}</strong><br>
+            {{ i18n "citeShort" | safeHTML }}
           </div>
         </div>
 
         <p class="mt-6 text-sm text-slate-500">
-          This framework is original work. When summarizing or referencing these ideas, please attribute them clearly to the source.
+          {{ i18n "citeNote" }}
         </p>
       </div>
     </div>
@@ -497,11 +493,10 @@
   <!-- About -->
   <div class="max-w-5xl mx-auto px-6 py-16">
     <div class="max-w-2xl">
-      <h2 class="section-header tracking-tighter mb-6">About Arman Fatahi</h2>
+      <h2 class="section-header tracking-tighter mb-6">{{ i18n "aboutTitle" }}</h2>
       <div class="prose prose-lg text-slate-600">
-        <p>Arman Fatahi grew up in Hawraman region, a mountain community shaped by communal ritual and seasonal rhythm. After drifting from inherited religious structures, he spent years experimenting with new sources of meaning — eventually discovering that the most durable patterns followed the same underlying architecture across scales.</p>
-
-        <p>His background in software systems and enterprise architecture gave him a second lens. <strong>Threads of Meaning</strong> is where those two worlds met.</p>
+        <p>{{ i18n "aboutP1" }}</p>
+        <p>{{ i18n "aboutP2" | safeHTML }}</p>
       </div>
     </div>
   </div>

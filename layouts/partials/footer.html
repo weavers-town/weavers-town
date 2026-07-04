@@ -1,9 +1,9 @@
 <footer class="site-footer">
   <div class="container footer-row">
-    <div>© 2026 Arman Fatahi</div>
+    <div>{{ i18n "footerCopyright" }}</div>
     <div class="footer-links">
-      <a href="/book/">The Book</a>
-      <a href="/explorations/">Explorations</a>
+      <a href="{{ relLangURL `/book/` }}">{{ i18n "footerTheBook" }}</a>
+      <a href="{{ relLangURL `/explorations/` }}">{{ i18n "footerExplorations" }}</a>
     </div>
   </div>
 </footer>

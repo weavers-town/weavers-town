@@ -110,6 +110,35 @@ main {
   color: var(--ink);
 }
 
+.lang-switcher {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+}
+
+.lang-switcher__current {
+  color: var(--ink);
+}
+
+.lang-switcher__link {
+  color: var(--ink-light);
+  text-decoration: none;
+  transition: color 0.15s ease;
+}
+
+.lang-switcher__link:hover {
+  color: var(--ink);
+}
+
+.lang-switcher--mobile {
+  margin-bottom: 1.25rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--rule-light);
+}
+
 .footer-links a {
   color: var(--ink-light);
   text-decoration: none;

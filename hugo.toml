@@ -1,11 +1,28 @@
 baseURL = "https://weavers.town/"
-languageCode = "en-us"
-title = "Weaver's Town"
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
 disableKinds = ["taxonomy", "term", "RSS"]
 
-[params]
-  author = "Arman Fatahi"
-  description = "The Thread is a practical, cross-scale framework for understanding how meaning emerges when stable patterns gain emergent capabilities that enable participation at the next scale."
+[languages]
+  [languages.en]
+    locale = "en-us"
+    label = "English"
+    weight = 1
+    title = "Weaver's Town"
+    [languages.en.params]
+      author = "Arman Fatahi"
+      description = "The Thread is a practical, cross-scale framework for understanding how meaning emerges when stable patterns gain emergent capabilities that enable participation at the next scale."
+      languageShort = "EN"
+
+  [languages.vi]
+    locale = "vi"
+    label = "Tiếng Việt"
+    weight = 2
+    title = "Thị trấn Người Dệt"
+    [languages.vi.params]
+      author = "Arman Fatahi"
+      description = "Sợi Chỉ là một khung thực hành xuyên quy mô để hiểu ý nghĩa hình thành khi các mẫu ổn định đạt được khả năng mới nổi, cho phép tham gia ở quy mô tiếp theo."
+      languageShort = "VI"
 
 [markup]
   [markup.goldmark]
