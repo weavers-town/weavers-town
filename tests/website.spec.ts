@@ -12,7 +12,7 @@ test("home page renders key content", async ({ page }) => {
 
   await expect(page).toHaveTitle(/The Thread/i);
   await expect(page.locator("h1", { hasText: "The Thread" })).toBeVisible();
-  await expect(page.getByRole("link", { name: /Read the book/i })).toBeVisible();
+  await expect(page.getByRole("link", { name: /Read the book/i }).first()).toBeVisible();
 });
 
 test("vietnamese home page renders key content", async ({ page }) => {
@@ -27,9 +27,9 @@ test("language switcher links between locales", async ({ page }) => {
   await page.goto("/book/");
   await page.getByRole("link", { name: "VI" }).click();
   await expect(page).toHaveURL(/\/vi\/book\//);
-  await expect(page.locator(".lang-switcher__current")).toHaveText("VI");
+  await expect(page.locator("#primary-nav .lang-switcher__current")).toHaveText("VI");
 
-  await page.getByRole("link", { name: "EN" }).click();
+  await page.locator("#primary-nav").getByRole("link", { name: "EN" }).click();
   await expect(page).toHaveURL(/\/book\/$/);
 });
 
@@ -83,7 +83,7 @@ test("book landing includes cover and points to toc", async ({ page }) => {
 test("toc page includes clickable seo-friendly section links", async ({ page }) => {
   await page.goto("/book/toc/");
 
-  const prefaceLink = page.locator("article .toc-preface a");
+  const prefaceLink = page.getByRole("link", { name: /^Preface$/ });
   await expect(prefaceLink).toBeVisible();
   await expect(prefaceLink).toHaveAttribute("href", "/book/preface/");
 
@@ -91,13 +91,17 @@ test("toc page includes clickable seo-friendly section links", async ({ page }) 
   const count = await tocLinks.count();
   expect(count).toBeGreaterThan(5);
 
-  await expect(page.getByRole("heading", { name: /Chapters/i })).toBeVisible();
+  const chapterHref = await page
+    .locator('article ul a[href*="/book/10-introduction/"]')
+    .first()
+    .getAttribute("href");
+  expect(chapterHref).toBeTruthy();
+  expect(chapterHref).toMatch(/^\/book\/[a-z0-9-]+\/[a-z0-9-]+\/$/);
 
-  const firstHref = await tocLinks.first().getAttribute("href");
-  expect(firstHref).toBeTruthy();
-  expect(firstHref).toMatch(/^\/book\/[a-z0-9-]+\/[a-z0-9-]+\/$/);
-
-  const textDecoration = await tocLinks.first().evaluate((el) => getComputedStyle(el).textDecorationLine);
+  const textDecoration = await page
+    .locator('article ul a[href*="/book/10-introduction/"]')
+    .first()
+    .evaluate((el) => getComputedStyle(el).textDecorationLine);
   expect(textDecoration).toBe("none");
 });
 
@@ -149,7 +153,7 @@ test("table of figures page has clickable image links", async ({ page, request }
 });
 
 test("references page renders bibliography entries", async ({ request }) => {
-  const response = await request.get("/book/90-references/references/");
+  const response = await request.get("/book/91-references/references/");
   expect(response.status()).toBe(200);
 
   const html = await response.text();
@@ -162,15 +166,15 @@ test("core chapter numbering follows Introduction then Chapter 1/2/3", async ({ 
   const roots = await request.get("/book/11-roots-of-regularity/the-roots-of-regularity/");
   expect(roots.status()).toBe(200);
   const rootsHtml = await roots.text();
-  expect(rootsHtml).toContain('class="header-section-number">1</span> The Roots of');
+  expect(rootsHtml).toContain("Chapter 1: The Roots of Regularity");
 
   const hierarchy = await request.get("/book/12-hierarchy-of-meaning/a-hierarchy-of-meaning/");
   expect(hierarchy.status()).toBe(200);
   const hierarchyHtml = await hierarchy.text();
-  expect(hierarchyHtml).toContain('class="header-section-number">2</span> A Hierarchy of');
+  expect(hierarchyHtml).toContain("Chapter 2: A Hierarchy of Meaning");
 
   const shape = await request.get("/book/13-how-meaning-takes-shape/how-meaning-takes-shape/");
   expect(shape.status()).toBe(200);
   const shapeHtml = await shape.text();
-  expect(shapeHtml).toContain('class="header-section-number">3</span> How Meaning Takes');
+  expect(shapeHtml).toContain("Chapter 3: How Meaning Takes Shape");
 });

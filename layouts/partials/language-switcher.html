@@ -1,7 +1,7 @@
 {{ $page := . }}
 {{ $currentLang := .Site.Language.Lang }}
 {{ $path := .RelPermalink }}
-{{ range hugo.Sites }}
+{{ range site.Sites }}
   {{ $targetLang := .Language.Lang }}
   {{ $url := "" }}
   {{ if $page.IsTranslated }}
