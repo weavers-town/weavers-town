@@ -4,7 +4,8 @@
   {{- $audioPath := cond (hasPrefix $clean "audio/") $clean (printf "audio/%s" $clean) -}}
   {{- $staticPath := printf "static/%s" $audioPath -}}
   {{- if fileExists $staticPath -}}
-    {{- $title := $.Params.audio_title | default "Listen to this article" -}}
+    {{- $defaultTitle := cond (eq $.Section "book") (i18n "audioListenChapter") (i18n "audioListenArticle") -}}
+    {{- $title := $.Params.audio_title | default $defaultTitle -}}
     {{- $ext := lower (path.Ext $audioPath) -}}
     {{- $mime := "audio/mpeg" -}}
     {{- if eq $ext ".ogg" -}}
@@ -21,7 +22,7 @@
     Your browser does not support audio playback.
   </audio>
   <p class="article-audio-download">
-    <a href="{{ printf "/%s" $audioPath | relURL }}">Download audio</a>
+    <a href="{{ printf "/%s" $audioPath | relURL }}">{{ i18n "audioDownload" }}</a>
   </p>
 </section>
   {{- end -}}
