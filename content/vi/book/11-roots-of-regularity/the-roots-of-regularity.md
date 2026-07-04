@@ -1,12 +1,12 @@
 ---
-title: "Chapter 1: The Roots of Regularity"
+title: "Chương 1: The Roots of Regularity"
 weight: 4
 edition: "1"
 version: "7.2"
 slug: "the-roots-of-regularity"
 ---
 
-# Chapter 1: The Roots of Regularity
+# Chương 1: The Roots of Regularity
 
 
 Picture a pre-dawn morning several thousand years ago.

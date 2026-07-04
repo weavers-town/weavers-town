@@ -22,3 +22,4 @@ version: "7.2"
 - [Acknowledgments](/book/88-acknowledgments/acknowledgments/)
 - [About the Author](/book/92-about-the-author/about-the-author/)
 - [Copyright & Licensing](/book/copyright/)
+- [Copyright & Licensing](/book/copyright/)

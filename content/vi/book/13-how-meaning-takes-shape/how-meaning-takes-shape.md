@@ -1,12 +1,12 @@
 ---
-title: "Chapter 3: How Meaning Takes Shape"
+title: "Chương 3: How Meaning Takes Shape"
 weight: 6
 edition: "1"
 version: "7.2"
 slug: "how-meaning-takes-shape"
 ---
 
-# Chapter 3: How Meaning Takes Shape
+# Chương 3: How Meaning Takes Shape
 
 
 Let me tell you about someone I will call Nadia.

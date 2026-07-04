@@ -1,12 +1,12 @@
 ---
-title: "Chapter 2: A Hierarchy of Meaning"
+title: "Chương 2: A Hierarchy of Meaning"
 weight: 5
 edition: "1"
 version: "7.2"
 slug: "a-hierarchy-of-meaning"
 ---
 
-# Chapter 2: A Hierarchy of Meaning
+# Chương 2: A Hierarchy of Meaning
 
 
 The first time I understood this chapter in my bones, it was not in a
