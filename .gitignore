@@ -1,3 +1,6 @@
+.env
+.venv/
+
 .hugo_build.lock
 node_modules/
 playwright-report/

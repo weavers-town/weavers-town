@@ -20,6 +20,15 @@ The site supports English (default) and Vietnamese.
 
 Site UI strings live in `i18n/en.yaml` and `i18n/vi.yaml`. The header includes an EN | VI language switcher.
 
+Explorations are translated separately from the book:
+
+```bash
+export XAI_API_KEY="xai-..."   # or add to .env / threads-of-meaning/.env
+npm run translate
+```
+
+This writes Vietnamese posts to `content/vi/explorations/` from `content/explorations/`.
+
 ## How book updates arrive here
 
 The book repo generates Hugo-ready content and syncs these paths into this repo:

@@ -27,8 +27,23 @@ jobs:
           node-version: '20'
           cache: npm
 
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
       - name: Install dependencies
         run: npm ci
+
+      - name: Translate explorations to Vietnamese
+        env:
+          XAI_API_KEY: ${{ secrets.XAI_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          TRANSLATION_PROVIDER: ${{ vars.TRANSLATION_PROVIDER || 'xai' }}
+          TRANSLATION_MODEL: ${{ vars.TRANSLATION_MODEL || 'grok-4-1-fast-non-reasoning' }}
+        run: |
+          chmod +x ./scripts/translate-explorations.sh
+          ./scripts/translate-explorations.sh || echo "Translation skipped (no API key or no changes)."
 
       - name: Build site
         run: npm run build

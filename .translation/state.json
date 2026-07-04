@@ -1,0 +1,52 @@
+{
+  "files": {
+    "_index.md": {
+      "source_sha256": "ed14179888f069e24142abaa848c682693faadb41c8dbacbd7bb81f0e090b7bc",
+      "translated_at": "2026-07-04T14:47:30.168141+00:00",
+      "provider": "xai",
+      "model": "grok-4-1-fast-non-reasoning"
+    },
+    "free-will-as-a-container.md": {
+      "source_sha256": "248fe592c3980531c2b3e48aae60e13f59ef2849a4416629fbf9761f269f7ec9",
+      "translated_at": "2026-07-04T14:47:44.315949+00:00",
+      "provider": "xai",
+      "model": "grok-4-1-fast-non-reasoning"
+    },
+    "grok-summary-and-comparison.md": {
+      "source_sha256": "73255fa02d55ebd92c0b74e0bab42bd8234f1e4563edb1bc586c56e7ef099ecf",
+      "translated_at": "2026-07-04T14:48:43.774734+00:00",
+      "provider": "xai",
+      "model": "grok-4-1-fast-non-reasoning"
+    },
+    "stability-reservoirs-the-quiet-fuel-of-increasing-complexity.md": {
+      "source_sha256": "f17fd0b6e44df1097cd23af57ab066314162f4ac7f7c8c1ff80dfc926b72e16a",
+      "translated_at": "2026-07-04T14:49:07.388506+00:00",
+      "provider": "xai",
+      "model": "grok-4-1-fast-non-reasoning"
+    },
+    "the-week-rhythm-we-wove.md": {
+      "source_sha256": "fe54b1840a313c10d45a45fbe59d3f338159521ca0ecc1816d599e08baf528d3",
+      "translated_at": "2026-07-04T14:52:57.179511+00:00",
+      "provider": "xai",
+      "model": "grok-4-1-fast-non-reasoning"
+    },
+    "what-do-atoms-eat-why-nothing-persists-without-feeding.md": {
+      "source_sha256": "0d900fcf7368ade7d3942d87c45480844a7b25d4b586dd3daf9e0abf17c77183",
+      "translated_at": "2026-07-04T14:52:39.466352+00:00",
+      "provider": "xai",
+      "model": "grok-4-1-fast-non-reasoning"
+    },
+    "what-do-companies-eat-reservoirs-funding-and-the-need-to-digest.md": {
+      "source_sha256": "264d9cbb79d81ec324abe0fbab9d735cd15f3fabc3b1c8c317a747366f20516a",
+      "translated_at": "2026-07-04T14:53:55.851559+00:00",
+      "provider": "xai",
+      "model": "grok-4-1-fast-non-reasoning"
+    },
+    "why-your-gym-membership-collects-dust.md": {
+      "source_sha256": "8a444e73605dacbd7ea788b1d56dda51a4990258db7a0a1cd8cf25a07274e3a8",
+      "translated_at": "2026-07-04T14:52:11.881030+00:00",
+      "provider": "xai",
+      "model": "grok-4-1-fast-non-reasoning"
+    }
+  }
+}
