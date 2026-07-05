@@ -1,8 +1,14 @@
 ---
-title: "The Thread: Grok's Summary and Framework Comparisons"
+title: 'The Thread: Grok''s Summary and Framework Comparisons'
 date: 2026-06-06
 draft: false
-summary: "Grok offers a comprehensive summary of the book’s structure, tone, and core ideas — showing how it functions like a practical, non-religious guide for meaning-making — followed by a balanced comparison with other frameworks including Atomic Habits, Stoicism, Autopoiesis, Secular Buddhism, Christopher Alexander’s Pattern Language, and Permaculture."
+summary: Grok offers a comprehensive summary of the book’s structure, tone, and core
+  ideas — showing how it functions like a practical, non-religious guide for meaning-making
+  — followed by a balanced comparison with other frameworks including Atomic Habits,
+  Stoicism, Autopoiesis, Secular Buddhism, Christopher Alexander’s Pattern Language,
+  and Permaculture.
+audio: grok-summary-and-comparison.mp3
+audio_title: Listen to this article
 ---
 
 # The Thread: Grok's Summary and Framework Comparisons

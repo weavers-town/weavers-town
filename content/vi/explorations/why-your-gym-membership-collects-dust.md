@@ -1,7 +1,7 @@
 ---
 date: 2026-05-25
 draft: false
-audio: gym-membership.mp3
+audio: vi/gym-membership.mp3
 title: Tại Sao Thẻ Thành Viên Phòng Tập Của Bạn Bị Bỏ Xó
 summary: Một chẩn đoán chân thực từ Người Dệt về lý do hầu hết mọi người không xây
   dựng được thói quen tập luyện đều đặn — và điều gì thực sự hiệu quả.

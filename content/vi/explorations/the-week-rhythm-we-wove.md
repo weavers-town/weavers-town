@@ -1,7 +1,7 @@
 ---
 date: 2026-06-01
 draft: false
-audio: the-week-rhythm.mp3
+audio: vi/the-week-rhythm.mp3
 title: 'Tuần: Nhịp Điệu Chúng Ta Dệt Vì Tự Nhiên Đã Ban Tặng Một Nhịp'
 summary: Một cuộc khám phá của Người Dệt về lý do tại sao tuần lễ không phải là món
   quà từ bầu trời, mà là nhịp điệu chúng ta nhận ra từ chính cơ thể mình — và tại

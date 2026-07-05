@@ -2,7 +2,13 @@
 title: What Do Atoms Eat? Why Nothing Persists Without Feeding
 date: 2026-06-08
 draft: false
-summary: Every stable pattern — from quantum field excitations and atoms to stars, living organisms, and human meaning-structures — must continuously draw from underlying regularities to maintain itself. There is no perpetual motion at any scale. This exploration traces the universal necessity of feeding across levels of reality and what it means for how we sustain our own lives, relationships, and institutions.
+summary: Every stable pattern — from quantum field excitations and atoms to stars,
+  living organisms, and human meaning-structures — must continuously draw from underlying
+  regularities to maintain itself. There is no perpetual motion at any scale. This
+  exploration traces the universal necessity of feeding across levels of reality and
+  what it means for how we sustain our own lives, relationships, and institutions.
+audio: what-do-atoms-eat-why-nothing-persists-without-feeding.mp3
+audio_title: Listen to this article
 ---
 
 # What Do Atoms Eat? Why Nothing Persists Without Feeding

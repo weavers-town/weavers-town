@@ -1,8 +1,16 @@
 ---
-title: "Stability Reservoirs: The Quiet Fuel of Increasing Complexity"
+title: 'Stability Reservoirs: The Quiet Fuel of Increasing Complexity'
 date: 2026-05-24
 draft: false
-summary: "Across cosmic, biological, and human scales, stable patterns accumulate into powerful Stability Reservoirs — concentrated sources of energy and potential that higher levels of reality draw upon to build greater complexity. From stellar nucleosynthesis and nuclear energy (fission and the promise of fusion) to worldviews, habits, money, and institutions, this piece explores the hidden architecture that fuels increasing order and why shifting toward more abundant lower-level reservoirs may be our most important long-term choice."
+summary: Across cosmic, biological, and human scales, stable patterns accumulate into
+  powerful Stability Reservoirs — concentrated sources of energy and potential that
+  higher levels of reality draw upon to build greater complexity. From stellar nucleosynthesis
+  and nuclear energy (fission and the promise of fusion) to worldviews, habits, money,
+  and institutions, this piece explores the hidden architecture that fuels increasing
+  order and why shifting toward more abundant lower-level reservoirs may be our most
+  important long-term choice.
+audio: stability-reservoirs-the-quiet-fuel-of-increasing-complexity.mp3
+audio_title: Listen to this article
 ---
 
 # Stability Reservoirs: The Quiet Fuel of Increasing Complexity

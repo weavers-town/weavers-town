@@ -1,7 +1,7 @@
 ---
 date: 2026-06-15
 draft: false
-audio: what-do-companies-eat.mp3
+audio: vi/what-do-companies-eat.mp3
 title: Công Ty Ăn Gì? Kho Ổn Định, Nguồn Vốn Và Nhu Cầu Tiêu Hóa
 summary: Các công ty không phải là những thực thể tạo ra giá trị trừu tượng. Giống
   như mọi mô hình ổn định khác trên các thang bậc thực tại, chúng phải liên tục nuôi
