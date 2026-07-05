@@ -18,7 +18,9 @@ The site supports English (default) and Vietnamese.
 - English: `/`, `/book/`, `/explorations/`
 - Vietnamese: `/vi/`, `/vi/book/`, `/vi/explorations/`
 
-Site UI strings live in `i18n/en.yaml` and `i18n/vi.yaml`. The header includes an EN | VI language switcher.
+Site UI strings live in `i18n/en.yaml` and `i18n/vi.yaml`. The header includes a language dropdown that scales to additional locales.
+
+To add a new language (for example Persian), add a `[languages.fa]` block in `hugo.toml`, create `content/fa/` and `i18n/fa.yaml`, and set `dir = "rtl"` in the language params when needed.
 
 Explorations are translated and audio-enabled separately from the book:
 

@@ -10,45 +10,60 @@
         <li><a href="{{ relLangURL `/` }}#weavers-way">{{ i18n "navWeaversWay" }}</a></li>
         <li><a href="{{ relLangURL `/book/` }}">{{ i18n "navTheBook" }}</a></li>
         <li><a href="{{ relLangURL `/explorations/` }}">{{ i18n "navExplorations" }}</a></li>
-        <li class="lang-switcher" aria-label="{{ i18n "navLanguage" }}">
-          {{ partial "language-switcher.html" . }}
-        </li>
       </ul>
     </nav>
-    <a class="site-button site-button--filled nav-cta-desktop" href="{{ relLangURL `/book/` }}">{{ i18n "navReadBook" }}</a>
-    <button class="nav-hamburger" id="nav-hamburger" aria-label="Toggle navigation" aria-expanded="false" aria-controls="primary-nav">
+    <div class="nav-actions">
+      {{ .Scratch.Set "langSwitcherModifier" "" }}
+      {{ partial "language-switcher.html" . }}
+      <a class="site-button site-button--filled nav-cta-desktop" href="{{ relLangURL `/book/` }}">{{ i18n "navReadBook" }}</a>
+    </div>
+    <button class="nav-hamburger" id="nav-hamburger" aria-label="Toggle navigation" aria-expanded="false" aria-controls="nav-mobile-drawer">
       <span></span><span></span><span></span>
     </button>
   </div>
   <div class="nav-mobile-drawer" id="nav-mobile-drawer" aria-hidden="true">
+    {{ .Scratch.Set "langSwitcherModifier" "mobile" }}
+    {{ partial "language-switcher.html" . }}
     <ul class="nav-mobile-links">
       <li><a href="{{ relLangURL `/` }}#the-thread">{{ i18n "navTheThread" }}</a></li>
       <li><a href="{{ relLangURL `/` }}#weavers-way">{{ i18n "navWeaversWay" }}</a></li>
       <li><a href="{{ relLangURL `/book/` }}">{{ i18n "navTheBook" }}</a></li>
       <li><a href="{{ relLangURL `/explorations/` }}">{{ i18n "navExplorations" }}</a></li>
     </ul>
-    <div class="lang-switcher lang-switcher--mobile" aria-label="{{ i18n "navLanguage" }}">
-      {{ partial "language-switcher.html" . }}
-    </div>
-    <a class="site-button site-button--filled" href="{{ relLangURL `/book/` }}">{{ i18n "navReadBook" }}</a>
+    <a class="site-button site-button--filled nav-cta-mobile" href="{{ relLangURL `/book/` }}">{{ i18n "navReadBook" }}</a>
   </div>
 </header>
 <script>
 (function () {
+  var nav = document.getElementById('site-nav');
   var btn = document.getElementById('nav-hamburger');
   var drawer = document.getElementById('nav-mobile-drawer');
-  var nav = document.getElementById('site-nav');
-  if (!btn || !drawer) return;
-  btn.addEventListener('click', function () {
-    var open = nav.classList.toggle('nav-open');
-    btn.setAttribute('aria-expanded', String(open));
-    drawer.setAttribute('aria-hidden', String(!open));
-  });
-  drawer.querySelectorAll('a').forEach(function (a) {
-    a.addEventListener('click', function () {
-      nav.classList.remove('nav-open');
-      btn.setAttribute('aria-expanded', 'false');
-      drawer.setAttribute('aria-hidden', 'true');
+
+  function closeDrawer() {
+    if (!nav || !btn || !drawer) return;
+    nav.classList.remove('nav-open');
+    btn.setAttribute('aria-expanded', 'false');
+    drawer.setAttribute('aria-hidden', 'true');
+  }
+
+  if (btn && drawer) {
+    btn.addEventListener('click', function () {
+      var open = nav.classList.toggle('nav-open');
+      btn.setAttribute('aria-expanded', String(open));
+      drawer.setAttribute('aria-hidden', String(!open));
+    });
+
+    drawer.querySelectorAll('a').forEach(function (link) {
+      link.addEventListener('click', closeDrawer);
+    });
+  }
+
+  document.querySelectorAll('[data-lang-switcher]').forEach(function (select) {
+    select.addEventListener('change', function () {
+      var url = select.value;
+      if (!url || url === window.location.pathname) return;
+      closeDrawer();
+      window.location.href = url;
     });
   });
 })();

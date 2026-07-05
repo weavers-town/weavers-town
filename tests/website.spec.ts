@@ -25,11 +25,11 @@ test("vietnamese home page renders key content", async ({ page }) => {
 
 test("language switcher links between locales", async ({ page }) => {
   await page.goto("/book/");
-  await page.getByRole("link", { name: "VI" }).click();
+  await page.locator("#lang-switcher-desktop").selectOption({ label: "Tiếng Việt" });
   await expect(page).toHaveURL(/\/vi\/book\//);
-  await expect(page.locator("#primary-nav .lang-switcher__current")).toHaveText("VI");
+  await expect(page.locator("#lang-switcher-desktop")).toHaveValue(/\/vi\/book/);
 
-  await page.locator("#primary-nav").getByRole("link", { name: "EN" }).click();
+  await page.locator("#lang-switcher-desktop").selectOption({ label: "English" });
   await expect(page).toHaveURL(/\/book\/$/);
 });
 
