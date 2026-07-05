@@ -20,14 +20,17 @@ The site supports English (default) and Vietnamese.
 
 Site UI strings live in `i18n/en.yaml` and `i18n/vi.yaml`. The header includes an EN | VI language switcher.
 
-Explorations are translated separately from the book:
+Explorations are translated and audio-enabled separately from the book:
 
 ```bash
 export XAI_API_KEY="xai-..."   # or add to .env / threads-of-meaning/.env
-npm run translate
+npm run audio                 # generate missing/changed exploration MP3s (en + vi)
+npm run translate             # Vietnamese posts in content/vi/explorations/
 ```
 
-This writes Vietnamese posts to `content/vi/explorations/` from `content/explorations/`.
+When you add a new exploration markdown file under `content/explorations/`, the deploy
+workflow generates English and Vietnamese MP3s with xAI TTS, updates `audio:` frontmatter,
+and commits the results before building the site.
 
 ## How book updates arrive here
 
