@@ -5,6 +5,8 @@ title: Ý Chí Tự Do như một Vỏ Bảo Vệ Cấp Cao
 summary: Qua lăng kính Sợi Chỉ, ý chí tự do dường như không còn là một bí ẩn siêu
   hình mà trở thành một vỏ bảo vệ mạnh mẽ mà con người đã dệt nên để ổn định trách
   nhiệm đạo đức, quyền tự quyết cá nhân và sự phối hợp xã hội.
+audio: vi/free-will-as-a-container.mp3
+audio_title: Nghe bài viết này
 ---
 
 # Ý Chí Tự Do như một Vỏ Bảo Vệ Cấp Cao

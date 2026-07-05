@@ -1,8 +1,12 @@
 ---
-title: "Free Will as a High-Level Container"
+title: Free Will as a High-Level Container
 date: 2026-05-23
 draft: false
-summary: "Through the lens of The Thread, free will looks less like a metaphysical mystery and more like a powerful protective container humans wove to stabilize moral responsibility, personal agency, and social coordination."
+summary: Through the lens of The Thread, free will looks less like a metaphysical
+  mystery and more like a powerful protective container humans wove to stabilize moral
+  responsibility, personal agency, and social coordination.
+audio: free-will-as-a-container.mp3
+audio_title: Listen to this article
 ---
 
 # Free Will as a High-Level Container

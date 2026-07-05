@@ -1,0 +1,24 @@
+{
+  "files": {
+    "en/free-will-as-a-container": {
+      "source_sha256": "248fe592c3980531c2b3e48aae60e13f59ef2849a4416629fbf9761f269f7ec9",
+      "source": "content/explorations/free-will-as-a-container.md",
+      "output": "static/audio/free-will-as-a-container.mp3",
+      "language": "en",
+      "chunks": 1,
+      "chars": 4635,
+      "voice_id": "leo",
+      "generated_at": "2026-07-05T08:42:41Z"
+    },
+    "vi/free-will-as-a-container": {
+      "source_sha256": "9ba304c3b5a4172095307ab6be77e2faf0df32fd768fc14fefe2ccc3b33fb948",
+      "source": "content/vi/explorations/free-will-as-a-container.md",
+      "output": "static/audio/vi/free-will-as-a-container.mp3",
+      "language": "vi",
+      "chunks": 1,
+      "chars": 5120,
+      "voice_id": "leo",
+      "generated_at": "2026-07-05T08:44:17Z"
+    }
+  }
+}
