@@ -40,17 +40,17 @@ trúc — vật chất, xã hội và biểu tượng — để gìn giữ tri t
 thế hệ. Stonehenge và Lịch Đếm Dài Maya không chỉ là những công cụ đo
 thời gian. Chúng là những công nghệ của ý nghĩa: những cách thức chuyển
 đổi cái dường như ngẫu nhiên thành cái có thể dự đoán, cái vô hình thành
-cái có thể hành động \<<PROTECTED_0>\>. Một lịch gắn với chu kỳ lũ của
-sông Nile có nghĩa là sự khác biệt giữa một mùa trồng trọt có tổ chức và
-nạn đói kém. Quan sát thiên văn trở thành hạ tầng công dân.
+cái có thể hành động (Aveni 1997; Krupp 1997). Một lịch gắn với chu kỳ
+lũ của sông Nile có nghĩa là sự khác biệt giữa một mùa trồng trọt có tổ
+chức và nạn đói kém. Quan sát thiên văn trở thành hạ tầng công dân.
 
 Ở Lưỡng Hà, Ai Cập, dãy Andes và Đông Á, các nền văn minh đã đầu tư nỗ
 lực to lớn để điều chỉnh đời sống hàng ngày theo những quy luật thiên
 văn này. Tri thức thiên văn gắn liền với nông nghiệp, nghi lễ và trật tự
 chính trị. Như các nhà khảo cổ thiên văn Anthony Aveni và E. C. Krupp đã
 chỉ ra, những hệ thống này đã biến những quy luật quan sát được thành
-thực hành chung bền vững \<<PROTECTED_1>\>. Vũ trụ không chỉ đẹp đẽ. Nó
-hữu ích — và nó có thể đọc được, nếu bạn chú ý đủ kỹ.
+thực hành chung bền vững (Aveni 1997; Krupp 1997). Vũ trụ không chỉ đẹp
+đẽ. Nó hữu ích — và nó có thể đọc được, nếu bạn chú ý đủ kỹ.
 
 > **Điều Này Trông Như Thế Nào Trong Đời Thực**
 >
@@ -71,10 +71,10 @@ ngoài đời sống cá nhân.
 Các đường ca hát của thổ dân Úc đã mã hóa luật pháp, địa lý và sinh thái
 trong những con đường được hát lên. Các đường ceque của người Inca tỏa
 ra từ Cuzco như những nan hoa của một bánh xe nghi lễ, gắn kết đế chế,
-thiên văn và tổ tiên \<<PROTECTED_2>\>. Đây là những *vật chứa bảo vệ*
-ban đầu: những ranh giới của thực hành đã biến những sự kiện thoáng qua
-thành thực tại xã hội bền vững. Quy luật không chỉ được quan sát. Nó
-được *thể chế hóa*.
+thiên văn và tổ tiên (Berger and Luckmann 1966; Giddens 1984). Đây là
+những *vật chứa bảo vệ* ban đầu: những ranh giới của thực hành đã biến
+những sự kiện thoáng qua thành thực tại xã hội bền vững. Quy luật không
+chỉ được quan sát. Nó được *thể chế hóa*.
 
 ## Ba Cảnh Tượng Của Việc Tạo Nên Ý Nghĩa
 
@@ -114,7 +114,7 @@ kịch tính, mà bằng cách *lặp lại*.
 Các nhà tư tưởng qua nhiều truyền thống đã nâng trực giác này thành
 triết học rõ ràng. Aristotle xem những chuyển động đều đặn của bầu trời
 là bằng chứng của mục đích nội tại (*telos*) và nền tảng của khoa học tự
-nhiên \<<PROTECTED_3>\>. Ở Trung Quốc, khái niệm *lễ* (nghi lễ) đặt các
+nhiên (Aristotle, n.d.). Ở Trung Quốc, khái niệm *lễ* (nghi lễ) đặt các
 thực hành con người lặp lại như tấm gương trần thế của *đạo* trên trời,
 hài hòa hành vi cá nhân với quy luật vũ trụ. Thần thoại Hy Lạp nhân cách
 hóa những hành tinh lang thang. Các thánh ca Vệ Đà ca ngợi sự hiến tế có
@@ -127,12 +127,12 @@ theo nó.
 
 Carl Sagan đã nắm bắt được sự ngưỡng mộ bền bỉ: tính quy luật của vũ trụ
 khơi dậy trong chúng ta khát vọng hiểu vị trí của mình bên trong nó.
-“Chúng ta là một cách để vũ trụ tự nhận thức chính mình”
-\<<PROTECTED_4>\>. Dù thông qua các danh mục sao Babylon, triết học Hy
-Lạp, các đường ca hát của người bản địa, hay vũ trụ học hiện đại, xung
-lực vẫn là một — những quy luật lặp lại khơi gợi những câu hỏi hiện sinh
-và mời gọi chúng ta xây dựng những khuôn khổ khiến những quy luật ấy có
-thể sử dụng được cho đời sống tập thể.
+“Chúng ta là một cách để vũ trụ tự nhận thức chính mình” (Sagan 1985).
+Dù thông qua các danh mục sao Babylon, triết học Hy Lạp, các đường ca
+hát của người bản địa, hay vũ trụ học hiện đại, xung lực vẫn là một —
+những quy luật lặp lại khơi gợi những câu hỏi hiện sinh và mời gọi chúng
+ta xây dựng những khuôn khổ khiến những quy luật ấy có thể sử dụng được
+cho đời sống tập thể.
 
 ## Tính Quy Luật như Công Nghệ Đầu Tiên của Nhân Loại về Ý Nghĩa
 
@@ -160,7 +160,11 @@ khả năng phối hợp tập thể mới mà những cá nhân cô lập khôn
 
 **Hình 1: Chu Trình Hình Thành Tính Quy Luật**
 
-\<<PROTECTED_5>\>
+<figure>
+<img src="/images/regularity-formation-cycle.jpg"
+alt="Regularity Formation Cycle" />
+<figcaption aria-hidden="true">Regularity Formation Cycle</figcaption>
+</figure>
 
 *Hình 1: Cách các xã hội loài người biến những tính quy luật quan sát
 được thành ý nghĩa chung thông qua thực hành lặp lại và những bình chứa
@@ -226,3 +230,48 @@ dụng cùng một logic vào cuộc sống của chính mình.
 - Nhiệm vụ của thời đại hiện đại là hiểu rõ cơ chế của những bình chứa
   này để chúng ta có thể sử dụng chúng một cách có ý thức hơn — và đó
   chính là mục đích của thấu kính mà cuốn sách gọi là **Sợi Chỉ**.
+
+<div id="refs" class="references csl-bib-body hanging-indent"
+entry-spacing="0">
+
+<div id="ref-aristotleMetaphysics" class="csl-entry">
+
+Aristotle. n.d. *Metaphysics*.
+
+</div>
+
+<div id="ref-aveni1997" class="csl-entry">
+
+Aveni, Anthony F. 1997. *Empires of Time: Calendars, Clocks, and
+Cultures*. University Press of Colorado.
+
+</div>
+
+<div id="ref-bergerLuckmann1966" class="csl-entry">
+
+Berger, Peter L., and Thomas Luckmann. 1966. *The Social Construction of
+Reality: A Treatise in the Sociology of Knowledge*. Penguin.
+
+</div>
+
+<div id="ref-giddens1984" class="csl-entry">
+
+Giddens, Anthony. 1984. *The Constitution of Society: Outline of the
+Theory of Structuration*. Polity Press.
+
+</div>
+
+<div id="ref-krupp1997" class="csl-entry">
+
+Krupp, E. C. 1997. *Skywatchers, Shamans and Kings: Astronomy and the
+Archaeology of Power*. John Wiley & Sons.
+
+</div>
+
+<div id="ref-sagan1985" class="csl-entry">
+
+Sagan, Carl. 1985. *Contact*. Simon; Schuster.
+
+</div>
+
+</div>

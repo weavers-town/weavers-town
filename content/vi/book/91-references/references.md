@@ -13,10 +13,6 @@ slug: "references"
 </div>
 
 
-<div class="<<PROTECTED_3>>">
-
-</div>
-
 <div id="refs" class="references csl-bib-body hanging-indent"
 entry-spacing="0">
 

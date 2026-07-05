@@ -78,11 +78,11 @@ cá nhân lặp lại.
 Một khái niệm là những gì còn lại sau khi nhiều cuộc gặp gỡ lắng đọng
 thành một kỳ vọng có thể sử dụng được. Bạn nhìn thấy chim sau chim và
 tâm trí bắt đầu biết phải tìm kiếm điều gì: đôi cánh, chuyển động, tiếng
-hót, sự mỏng manh, môi trường sống \<<PROTECTED_0>\>. Các khái niệm
-không phải là những cái tên tùy ý cũng không phải là những tấm gương
-hoàn hảo phản chiếu thế giới. Chúng là những thành tựu thực tiễn — những
-khuôn mẫu được nén lại cho phép một tâm trí vận hành hiệu quả trong một
-môi trường phức tạp.
+hót, sự mỏng manh, môi trường sống (Rosch 1978; Barsalou 1999). Các khái
+niệm không phải là những cái tên tùy ý cũng không phải là những tấm
+gương hoàn hảo phản chiếu thế giới. Chúng là những thành tựu thực tiễn —
+những khuôn mẫu được nén lại cho phép một tâm trí vận hành hiệu quả
+trong một môi trường phức tạp.
 
 Đây là cách một thế giới quan được xây dựng: không phải được truyền lại
 như một hệ thống hoàn chỉnh, mà được lắp ráp, từng mảnh một, thông qua
@@ -102,7 +102,8 @@ có thể xảy ra mà nếu không thì không thể tồn tại. Giao tiếp t
 quả — bạn không cần phải đàm phán lại những giả định cơ bản trong mỗi
 tương tác. Sự hợp tác mở rộng quy mô — những quy tắc và kỳ vọng chung
 làm giảm đáng kể ma sát. Niềm tin tích tụ — bởi vì hành vi có thể dự
-đoán được là hành vi đáng tin cậy \<<PROTECTED_1>\>.
+đoán được là hành vi đáng tin cậy (Berger and Luckmann 1966; Giddens
+1984).
 
 Sức mạnh của bất kỳ thế giới quan nào có thể được đánh giá qua hai thước
 đo. Thứ nhất, *mức độ được chia sẻ rộng rãi*: càng nhiều người nắm giữ
@@ -226,15 +227,7 @@ những khái niệm này dường như chỉ là sản phẩm thuần túy củ
 tượng. Nhưng một khi khái niệm được tạo ra và được đủ số người chia sẻ,
 nó không còn chỉ là điều tưởng tượng nữa. Niềm tin chung thúc đẩy sự
 phối hợp thực sự trong thế giới xã hội, tạo ra những mô thức hành vi, sự
-liên tục và hệ quả thực tế \<<PROTECTED_2>\>.
-
-Đây là khởi nguyên của mọi câu chuyện chung mà nhân loại từng kể: huyền
-thoại, tôn giáo, hệ tư tưởng, luật pháp, tiền tệ, quốc tịch. Lúc đầu,
-những khái niệm này dường như chỉ là sản phẩm thuần túy của trí tưởng
-tượng. Nhưng một khi khái niệm được tạo ra và được đủ số người chia sẻ,
-nó không còn chỉ là điều tưởng tượng nữa. Niềm tin chung thúc đẩy sự
-phối hợp thực sự trong thế giới xã hội, tạo ra những mô thức hành vi, sự
-liên tục và hệ quả thực tế \<<PROTECTED_3>\>.
+liên tục và hệ quả thực tế (Searle 1995; Epstein 2015).
 
 Chúng ta không chỉ mô phỏng thực tại bên trong tâm trí mình. Chúng ta mô
 phỏng những tâm trí đang mô phỏng lẫn nhau. Chúng ta suy nghĩ về điều
@@ -246,12 +239,6 @@ quy mô lớn, không dựa trên quan hệ huyết thống. Nó cũng khai sinh
 trong những năng lực đặc trưng nhất của chúng ta: nghệ thuật kể chuyện —
 khả năng chia sẻ những mô phỏng nội tâm với nhau, truyền tải giá trị,
 đạo đức và ý nghĩa qua các thế hệ.
-
-Đây là cấp độ thứ hai của thực tại: trước hết là những quy luật chúng ta
-khám phá trong thế giới vật lý, sau đó là những quy luật chúng ta cùng
-nhau tạo ra trong những tâm trí chia sẻ. Cả hai đều thực sự trong hiệu
-ứng của chúng. Cả hai đều định hình hành vi. Cả hai đều liên tục được
-xây dựng, tái xây dựng và tranh luận.
 
 Đây là cấp độ thứ hai của thực tại: trước hết là những quy luật chúng ta
 khám phá trong thế giới vật lý, sau đó là những quy luật chúng ta cùng
@@ -345,7 +332,8 @@ năng lượng để hành động, đủ sự liên tục để trao cho hành 
 hướng.
 
 Ràng buộc không phải lúc nào cũng là kẻ thù của cơ quan. Thường thì nó
-là điều kiện khiến cơ quan trở nên có năng lực \<<PROTECTED_4>\>.
+là điều kiện khiến cơ quan trở nên có năng lực (Giddens 1984; Haslanger
+2018).
 
 ## Tổng Hợp Đang Hoạt Động
 
@@ -392,3 +380,58 @@ cẩn trọng hơn. Chương 4 sẽ cho thấy điều đó.
   Người Dệt là tìm ra sự cân bằng — bảo vệ những gì duy trì sự sống đồng
   thời chậm rãi dệt những sợi chỉ bền vững hơn ở những nơi chúng có thể
   bám rễ.
+
+<div id="refs" class="references csl-bib-body hanging-indent"
+entry-spacing="0">
+
+<div id="ref-barsalou1999" class="csl-entry">
+
+Barsalou, Lawrence W. 1999. “Perceptual Symbol Systems.” *Behavioral and
+Brain Sciences* 22 (4): 577–660.
+<https://doi.org/10.1017/S0140525X99002149>.
+
+</div>
+
+<div id="ref-bergerLuckmann1966" class="csl-entry">
+
+Berger, Peter L., and Thomas Luckmann. 1966. *The Social Construction of
+Reality: A Treatise in the Sociology of Knowledge*. Penguin.
+
+</div>
+
+<div id="ref-epstein2015" class="csl-entry">
+
+Epstein, Brian. 2015. *The Ant Trap: Rebuilding the Foundations of the
+Social Sciences*. Oxford University Press.
+
+</div>
+
+<div id="ref-giddens1984" class="csl-entry">
+
+Giddens, Anthony. 1984. *The Constitution of Society: Outline of the
+Theory of Structuration*. Polity Press.
+
+</div>
+
+<div id="ref-haslanger2018" class="csl-entry">
+
+Haslanger, Sally. 2018. “What Is a Social Practice?” *Royal Institute of
+Philosophy Supplement* 82: 231–47.
+
+</div>
+
+<div id="ref-rosch1978" class="csl-entry">
+
+Rosch, Eleanor. 1978. “Principles of Categorization.” In *Cognition and
+Categorization*, edited by Eleanor Rosch and Barbara B. Lloyd, 27–48.
+Lawrence Erlbaum.
+
+</div>
+
+<div id="ref-searle1995" class="csl-entry">
+
+Searle, John R. 1995. *The Construction of Social Reality*. Free Press.
+
+</div>
+
+</div>

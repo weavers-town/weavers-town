@@ -36,7 +36,7 @@ chúng ta đang thực sự quan sát là hữu ích. Các nhà vật lý đã x
 được một tập hợp đáng ngạc nhiên nhỏ các khối xây dựng cơ bản. Theo Mô
 hình Chuẩn của vật lý hạt, có mười hai hạt vật chất, sáu quark và sáu
 lepton, cùng với một số hạt mang lực truyền tải các tương tác giữa chúng
-\<<PROTECTED_0>\>.
+(R. P. Feynman, Leighton, and Sands 1963; R. Feynman 1965).
 
 Mười hai hạt vật chất này được sắp xếp thành ba thế hệ hay ba họ. Thế hệ
 đầu tiên chứa các phiên bản nhẹ nhất: hai quark (gọi là “up” và “down”)
@@ -87,7 +87,11 @@ quy luật đáng tin cậy đầu tiên có thể được chuyển giao lên t
 
 **Hình 7: Các Ngăn Hạ Nguyên Tử**
 
-\<<PROTECTED_2>\>
+<figure>
+<img src="/images/subatomic-compartments.jpg"
+alt="Subatomic Compartments" />
+<figcaption aria-hidden="true">Subatomic Compartments</figcaption>
+</figure>
 
 *Hình 7: Các quark đạt được sự phân ngăn thông qua sự bão hòa điện tích
 màu, tạo thành các proton cực kỳ ổn định với các chế độ tương tác không
@@ -156,4 +160,29 @@ neutron, các electron bị khóa trong nguyên tử, trở thành những mô h
 tương tác ổn định đầu tiên mà mọi thứ khác đều phụ thuộc vào. Như
 Azarian nhận xét trong The Romance of Reality, những quy tắc đơn giản,
 được lặp lại qua những thang đo thời gian khổng lồ, có thể xây dựng nên
-những lượng trật tự đáng kinh ngạc \<<PROTECTED_1>\>.
+những lượng trật tự đáng kinh ngạc (Azarian 2022).
+
+<div id="refs" class="references csl-bib-body hanging-indent"
+entry-spacing="0">
+
+<div id="ref-azarian2022" class="csl-entry">
+
+Azarian, Bobby. 2022. *The Romance of Reality: How the Universe Creates
+Itself and Why It Matters*. BenBella Books.
+
+</div>
+
+<div id="ref-feynman1965" class="csl-entry">
+
+Feynman, Richard. 1965. *The Character of Physical Law*. MIT Press.
+
+</div>
+
+<div id="ref-feynman1963" class="csl-entry">
+
+Feynman, Richard P., Robert B. Leighton, and Matthew Sands. 1963. *The
+Feynman Lectures on Physics*. Addison-Wesley.
+
+</div>
+
+</div>

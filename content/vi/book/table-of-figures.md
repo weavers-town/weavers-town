@@ -8,13 +8,13 @@ version: "7.3"
 
 # Bảng hình ảnh
 
-- [Figure 1: Regularity Formation Cycle](/vi/book/11-roots-of-regularity/the-roots-of-regularity/)
-- [Figure 2: The Hierarchy of Meaning](/vi/book/12-hierarchy-of-meaning/a-hierarchy-of-meaning/)
-- [Figure 3: Compartmentalization Process](/vi/book/12-hierarchy-of-meaning/a-hierarchy-of-meaning/)
-- [Figure 4: Stability Thresholds](/vi/book/12-hierarchy-of-meaning/a-hierarchy-of-meaning/)
-- [Figure 5: Brain as Simulator](/vi/book/12-hierarchy-of-meaning/a-hierarchy-of-meaning/)
-- [Figure 6: Expanding Possibility Space](/vi/book/12-hierarchy-of-meaning/a-hierarchy-of-meaning/)
-- [Figure 7: Subatomic Compartments](/vi/book/70-appendix-a-deeper-look-at-the-subatomic-foundations/appendix-a-a-deeper-look-at-the-subatomic-foundations/)
-- [Figure 8: The Weaver's Way Practice](/vi/book/14-the-weavers-way-a-meta-ideology-in-practice/the-weaver-s-way-a-meta-ideology-in-practice/)
-- [Figure 9: Scales of Compartments](/vi/book/12-hierarchy-of-meaning/a-hierarchy-of-meaning/)
-- [Figure 10: The Grand Search](/vi/book/12-hierarchy-of-meaning/a-hierarchy-of-meaning/)
+- [Hình 1: Chu kỳ hình thành tính quy luật](/vi/book/11-roots-of-regularity/the-roots-of-regularity/)
+- [Hình 2: Hệ thống phân cấp ý nghĩa](/vi/book/12-hierarchy-of-meaning/a-hierarchy-of-meaning/)
+- [Hình 3: Quá trình ngăn chia](/vi/book/12-hierarchy-of-meaning/a-hierarchy-of-meaning/)
+- [Hình 4: Ngưỡng ổn định](/vi/book/12-hierarchy-of-meaning/a-hierarchy-of-meaning/)
+- [Hình 5: Não như máy mô phỏng](/vi/book/12-hierarchy-of-meaning/a-hierarchy-of-meaning/)
+- [Hình 6: Mở rộng không gian khả năng](/vi/book/12-hierarchy-of-meaning/a-hierarchy-of-meaning/)
+- [Hình 7: Các ngăn hạ nguyên tử](/vi/book/70-appendix-a-deeper-look-at-the-subatomic-foundations/appendix-a-a-deeper-look-at-the-subatomic-foundations/)
+- [Hình 8: Thực hành Con Đường Người Dệt](/vi/book/14-the-weavers-way-a-meta-ideology-in-practice/the-weaver-s-way-a-meta-ideology-in-practice/)
+- [Hình 9: Các quy mô ngăn](/vi/book/12-hierarchy-of-meaning/a-hierarchy-of-meaning/)
+- [Hình 10: Cuộc Tìm Kiếm Lớn](/vi/book/12-hierarchy-of-meaning/a-hierarchy-of-meaning/)

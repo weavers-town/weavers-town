@@ -282,7 +282,11 @@ Cùng nhau, chúng tạo thành bộ công cụ cốt lõi của Người Dệt.
 
 **Hình 8: Thực Hành Con Đường Người Dệt**
 
-\<<PROTECTED_0>\>
+<figure>
+<img src="/images/weavers-way-flowchart.jpg"
+alt="The Weaver’s Way Practice" />
+<figcaption aria-hidden="true">The Weaver’s Way Practice</figcaption>
+</figure>
 
 *Hình 8: Vòng lặp thực hành để nhận diện những quy luật lặp lại, chẩn
 đoán chất lượng của các thùng chứa, và củng cố những sợi chỉ nuôi dưỡng

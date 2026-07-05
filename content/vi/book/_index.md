@@ -5,13 +5,13 @@ edition: "1"
 version: "7.3"
 ---
 
-![Book cover](/images/front-page.jpg)
+![Bìa sách](/images/front-page.jpg)
 
 # Chỉ Duyên Nghĩa
 
 **Arman Fatahi**
 
-**date: '2026-04-01'**
+**2026**
 
 **Ấn bản 1 • Phiên bản 7.3**
 
