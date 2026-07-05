@@ -16,7 +16,7 @@ Bài viết này sử dụng một vài ý tưởng đơn giản từ cuốn sá
 
 ---
 
-<<PROTECTED_0>>
+{{< figure src="/images/gym-membership-hero.jpg" alt="A person sitting on their couch at night, staring at an unused gym membership card and gym bag with a quiet sense of regret. Soft lighting, minimalist and introspective mood." caption="The Common Reality" >}}
 
 Mọi người đều đã có một hệ thống thói quen và thói quen hàng ngày đầy đủ lấp kín thời gian của mình. Ngay cả “ngồi bệt trên ghế sofa lướt điện thoại sau giờ làm” hay “thả lỏng đầu óc vào buổi tối” cũng là những thói quen thực sự — một mô thức ổn định đòi hỏi gần như không tốn sức và âm thầm hỗ trợ một số khía cạnh trong cuộc sống và bản sắc hiện tại của bạn.
 
@@ -30,7 +30,7 @@ Trước khi bất kỳ hoạt động nào trở thành thói quen thực sự 
 
 Chỉ sau nhiều lần lặp lại, thói quen mới vượt qua **ngưỡng ổn định** (điểm mà nó không còn cảm giác như một công việc nặng nhọc mà trở nên tự nhiên và tự duy trì). Lúc đó nó chuyển từ khoản đầu tư đòi hỏi nỗ lực cao sang giai đoạn bảo trì dễ dàng hơn nhiều. Hầu hết những người trông “tự nhiên kiên trì” ở phòng tập đã ở trong giai đoạn bảo trì dễ dàng này. Những gì bạn nhìn thấy là kết quả đã hoàn thiện — chứ không phải chi phí để đạt được nó.
 
-<<PROTECTED_1>>
+{{< figure src="/images/stability-threshold-crossing.jpg" alt="A symbolic illustration of a person climbing over a glowing threshold from struggle into calm consistency. Hopeful and clear visual metaphor." caption="Crossing the Stability Threshold" >}}
 
 ## Tại Sao Hầu Hết Mọi Người Thất Bại
 
@@ -50,7 +50,7 @@ Vì vậy khi mọi người nói “chỉ cần hoán đổi một giờ lướ
 
 Đây là điều mà cuốn sách gọi là **quá tải** — cố gắng ép buộc những đòi hỏi mới vào một hệ thống đã hoạt động hết công suất. Thói quen mới không bao giờ nhận đủ năng lượng nhất quán để ổn định, và những lĩnh vực quan trọng khác của cuộc sống bắt đầu bị ảnh hưởng một cách thầm lặng.
 
-<<PROTECTED_2>>
+{{< figure src="/images/energy-tradeoff-scrolling-vs-gym.jpg" alt="Split image comparing low-energy scrolling on a couch versus high-energy gym workout, clearly showing the difference in energy cost." caption="The Real Energy Trade-off" >}}
 
 **3. Thói Quen Mới Không Bao Giờ Xây Dựng Được Sức Mạnh Riêng**  
 Để một thói quen tồn tại lâu dài, cuối cùng nó cần tạo ra **vỏ bảo vệ tự củng cố** — một nhịp điệu hoặc cấu trúc đáng tin cậy giúp che chở cho nó. Điều này thường xảy ra thông qua **sự tương tác lặp lại** (làm cùng một việc vào cùng một thời điểm, theo cùng một cách, lặp đi lặp lại) cho đến khi mô thức trở nên đủ mạnh để những xáo trộn nhỏ không còn phá vỡ nó nữa.
@@ -67,15 +67,15 @@ Những người thành công với việc tập luyện trong thời gian dài 
 
 Thói quen mới không nhất thiết phải cứng nhắc hay tất cả-hoặc-không. Sau khi trung thực xem xét cuộc sống và năng lượng của mình, bạn có thể nhận ra rằng mình không thể duy trì ba lần một tuần một cách bền vững. Điều đó ổn. Bắt đầu chỉ với **một ngày mỗi tuần** vẫn là đang dệt một sợi chỉ thực sự. Sự đánh đổi trở nên ít khắc nghiệt hơn nhiều, và bạn tự trao cho mình cơ hội thành công cao hơn nhiều. Bạn luôn có thể tăng tần suất sau này khi thói quen đã ổn định và không còn tiêu tốn năng lượng của bạn nhiều như trước.
 
-<<PROTECTED_3>>
+{{< figure src="/images/starting-small-flexible-habit.jpg" alt="A calm person doing a single gentle workout in soft morning light, representing starting small and sustainable." caption="Start Small, Stay Consistent" >}}
 
 Cuộc sống hiện tại của bạn được hỗ trợ bởi nhiều quy luật vô hình — khối lượng công việc, tình hình gia đình, các mối quan hệ, nơi bạn sống, các mùa, và vô số thứ khác giúp mọi thứ vận hành. Nhiều người thêm một thói quen mới trong một khoảng thời gian ngắn khi mọi thứ dường như ổn định. Họ đầu tư mạnh (thành viên đắt tiền, cam kết lớn) chỉ để rồi cuộc sống thay đổi vài tháng sau đó. Công việc bận rộn, một tình huống gia đình thay đổi, hoặc điều gì đó bất ngờ xảy ra — và thói quen mới không có lớp đệm. Nó sụp đổ vì nền tảng mà nó được xây dựng đã dịch chuyển.
 
 Người Dệt nghĩ trước: Trước khi cam kết, hãy tự hỏi, “Điều gì sẽ xảy ra nếu có gì đó thay đổi? Liệu tôi có còn đủ lớp đệm và khả năng phục hồi để giữ thói quen này sống sót không?” Đừng dồn hết năng lượng tối đa vào một điều gì đó ngay từ đầu. Bắt đầu nhỏ hơn, xây dựng dần dần, và lên kế hoạch cho thực tế rằng cuộc sống sẽ không mãi mãi ổn định hoàn hảo.
 
-<<PROTECTED_4>>
+{{< figure src="/images/invisible-foundations-of-life.jpg" alt="A person standing on an intricate glowing web of threads representing work, family, relationships, and routines that support daily life." caption="The Invisible Foundations of Your Life" >}}
 
-<<PROTECTED_5>>
+{{< figure src="/images/life-changes-no-buffer.jpg" alt="A peaceful scene of someone heading to the gym suddenly disrupted by life changes — work stress, family, and chaos breaking through." caption="When Life Shifts, Does Your Habit Hold?" >}}
 
 ## Một Ghi Chú về Huấn Luyện Viên Cá Nhân và Kho Ổn Định
 
@@ -85,7 +85,7 @@ Tuy nhiên, có một thực tế quan trọng về dài hạn: nếu bạn dự
 
 Mục tiêu của Người Dệt là cuối cùng đứng vững bằng chính mình. Một huấn luyện viên cá nhân có thể là sự hỗ trợ tạm thời tuyệt vời — như bánh xe phụ — nhưng chiến thắng thực sự là khi thói quen trở nên đủ mạnh để tiếp tục ngay cả khi huấn luyện viên không còn ở đó nữa.
 
-<<PROTECTED_6>>
+{{< figure src="/images/personal-trainer-stability-reservoir.jpg" alt="A person crossing a bridge with temporary support from a trainer, eventually standing strong on their own. Symbolic and hopeful." caption="Temporary Support vs. Long-term Independence" >}}
 
 
 ## Sợi Chỉ Sống: Làm Thế Nào Một Thói Quen Tập Gym Tạo Ra Một Ý Nghĩa Hoàn Toàn Mới

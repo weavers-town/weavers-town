@@ -17,7 +17,7 @@ audio_title: گوش دادن به این مقاله
 
 ---
 
-<<PROTECTED_0>>
+{{< figure src="/images/week-hero.jpg" alt="A person standing between a glowing full moon in the night sky and their own chest, where a soft weekly pulse of light is visible. The contrast between the sky and the internal rhythm is clear and poetic." caption="The Sky Gave Us the Month and Year. We Gave Ourselves the Week." >}}
 
 یک سال خورشیدی شاهکاری از مشاهده است.  
 یک ماه قمری کاری هنری است — ماه هر شب آن را برایتان می‌کشد.
@@ -56,7 +56,7 @@ audio_title: گوش دادن به این مقاله
 
 تقویم هفته ریتم را خلق نکرد. به ریتمی که از پیش وجود داشت، شکل داد.
 
-<<PROTECTED_1>>
+{{< figure src="/images/circaseptan-rhythm.jpg" alt="A quiet scientific illustration showing a human body with a soft seven-day wave pulsing through it — heart, brain, and cells glowing in a gentle weekly cycle. Clean, hopeful, and grounded." caption="The Weekly Pulse Already Inside Us" >}}
 
 ## چرا هفت روز درست به نظر می‌رسید
 
@@ -84,7 +84,7 @@ audio_title: گوش دادن به این مقاله
 
 به همین دلیل است که با وجود آن‌که هیچ چیز در آسمان آن را طلب نمی‌کند، چنین طبیعی به نظر می‌رسد. ما ضرب را اختراع نکردیم. فقط آن را شناختیم، نام نهادیم و محافظت کردیم.
 
-<<PROTECTED_2>>
+{{< figure src="/images/week-as-protective-container.jpg" alt="A glowing seven-day circle surrounding a person, acting like a protective shell. Inside the circle: work, rest, connection, and reflection. Outside: chaos and blur. Warm and reassuring visual." caption="The Week as a Protective Container" >}}
 
 ## هفته امروز — آیا هنوز گوش می‌دهیم؟
 

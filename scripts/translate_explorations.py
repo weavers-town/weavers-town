@@ -253,6 +253,31 @@ def translate_text(text: str, config: Config, client: Any) -> str:
     return protector.restore("\n\n".join(translated_chunks))
 
 
+TOKEN_RE = re.compile(r"<<\s*PROTECTED_(\d+)\s*>>", re.IGNORECASE)
+
+
+def normalize_protected_tokens(text: str) -> str:
+    text = text.replace("<< PROTECTED_", "<<PROTECTED_")
+    text = text.replace("<<PROTECTED_ ", "<<PROTECTED_")
+    return re.sub(r"<<\s*PROTECTED_(\d+)\s*>>", r"<<PROTECTED_\1>>", text, flags=re.IGNORECASE)
+
+
+def restore_unresolved_tokens(translated: str, source: str) -> str:
+    token_map = english_token_map_from_source(source)
+
+    def repl(match: re.Match[str]) -> str:
+        key = f"<<PROTECTED_{match.group(1)}>>"
+        return token_map.get(key, match.group(0))
+
+    return TOKEN_RE.sub(repl, normalize_protected_tokens(translated))
+
+
+def english_token_map_from_source(text: str) -> dict[str, str]:
+    protector = Protector()
+    protector.protect(text)
+    return protector.tokens
+
+
 def field_hint(field: str, config: Config) -> str:
     language = config.target_language
     hints = {
@@ -339,7 +364,7 @@ def translate_file(source_path: Path, config: Config, client: Any, state: dict[s
     _, meta, body = split_front_matter(raw)
 
     translated_meta = {key: meta[key] for key in config.frontmatter_preserve_keys if key in meta}
-    translated_body = translate_text(body, config, client)
+    translated_body = restore_unresolved_tokens(translate_text(body, config, client), body)
 
     h1_title = extract_h1(translated_body)
     if h1_title:

@@ -41,7 +41,7 @@ audio_title: گوش دادن به این مقاله
 
 در جهان اولیه، نخستین اتم‌های پایدار عمدتاً هیدروژن و هلیوم بودند — ساده، فراوان، اما محدود. آن‌ها در ابرهای عظیم انباشته شدند. هنگامی که مقدار کافی گرد آمد، گرانش از آستانه‌ای عبور کرد و نخستین ستارگان شعله‌ور شدند.
 
-<<PROTECTED_0>>
+{{< figure src="/images/stability-reservoirs-cosmic-scale.jpg" alt="A breathtaking view of the early universe transitioning into the first stars. Hydrogen clouds condensing into brilliant young stars against a dark cosmic background, with subtle glowing filaments showing accumulation and threshold crossing. Cinematic, scientific, awe-inspiring, high detail." caption="Cosmic Scale" >}}
 
 ستارگان صرفاً مجموعه‌ای از اتم‌ها نیستند. آن‌ها **تغذیه‌کننده‌های سطح بالاتر** هستند. آن‌ها از مخزن هیدروژن انباشته‌شده مصرف می‌کنند و از طریق همجوشی هسته‌ای، آن را به عناصر سنگین‌تر — کربن، اکسیژن، آهن — تبدیل می‌کنند؛ همان موادی که بعدها شیمی و حیات را ممکن ساختند.
 
@@ -50,7 +50,7 @@ audio_title: گوش دادن به این مقاله
 سلول‌های منفرد ساده بودند. اما هنگامی که تعداد کافی از آن‌ها در محیطی واحد وجود داشت، تمرکز، اشکال جدیدی از همکاری و تخصص را ممکن ساخت. معماری‌های سلولی پایدارتر از طریق نیروی پایداری پیروز شدند. حیات چندسلولی ممکن شد. مخزن کار خود را انجام داده بود.
 
 
-<<PROTECTED_1>>
+{{< figure src="/images/stability-reservoirs-biological-transition.jpg" alt="Microscopic view of simple single cells accumulating near a hydrothermal vent on the ancient ocean floor. Some cells beginning to show internal organization and cooperation. Warm orange and deep blue tones, scientific but beautiful, macro photography style with ethereal lighting." caption="Biological Transition" >}}
 
 
 ## لایه انسانی

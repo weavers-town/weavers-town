@@ -16,7 +16,7 @@ audio_title: گوش دادن به این مقاله
 
 ---
 
-<<PROTECTED_0>>
+{{< figure src="/images/gym-membership-hero.jpg" alt="A person sitting on their couch at night, staring at an unused gym membership card and gym bag with a quiet sense of regret. Soft lighting, minimalist and introspective mood." caption="The Common Reality" >}}
 
 هر کس از پیش مجموعه‌ای کامل از عادت‌ها و روال‌های روزانه دارد که روزش را پر کرده‌اند. حتی «نشستن روی کاناپه و اسکرول کردن بعد از کار» یا «حواس‌پرت بودن در عصر» هم عادت واقعی است — الگویی پایدار که تقریباً هیچ تلاشی نمی‌خواهد و بی‌سروصدا از بخش‌هایی از زندگی و هویت فعلی‌تان حمایت می‌کند.
 
@@ -30,7 +30,7 @@ audio_title: گوش دادن به این مقاله
 
 فقط پس از تکرارهای بسیار، عادت از **آستانهٔ پایداری** عبور می‌کند (نقطه‌ای که دیگر مانند کار سخت به نظر نمی‌رسد و طبیعی و خودپایدار می‌شود). در آن لحظه، عادت از سرمایه‌گذاری پرتلاش به نگهداری بسیار آسان‌تر تبدیل می‌شود. بیشتر کسانی که در باشگاه «طبیعتاً پیوسته» به نظر می‌رسند، پیشاپیش در مرحلهٔ نگهداری آسان قرار دارند. آنچه می‌بینید نتیجهٔ نهایی است — نه هزینه‌ای که برای رسیدن به آن پرداخت شده.
 
-<<PROTECTED_1>>
+{{< figure src="/images/stability-threshold-crossing.jpg" alt="A symbolic illustration of a person climbing over a glowing threshold from struggle into calm consistency. Hopeful and clear visual metaphor." caption="Crossing the Stability Threshold" >}}
 
 ## چرا بیشتر مردم شکست می‌خورند
 
@@ -50,7 +50,7 @@ audio_title: گوش دادن به این مقاله
 
 کتاب این وضعیت را **فراتر از ظرفیت** می‌نامد — تلاش برای تحمیل تقاضاهای جدید به نظامی که از پیش با تمام ظرفیت کار می‌کند. عادت جدید هرگز انرژی کافی و پیوسته برای تثبیت شدن دریافت نمی‌کند و بخش‌های مهم دیگر زندگی بی‌سروصدا آسیب می‌بینند.
 
-<<PROTECTED_2>>
+{{< figure src="/images/energy-tradeoff-scrolling-vs-gym.jpg" alt="Split image comparing low-energy scrolling on a couch versus high-energy gym workout, clearly showing the difference in energy cost." caption="The Real Energy Trade-off" >}}
 
 **۳. عادت جدید هرگز قدرت خودش را نمی‌سازد**  
 برای آن‌که عادتی دوام بیاورد، در نهایت باید **ظرف خودتقویت‌کنندهٔ خودش** را بسازد — ریتم یا ساختاری قابل‌اعتماد که از آن محافظت کند. این معمولاً از راه **تعامل مکرر** (انجام دادن همان کار در همان زمان، به همان شکل، بارها و بارها) رخ می‌دهد تا الگو آن‌قدر قوی شود که اختلال‌های کوچک دیگر آن را نشکنند.
@@ -67,15 +67,15 @@ audio_title: گوش دادن به این مقاله
 
 عادت جدید لازم نیست خشک و همه‌یا-هیچ باشد. پس از بررسی صادقانه زندگی و انرژی‌تان، ممکن است متوجه شوید که نمی‌توانید هفته‌ای سه بار به شکل پایدار بروید. اشکالی ندارد. شروع با فقط **یک روز در هفته** هنوز هم بافتن یک نخ واقعی است. معامله بسیار کمتر سخت‌گیرانه می‌شود و شانس موفقیت واقعی‌تان بسیار بالاتر می‌رود. همیشه می‌توانید بعداً، وقتی عادت تثبیت شد و دیگر به همان اندازه انرژی‌تان را نمی‌گیرد، دفعات را افزایش دهید.
 
-<<PROTECTED_3>>
+{{< figure src="/images/starting-small-flexible-habit.jpg" alt="A calm person doing a single gentle workout in soft morning light, representing starting small and sustainable." caption="Start Small, Stay Consistent" >}}
 
 زندگی فعلی شما توسط بسیاری از نظم‌های نامرئی پشتیبانی می‌شود — حجم کار، وضعیت خانوادگی، روابط، محل زندگی، فصل‌ها و بی‌شمار چیزهای دیگری که همه چیز را در جریان نگه می‌دارند. بسیاری از افراد عادت جدیدی را در پنجره کوتاهی اضافه می‌کنند که همه چیز باثبات به نظر می‌رسد. آن‌ها heavily سرمایه‌گذاری می‌کنند (عضویت گران، تعهد بزرگ) فقط برای اینکه چند ماه بعد زندگی تغییر کند. کار شلوغ می‌شود، وضعیت خانوادگی عوض می‌شود، یا اتفاق غیرمنتظره‌ای می‌افتد — و عادت جدید هیچ بافری ندارد. فرو می‌ریزد، چون بنیادی که بر آن ساخته شده بود جابه‌جا شده است.
 
 بافنده پیش‌بینی می‌کند: پیش از تعهد، از خود بپرسید، «اگر چیزی تغییر کند چه؟ آیا هنوز بافر و تاب‌آوری کافی برای زنده نگه داشتن این عادت خواهم داشت؟» حداکثر انرژی‌تان را یک‌باره صرف چیزی نکنید. کوچک‌تر شروع کنید، به‌تدریج بسازید، و برای این واقعیت برنامه‌ریزی کنید که زندگی برای همیشه کاملاً باثبات نخواهد ماند.
 
-<<PROTECTED_4>>
+{{< figure src="/images/invisible-foundations-of-life.jpg" alt="A person standing on an intricate glowing web of threads representing work, family, relationships, and routines that support daily life." caption="The Invisible Foundations of Your Life" >}}
 
-<<PROTECTED_5>>
+{{< figure src="/images/life-changes-no-buffer.jpg" alt="A peaceful scene of someone heading to the gym suddenly disrupted by life changes — work stress, family, and chaos breaking through." caption="When Life Shifts, Does Your Habit Hold?" >}}
 
 ## یادداشتی درباره مربیان شخصی و مخازن پایداری
 
@@ -85,7 +85,7 @@ audio_title: گوش دادن به این مقاله
 
 هدف بافنده در نهایت این است که روی پای خودش بایستد. مربی شخصی می‌تواند حمایت موقتی عالی باشد — مانند چرخ‌های کمکی — اما پیروزی واقعی وقتی است که عادت آن‌قدر قوی شود که حتی بدون مربی هم ادامه یابد.
 
-<<PROTECTED_6>>
+{{< figure src="/images/personal-trainer-stability-reservoir.jpg" alt="A person crossing a bridge with temporary support from a trainer, eventually standing strong on their own. Symbolic and hopeful." caption="Temporary Support vs. Long-term Independence" >}}
 
 
 ## نخ زنده: چگونه عادت باشگاه، معنایی کاملاً جدید می‌آفریند

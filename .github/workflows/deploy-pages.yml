@@ -93,6 +93,9 @@ jobs:
           git commit -m "Add exploration audio [skip ci]"
           git push
 
+      - name: Repair translated exploration figures
+        run: python3 scripts/fix_explorations.py --locale all
+
       - name: Build site
         run: npm run build
 

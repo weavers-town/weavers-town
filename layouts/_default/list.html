@@ -1,8 +1,11 @@
 {{ define "main" }}
+{{ $lang := .Site.Language.Lang }}
+{{ $bookRoot := cond (eq $lang "en") "/book/" (printf "/%s/book/" $lang) }}
+{{ $tocHref := printf "%stoc/" $bookRoot }}
 <main class="container prose-shell">
-  <article class="prose{{ if and (eq .Section "book") (eq .RelPermalink "/book/") }} book-landing-page{{ end }}">
+  <article class="prose{{ if and (eq .Section "book") (eq .RelPermalink $bookRoot) }} book-landing-page{{ end }}">
     {{ if eq .Section "book" }}
-      {{ if eq .RelPermalink "/book/" }}
+      {{ if eq .RelPermalink $bookRoot }}
         {{ .Content }}
       {{ else }}
         <h1>{{ .Title }}</h1>
@@ -11,7 +14,7 @@
 
       <nav class="book-pager" aria-label="Page navigation">
         <span></span>
-        <a class="site-button pager-link next" href="/book/toc/">Table of Contents →</a>
+        <a class="site-button pager-link next" href="{{ $tocHref }}">{{ i18n "bookPagerToc" }} →</a>
       </nav>
     {{ else }}
       {{ .Content }}

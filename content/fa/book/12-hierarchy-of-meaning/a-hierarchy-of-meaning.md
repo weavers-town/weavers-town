@@ -176,7 +176,8 @@ audio_title: "گوش دادن به این فصل"
 **شکل ۳: فرآیند بخش‌بندی**
 
 <figure>
-<img src="/images/بخش‌بندی-process.jpg" alt="بخش‌بندی Process" />
+<img src="/images/compartmentalization-process.jpg"
+alt="بخش‌بندی Process" />
 <figcaption aria-hidden="true">بخش‌بندی Process</figcaption>
 </figure>
 

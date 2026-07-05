@@ -42,7 +42,7 @@ Những khối mới này tích tụ, và chu kỳ tiếp tục đi lên.
 
 Trong vũ trụ sơ khai, những nguyên tử ổn định đầu tiên chủ yếu là hydro và heli — đơn giản, phong phú, nhưng hạn chế. Chúng tích tụ trong những đám mây khổng lồ. Khi đủ lượng tập trung lại, lực hấp dẫn vượt qua ngưỡng và những ngôi sao đầu tiên bùng nổ.
 
-<<PROTECTED_0>>
+{{< figure src="/images/stability-reservoirs-cosmic-scale.jpg" alt="A breathtaking view of the early universe transitioning into the first stars. Hydrogen clouds condensing into brilliant young stars against a dark cosmic background, with subtle glowing filaments showing accumulation and threshold crossing. Cinematic, scientific, awe-inspiring, high detail." caption="Cosmic Scale" >}}
 
 Những ngôi sao không chỉ là tập hợp các nguyên tử. Chúng là những **người nuôi dưỡng cấp cao**. Chúng tiêu thụ kho hydro tích lũy và, thông qua phản ứng tổng hợp hạt nhân, biến đổi nó thành các nguyên tố nặng hơn — carbon, oxy, sắt — chính những vật liệu sau này sẽ cho phép hóa học và sự sống.
 
@@ -51,7 +51,7 @@ Những nguyên tố nặng hơn ấy tích tụ trong tàn tích siêu tân tin
 Các tế bào đơn lẻ đơn giản. Nhưng khi đủ số lượng tồn tại trong cùng một môi trường, sự tập trung đã cho phép những hình thức hợp tác và chuyên biệt hóa mới. Các kiến trúc tế bào ổn định hơn đã chiến thắng thông qua Động Lực Ổn Định. Sự sống đa bào trở nên khả thi. Kho dự trữ đã hoàn thành vai trò của mình.
 
 
-<<PROTECTED_1>>
+{{< figure src="/images/stability-reservoirs-biological-transition.jpg" alt="Microscopic view of simple single cells accumulating near a hydrothermal vent on the ancient ocean floor. Some cells beginning to show internal organization and cooperation. Warm orange and deep blue tones, scientific but beautiful, macro photography style with ethereal lighting." caption="Biological Transition" >}}
 
 
 ## Tầng Con Người
