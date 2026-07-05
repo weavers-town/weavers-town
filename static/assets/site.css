@@ -165,6 +165,7 @@ main {
 }
 
 .lang-switcher__menu {
+  display: none;
   position: absolute;
   top: calc(100% + 0.45rem);
   right: 0;
@@ -177,18 +178,14 @@ main {
   border-radius: 0.75rem;
   background: var(--paper);
   box-shadow: 0 10px 30px rgba(15, 23, 42, 0.12);
-  opacity: 0;
-  visibility: hidden;
-  pointer-events: none;
-  transform: translateY(-4px);
-  transition: opacity 0.16s ease, transform 0.16s ease, visibility 0.16s ease;
+}
+
+.lang-switcher__menu[hidden] {
+  display: none !important;
 }
 
 .lang-switcher.is-open .lang-switcher__menu {
-  opacity: 1;
-  visibility: visible;
-  pointer-events: auto;
-  transform: translateY(0);
+  display: block;
 }
 
 .lang-switcher__item {

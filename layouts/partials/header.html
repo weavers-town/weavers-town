@@ -43,12 +43,18 @@
     drawer.setAttribute('aria-hidden', 'true');
   }
 
+  function setLangMenuOpen(menu, open) {
+    var toggle = menu.querySelector('[data-lang-toggle]');
+    var list = menu.querySelector('.lang-switcher__menu');
+    menu.classList.toggle('is-open', open);
+    if (toggle) toggle.setAttribute('aria-expanded', String(open));
+    if (list) list.hidden = !open;
+  }
+
   function closeLangMenus(except) {
     document.querySelectorAll('[data-lang-menu]').forEach(function (menu) {
       if (except && menu === except) return;
-      menu.classList.remove('is-open');
-      var toggle = menu.querySelector('[data-lang-toggle]');
-      if (toggle) toggle.setAttribute('aria-expanded', 'false');
+      setLangMenuOpen(menu, false);
     });
   }
 
@@ -56,12 +62,13 @@
     var toggle = menu.querySelector('[data-lang-toggle]');
     if (!toggle) return;
 
+    setLangMenuOpen(menu, false);
+
     toggle.addEventListener('click', function (event) {
       event.stopPropagation();
       var willOpen = !menu.classList.contains('is-open');
       closeLangMenus(willOpen ? menu : null);
-      menu.classList.toggle('is-open', willOpen);
-      toggle.setAttribute('aria-expanded', String(willOpen));
+      setLangMenuOpen(menu, willOpen);
     });
 
     menu.querySelectorAll('.lang-switcher__option[href]').forEach(function (link) {
