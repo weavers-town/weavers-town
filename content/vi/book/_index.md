@@ -2,7 +2,7 @@
 title: "Chỉ Duyên Nghĩa"
 weight: 0
 edition: "1"
-version: "7.2"
+version: "7.3"
 ---
 
 ![Book cover](/images/front-page.jpg)
@@ -13,7 +13,7 @@ version: "7.2"
 
 **date: '2026-04-01'**
 
-**Ấn bản 1 • Phiên bản 7.2**
+**Ấn bản 1 • Phiên bản 7.3**
 
 Đây là phiên bản đầy đủ của cuốn sách.
 

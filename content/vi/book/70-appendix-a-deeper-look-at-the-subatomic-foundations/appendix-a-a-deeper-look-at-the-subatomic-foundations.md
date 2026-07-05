@@ -2,8 +2,10 @@
 title: "Phụ lục A: Nhìn Sâu Hơn vào Nền Tảng Hạ Nguyên Tử"
 weight: 8
 edition: "1"
-version: "7.2"
+version: "7.3"
 slug: "appendix-a-a-deeper-look-at-the-subatomic-foundations"
+audio: "book/vi/appendix-a-a-deeper-look-at-the-subatomic-foundations.mp3"
+audio_title: "Nghe chương này"
 ---
 
 # Phụ lục A: Nhìn Sâu Hơn vào Nền Tảng Hạ Nguyên Tử

@@ -2,8 +2,10 @@
 title: "Chương 4: Con Đường Người Dệt: Một Siêu Hệ Tưởng Trong Thực Hành"
 weight: 7
 edition: "1"
-version: "7.2"
+version: "7.3"
 slug: "the-weaver-s-way-a-meta-ideology-in-practice"
+audio: "book/vi/the-weaver-s-way-a-meta-ideology-in-practice.mp3"
+audio_title: "Nghe chương này"
 ---
 
 # Chương 4: Con Đường Người Dệt: Một Siêu Hệ Tưởng Trong Thực Hành

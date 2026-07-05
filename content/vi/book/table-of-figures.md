@@ -3,7 +3,7 @@ title: "Bảng hình ảnh"
 weight: 999
 slug: "table-of-figures"
 edition: "1"
-version: "7.2"
+version: "7.3"
 ---
 
 # Bảng hình ảnh

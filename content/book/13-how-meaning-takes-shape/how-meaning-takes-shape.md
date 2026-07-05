@@ -2,8 +2,10 @@
 title: "Chapter 3: How Meaning Takes Shape"
 weight: 6
 edition: "1"
-version: "7.2"
+version: "7.3"
 slug: "how-meaning-takes-shape"
+audio: "book/how-meaning-takes-shape.mp3"
+audio_title: "Listen to this chapter"
 ---
 
 # Chapter 3: How Meaning Takes Shape

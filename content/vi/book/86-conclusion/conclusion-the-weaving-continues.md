@@ -2,8 +2,10 @@
 title: "Kết Luận: Sự Dệt Vẫn Tiếp Diễn"
 weight: 9
 edition: "1"
-version: "7.2"
+version: "7.3"
 slug: "conclusion-the-weaving-continues"
+audio: "book/vi/conclusion-the-weaving-continues.mp3"
+audio_title: "Nghe chương này"
 ---
 
 # Kết Luận: Sự Dệt Vẫn Tiếp Diễn

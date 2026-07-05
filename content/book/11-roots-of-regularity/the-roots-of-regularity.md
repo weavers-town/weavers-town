@@ -2,8 +2,10 @@
 title: "Chapter 1: The Roots of Regularity"
 weight: 4
 edition: "1"
-version: "7.2"
+version: "7.3"
 slug: "the-roots-of-regularity"
+audio: "book/the-roots-of-regularity.mp3"
+audio_title: "Listen to this chapter"
 ---
 
 # Chapter 1: The Roots of Regularity

@@ -2,8 +2,10 @@
 title: "Chương 2: Một Bậc Thang Ý Nghĩa"
 weight: 5
 edition: "1"
-version: "7.2"
+version: "7.3"
 slug: "a-hierarchy-of-meaning"
+audio: "book/vi/a-hierarchy-of-meaning.mp3"
+audio_title: "Nghe chương này"
 ---
 
 # Chương 2: Một Bậc Thang Ý Nghĩa

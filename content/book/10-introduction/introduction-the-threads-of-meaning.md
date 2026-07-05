@@ -2,8 +2,10 @@
 title: "Introduction: The Threads of Meaning"
 weight: 3
 edition: "1"
-version: "7.2"
+version: "7.3"
 slug: "introduction-the-threads-of-meaning"
+audio: "book/introduction-the-threads-of-meaning.mp3"
+audio_title: "Listen to this chapter"
 ---
 
 # Introduction: The Threads of Meaning

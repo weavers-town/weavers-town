@@ -2,8 +2,10 @@
 title: "Chapter 4: The Weaver's Way: A Meta-Ideology in Practice"
 weight: 7
 edition: "1"
-version: "7.2"
+version: "7.3"
 slug: "the-weaver-s-way-a-meta-ideology-in-practice"
+audio: "book/the-weaver-s-way-a-meta-ideology-in-practice.mp3"
+audio_title: "Listen to this chapter"
 ---
 
 # Chapter 4: The Weaver's Way: A Meta-Ideology in Practice

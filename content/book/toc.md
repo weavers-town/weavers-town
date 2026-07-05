@@ -3,7 +3,7 @@ title: "Table of Contents"
 weight: 1
 slug: "toc"
 edition: "1"
-version: "7.2"
+version: "7.3"
 ---
 
 # Table of Contents

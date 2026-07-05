@@ -3,7 +3,7 @@ title: "Mục lục"
 weight: 1
 slug: "toc"
 edition: "1"
-version: "7.2"
+version: "7.3"
 ---
 
 # Mục lục

@@ -2,8 +2,10 @@
 title: "Chương 3: Ý Nghĩa Hình Thành Như Thế Nào"
 weight: 6
 edition: "1"
-version: "7.2"
+version: "7.3"
 slug: "how-meaning-takes-shape"
+audio: "book/vi/how-meaning-takes-shape.mp3"
+audio_title: "Nghe chương này"
 ---
 
 # Chương 3: Ý Nghĩa Hình Thành Như Thế Nào

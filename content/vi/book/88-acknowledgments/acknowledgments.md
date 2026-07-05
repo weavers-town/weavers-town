@@ -2,7 +2,7 @@
 title: "Lời Cảm Ơn"
 weight: 10
 edition: "1"
-version: "7.2"
+version: "7.3"
 slug: "acknowledgments"
 ---
 

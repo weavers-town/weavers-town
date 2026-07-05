@@ -2,7 +2,7 @@
 title: "References"
 weight: 12
 edition: "1"
-version: "7.2"
+version: "7.3"
 slug: "references"
 ---
 

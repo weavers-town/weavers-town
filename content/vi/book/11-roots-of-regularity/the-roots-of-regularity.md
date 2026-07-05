@@ -2,8 +2,10 @@
 title: "Chương 1: Nguồn Cội Của Tính Quy Luật"
 weight: 4
 edition: "1"
-version: "7.2"
+version: "7.3"
 slug: "the-roots-of-regularity"
+audio: "book/vi/the-roots-of-regularity.mp3"
+audio_title: "Nghe chương này"
 ---
 
 # Chương 1: Nguồn Cội Của Tính Quy Luật

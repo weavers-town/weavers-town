@@ -2,8 +2,10 @@
 title: "Appendix A: A Deeper Look at the Subatomic Foundations"
 weight: 8
 edition: "1"
-version: "7.2"
+version: "7.3"
 slug: "appendix-a-a-deeper-look-at-the-subatomic-foundations"
+audio: "book/appendix-a-a-deeper-look-at-the-subatomic-foundations.mp3"
+audio_title: "Listen to this chapter"
 ---
 
 # Appendix A: A Deeper Look at the Subatomic Foundations
