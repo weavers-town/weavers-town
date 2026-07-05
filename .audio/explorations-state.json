@@ -11,14 +11,14 @@
       "generated_at": "2026-07-05T08:47:29Z"
     },
     "vi/free-will-as-a-container": {
-      "source_sha256": "aa9f6193ec4512106a896ab12b7d656976810304b7526928a202bba74f7f702f",
+      "source_sha256": "bdaff74e88c26eb8e5522d8cee6791b4f7fe0c4999a8b6b9b3a22a19ba7ff4e8",
       "source": "content/vi/explorations/free-will-as-a-container.md",
       "output": "static/audio/vi/free-will-as-a-container.mp3",
       "language": "vi",
       "chunks": 1,
       "chars": 5142,
       "voice_id": "leo",
-      "generated_at": "2026-07-05T12:15:10Z"
+      "generated_at": "2026-07-05T13:45:37Z"
     },
     "en/grok-summary-and-comparison": {
       "source_sha256": "d5c247fd4c2609c9af3ed24203e135f0530dd38ec7e5a62aa76bf5e959024391",
@@ -75,24 +75,24 @@
       "bootstrapped": true
     },
     "vi/grok-summary-and-comparison": {
-      "source_sha256": "cb569e5df3a6f8b6ba1447fd137bdb523cd717f7cf6a2b97960fc90b59e99889",
+      "source_sha256": "691355bcdbb4a637b383442d04783b7aac79c3272f36ac1370206da7b264ba92",
       "source": "content/vi/explorations/grok-summary-and-comparison.md",
       "output": "static/audio/vi/grok-summary-and-comparison.mp3",
       "language": "vi",
       "chunks": 5,
       "chars": 25081,
       "voice_id": "leo",
-      "generated_at": "2026-07-05T12:22:25Z"
+      "generated_at": "2026-07-05T13:53:36Z"
     },
     "vi/stability-reservoirs-the-quiet-fuel-of-increasing-complexity": {
-      "source_sha256": "5297b28814941d8de4a3804755be2a54eaa59d3c0872ee0f0b58ea4a7da7e0dd",
+      "source_sha256": "6e7eb6b6a1d10d6d4abcbf3974f483c0b2963190454c093661d9d2b48edb7c6d",
       "source": "content/vi/explorations/stability-reservoirs-the-quiet-fuel-of-increasing-complexity.md",
       "output": "static/audio/vi/stability-reservoirs-the-quiet-fuel-of-increasing-complexity.mp3",
       "language": "vi",
       "chunks": 2,
       "chars": 8902,
       "voice_id": "leo",
-      "generated_at": "2026-07-05T12:25:10Z"
+      "generated_at": "2026-07-05T13:56:28Z"
     },
     "vi/the-week-rhythm-we-wove": {
       "source_sha256": "35b0ce7e5ea71aa1c48e580f79c14fca5ff12ffefccee499cc6edeb79d544e6a",
@@ -105,14 +105,14 @@
       "generated_at": "2026-07-05T12:27:13Z"
     },
     "vi/what-do-atoms-eat-why-nothing-persists-without-feeding": {
-      "source_sha256": "b22ca3fb7e11c56c0f5cbc462a1418ded5ae439922037197f6e7bfdb02680293",
+      "source_sha256": "935b36fd4155a4bd99906e507d718869bb8014cf359c848d02297c99a10ae615",
       "source": "content/vi/explorations/what-do-atoms-eat-why-nothing-persists-without-feeding.md",
       "output": "static/audio/vi/what-do-atoms-eat-why-nothing-persists-without-feeding.mp3",
       "language": "vi",
       "chunks": 2,
       "chars": 8877,
       "voice_id": "leo",
-      "generated_at": "2026-07-05T12:29:40Z"
+      "generated_at": "2026-07-05T13:59:21Z"
     },
     "vi/what-do-companies-eat-reservoirs-funding-and-the-need-to-digest": {
       "source_sha256": "d87c20041dc436e74f887d75e50078a70d2296f620c62471df4d7d639f792f92",
