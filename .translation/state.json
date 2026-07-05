@@ -7,20 +7,20 @@
       "model": "grok-4-1-fast-non-reasoning"
     },
     "free-will-as-a-container.md": {
-      "source_sha256": "248fe592c3980531c2b3e48aae60e13f59ef2849a4416629fbf9761f269f7ec9",
-      "translated_at": "2026-07-04T14:47:44.315949+00:00",
+      "source_sha256": "fa4831595df82d5943715664108911ba5d7b51ea05e812f021fc142ba2c93c41",
+      "translated_at": "2026-07-05T12:11:41.481233+00:00",
       "provider": "xai",
       "model": "grok-4-1-fast-non-reasoning"
     },
     "grok-summary-and-comparison.md": {
-      "source_sha256": "73255fa02d55ebd92c0b74e0bab42bd8234f1e4563edb1bc586c56e7ef099ecf",
-      "translated_at": "2026-07-04T14:48:43.774734+00:00",
+      "source_sha256": "d5c247fd4c2609c9af3ed24203e135f0530dd38ec7e5a62aa76bf5e959024391",
+      "translated_at": "2026-07-05T12:12:41.814269+00:00",
       "provider": "xai",
       "model": "grok-4-1-fast-non-reasoning"
     },
     "stability-reservoirs-the-quiet-fuel-of-increasing-complexity.md": {
-      "source_sha256": "f17fd0b6e44df1097cd23af57ab066314162f4ac7f7c8c1ff80dfc926b72e16a",
-      "translated_at": "2026-07-04T14:49:07.388506+00:00",
+      "source_sha256": "6246a36454e5d31f22fc97079847e296fd3da072bb4d12f64134a57bbbc99fc6",
+      "translated_at": "2026-07-05T12:13:06.558380+00:00",
       "provider": "xai",
       "model": "grok-4-1-fast-non-reasoning"
     },
@@ -31,8 +31,8 @@
       "model": "grok-4-1-fast-non-reasoning"
     },
     "what-do-atoms-eat-why-nothing-persists-without-feeding.md": {
-      "source_sha256": "0d900fcf7368ade7d3942d87c45480844a7b25d4b586dd3daf9e0abf17c77183",
-      "translated_at": "2026-07-04T14:53:02.644448+00:00",
+      "source_sha256": "6497346e9ab35e62273ddd5de06f9abf16d3679c63451b49c2622c3b74bc7e7b",
+      "translated_at": "2026-07-05T12:13:27.978238+00:00",
       "provider": "xai",
       "model": "grok-4-1-fast-non-reasoning"
     },

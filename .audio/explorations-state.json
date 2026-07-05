@@ -11,34 +11,34 @@
       "generated_at": "2026-07-05T08:47:29Z"
     },
     "vi/free-will-as-a-container": {
-      "source_sha256": "b0a485d3b26e008a5442dee7b44f0a20687f487b1e372e4eae1cabcc7bbcc95a",
+      "source_sha256": "aa9f6193ec4512106a896ab12b7d656976810304b7526928a202bba74f7f702f",
       "source": "content/vi/explorations/free-will-as-a-container.md",
       "output": "static/audio/vi/free-will-as-a-container.mp3",
       "language": "vi",
       "chunks": 1,
-      "chars": 5093,
+      "chars": 5142,
       "voice_id": "leo",
-      "generated_at": "2026-07-05T09:12:02Z"
+      "generated_at": "2026-07-05T12:15:10Z"
     },
     "en/grok-summary-and-comparison": {
-      "source_sha256": "73255fa02d55ebd92c0b74e0bab42bd8234f1e4563edb1bc586c56e7ef099ecf",
+      "source_sha256": "d5c247fd4c2609c9af3ed24203e135f0530dd38ec7e5a62aa76bf5e959024391",
       "source": "content/explorations/grok-summary-and-comparison.md",
       "output": "static/audio/grok-summary-and-comparison.mp3",
       "language": "en",
       "chunks": 4,
       "chars": 23113,
       "voice_id": "leo",
-      "generated_at": "2026-07-05T08:54:52Z"
+      "generated_at": "2026-07-05T12:05:46Z"
     },
     "en/stability-reservoirs-the-quiet-fuel-of-increasing-complexity": {
-      "source_sha256": "f17fd0b6e44df1097cd23af57ab066314162f4ac7f7c8c1ff80dfc926b72e16a",
+      "source_sha256": "6246a36454e5d31f22fc97079847e296fd3da072bb4d12f64134a57bbbc99fc6",
       "source": "content/explorations/stability-reservoirs-the-quiet-fuel-of-increasing-complexity.md",
       "output": "static/audio/stability-reservoirs-the-quiet-fuel-of-increasing-complexity.mp3",
       "language": "en",
       "chunks": 2,
       "chars": 8422,
       "voice_id": "leo",
-      "generated_at": "2026-07-05T08:57:21Z"
+      "generated_at": "2026-07-05T12:08:36Z"
     },
     "en/the-week-rhythm-we-wove": {
       "source_sha256": "fe54b1840a313c10d45a45fbe59d3f338159521ca0ecc1816d599e08baf528d3",
@@ -48,14 +48,14 @@
       "bootstrapped": true
     },
     "en/what-do-atoms-eat-why-nothing-persists-without-feeding": {
-      "source_sha256": "0d900fcf7368ade7d3942d87c45480844a7b25d4b586dd3daf9e0abf17c77183",
+      "source_sha256": "6497346e9ab35e62273ddd5de06f9abf16d3679c63451b49c2622c3b74bc7e7b",
       "source": "content/explorations/what-do-atoms-eat-why-nothing-persists-without-feeding.md",
       "output": "static/audio/what-do-atoms-eat-why-nothing-persists-without-feeding.mp3",
       "language": "en",
       "chunks": 2,
       "chars": 8212,
       "voice_id": "leo",
-      "generated_at": "2026-07-05T09:00:09Z"
+      "generated_at": "2026-07-05T12:11:22Z"
     },
     "en/what-do-companies-eat-reservoirs-funding-and-the-need-to-digest": {
       "source_sha256": "264d9cbb79d81ec324abe0fbab9d735cd15f3fabc3b1c8c317a747366f20516a",
@@ -75,134 +75,134 @@
       "bootstrapped": true
     },
     "vi/grok-summary-and-comparison": {
-      "source_sha256": "9b249aab2f5db6c81cadfffb5b25af0f862c8db7b40c482322de368c41a63230",
+      "source_sha256": "cb569e5df3a6f8b6ba1447fd137bdb523cd717f7cf6a2b97960fc90b59e99889",
       "source": "content/vi/explorations/grok-summary-and-comparison.md",
       "output": "static/audio/vi/grok-summary-and-comparison.mp3",
       "language": "vi",
       "chunks": 5,
-      "chars": 25090,
+      "chars": 25081,
       "voice_id": "leo",
-      "generated_at": "2026-07-05T09:19:16Z"
+      "generated_at": "2026-07-05T12:22:25Z"
     },
     "vi/stability-reservoirs-the-quiet-fuel-of-increasing-complexity": {
-      "source_sha256": "22f11e49bb0717b8b8dad602c19b48d7217ea240a354c3a5207da0c6f194630b",
+      "source_sha256": "5297b28814941d8de4a3804755be2a54eaa59d3c0872ee0f0b58ea4a7da7e0dd",
       "source": "content/vi/explorations/stability-reservoirs-the-quiet-fuel-of-increasing-complexity.md",
       "output": "static/audio/vi/stability-reservoirs-the-quiet-fuel-of-increasing-complexity.mp3",
       "language": "vi",
       "chunks": 2,
-      "chars": 8921,
+      "chars": 8902,
       "voice_id": "leo",
-      "generated_at": "2026-07-05T09:21:59Z"
+      "generated_at": "2026-07-05T12:25:10Z"
     },
     "vi/the-week-rhythm-we-wove": {
-      "source_sha256": "072f8db4764f6ba8805a6f9a05de1056198e2d9c3a279b91ee075877ce0ebc7a",
+      "source_sha256": "35b0ce7e5ea71aa1c48e580f79c14fca5ff12ffefccee499cc6edeb79d544e6a",
       "source": "content/vi/explorations/the-week-rhythm-we-wove.md",
       "output": "static/audio/vi/the-week-rhythm.mp3",
       "language": "vi",
       "chunks": 2,
       "chars": 7160,
       "voice_id": "leo",
-      "generated_at": "2026-07-05T09:24:15Z"
+      "generated_at": "2026-07-05T12:27:13Z"
     },
     "vi/what-do-atoms-eat-why-nothing-persists-without-feeding": {
-      "source_sha256": "4c9626baf451c8008e3cb129ddbfa6115b6b16dddb7904326b536d48944a1b59",
+      "source_sha256": "b22ca3fb7e11c56c0f5cbc462a1418ded5ae439922037197f6e7bfdb02680293",
       "source": "content/vi/explorations/what-do-atoms-eat-why-nothing-persists-without-feeding.md",
       "output": "static/audio/vi/what-do-atoms-eat-why-nothing-persists-without-feeding.mp3",
       "language": "vi",
       "chunks": 2,
-      "chars": 8975,
+      "chars": 8877,
       "voice_id": "leo",
-      "generated_at": "2026-07-05T09:27:02Z"
+      "generated_at": "2026-07-05T12:29:40Z"
     },
     "vi/what-do-companies-eat-reservoirs-funding-and-the-need-to-digest": {
-      "source_sha256": "3001adc379be8ea946995db77feaa643ffc61474eb218209549d51d27375e011",
+      "source_sha256": "d87c20041dc436e74f887d75e50078a70d2296f620c62471df4d7d639f792f92",
       "source": "content/vi/explorations/what-do-companies-eat-reservoirs-funding-and-the-need-to-digest.md",
       "output": "static/audio/vi/what-do-companies-eat.mp3",
       "language": "vi",
       "chunks": 5,
       "chars": 25336,
       "voice_id": "leo",
-      "generated_at": "2026-07-05T09:35:18Z"
+      "generated_at": "2026-07-05T12:38:03Z"
     },
     "vi/why-your-gym-membership-collects-dust": {
-      "source_sha256": "ec9b8431850f6d0f65054f4b63d6f11ba245f33e866ffa8c43fa7e715f0e700f",
+      "source_sha256": "9aa5e8dbcb66610735f2bc59ff7d71ddd848a9b23388a22253aa6d9ad3a74dff",
       "source": "content/vi/explorations/why-your-gym-membership-collects-dust.md",
       "output": "static/audio/vi/gym-membership.mp3",
       "language": "vi",
       "chunks": 2,
       "chars": 10722,
       "voice_id": "leo",
-      "generated_at": "2026-07-05T09:38:04Z"
+      "generated_at": "2026-07-05T12:41:16Z"
     },
     "fa/free-will-as-a-container": {
-      "source_sha256": "1500d9b67eb69d4ebcc4bf978caf3042456840c53845c730a93d9bcb06627a2a",
+      "source_sha256": "ea394e6ca37786b3fb0e106d746cb31b784b54f9368b6595ead61de0876cca44",
       "source": "content/fa/explorations/free-will-as-a-container.md",
       "output": "static/audio/fa/free-will-as-a-container.mp3",
       "language": "fa",
       "chunks": 1,
       "chars": 4195,
       "voice_id": "leo",
-      "generated_at": "2026-07-05T11:05:55Z"
+      "generated_at": "2026-07-05T12:43:18Z"
     },
     "fa/grok-summary-and-comparison": {
-      "source_sha256": "ee40b12d61759faf01d30d3379667c3b9b96de3d55edaa70e34d28e5d4e723b8",
+      "source_sha256": "965e38dab950a0c14c0a92019f1186225ec97a0de1eccd54543cba71930bad88",
       "source": "content/fa/explorations/grok-summary-and-comparison.md",
       "output": "static/audio/fa/grok-summary-and-comparison.mp3",
       "language": "fa",
       "chunks": 4,
       "chars": 20362,
       "voice_id": "leo",
-      "generated_at": "2026-07-05T11:32:32Z"
+      "generated_at": "2026-07-05T12:52:35Z"
     },
     "fa/stability-reservoirs-the-quiet-fuel-of-increasing-complexity": {
-      "source_sha256": "62badc8a68211191ea5fa724fbc86bc29f4321b5c91cfa7db609352c4c4573c9",
+      "source_sha256": "13aebe2648c73ab7fee5addf0313b4a76776f662ae6be0a6b0070e7e2ecd83b9",
       "source": "content/fa/explorations/stability-reservoirs-the-quiet-fuel-of-increasing-complexity.md",
       "output": "static/audio/fa/stability-reservoirs-the-quiet-fuel-of-increasing-complexity.mp3",
       "language": "fa",
       "chunks": 2,
       "chars": 7711,
       "voice_id": "leo",
-      "generated_at": "2026-07-05T11:35:58Z"
+      "generated_at": "2026-07-05T12:56:02Z"
     },
     "fa/the-week-rhythm-we-wove": {
-      "source_sha256": "17fb52c467e1b26bd9cb892e3a4497f92cbc84620e8b584dbf12d61a77d7b245",
+      "source_sha256": "1c5a181f7aa8f0dba3a755372e4ffa67dfba022335dcfa3f0aa8862b15dbd869",
       "source": "content/fa/explorations/the-week-rhythm-we-wove.md",
       "output": "static/audio/fa/the-week-rhythm.mp3",
       "language": "fa",
       "chunks": 1,
       "chars": 5802,
       "voice_id": "leo",
-      "generated_at": "2026-07-05T11:38:31Z"
+      "generated_at": "2026-07-05T12:58:33Z"
     },
     "fa/what-do-atoms-eat-why-nothing-persists-without-feeding": {
-      "source_sha256": "625b7ba6bff53122f80c89237148940b2c5d3abebced6ba402904c46bde522ac",
+      "source_sha256": "2c9679f6cff82d52ff2b2f1962723546be01c5d65394ffbc2bb34ae8fea772f7",
       "source": "content/fa/explorations/what-do-atoms-eat-why-nothing-persists-without-feeding.md",
       "output": "static/audio/fa/what-do-atoms-eat-why-nothing-persists-without-feeding.mp3",
       "language": "fa",
       "chunks": 2,
       "chars": 7642,
       "voice_id": "leo",
-      "generated_at": "2026-07-05T11:42:10Z"
+      "generated_at": "2026-07-05T13:01:53Z"
     },
     "fa/what-do-companies-eat-reservoirs-funding-and-the-need-to-digest": {
-      "source_sha256": "8a4c0b393d118c15aa29720aedf2a33d81d81077729d96be86f06f2ab3639a8b",
+      "source_sha256": "42a175f7a7f2637eca9e5a05bd0af1d466dc4327da0335bce6ff2a2aeaf2adba",
       "source": "content/fa/explorations/what-do-companies-eat-reservoirs-funding-and-the-need-to-digest.md",
       "output": "static/audio/fa/what-do-companies-eat.mp3",
       "language": "fa",
       "chunks": 4,
       "chars": 21408,
       "voice_id": "leo",
-      "generated_at": "2026-07-05T11:52:13Z"
+      "generated_at": "2026-07-05T13:12:10Z"
     },
     "fa/why-your-gym-membership-collects-dust": {
-      "source_sha256": "fe3d82e8c9c27303aaa5e4518d91c23b8aa332b25db24f2e20945c141ef5f511",
+      "source_sha256": "fd21e12fcb632168c2944789fbe85493b1ad9d77e7dd2b393bb501e27ae80e6f",
       "source": "content/fa/explorations/why-your-gym-membership-collects-dust.md",
       "output": "static/audio/fa/gym-membership.mp3",
       "language": "fa",
       "chunks": 2,
       "chars": 8875,
       "voice_id": "leo",
-      "generated_at": "2026-07-05T11:56:14Z"
+      "generated_at": "2026-07-05T13:16:27Z"
     }
   }
 }
