@@ -64,15 +64,32 @@ jobs:
           chmod +x ./scripts/generate-exploration-audio.sh
           ./scripts/generate-exploration-audio.sh --locale vi || echo "Vietnamese exploration audio skipped or failed."
 
+      - name: Translate explorations to Farsi
+        env:
+          XAI_API_KEY: ${{ secrets.XAI_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          TRANSLATION_PROVIDER: ${{ vars.TRANSLATION_PROVIDER || 'xai' }}
+          TRANSLATION_MODEL: ${{ vars.TRANSLATION_MODEL || 'grok-4-1-fast-non-reasoning' }}
+        run: |
+          chmod +x ./scripts/translate-explorations.sh
+          ./scripts/translate-explorations.sh --config scripts/translation/config-fa.yaml || echo "Farsi translation skipped (no API key or no changes)."
+
+      - name: Generate Farsi exploration audio
+        env:
+          XAI_API_KEY: ${{ secrets.XAI_API_KEY }}
+        run: |
+          chmod +x ./scripts/generate-exploration-audio.sh
+          ./scripts/generate-exploration-audio.sh --locale fa || echo "Farsi exploration audio skipped or failed."
+
       - name: Commit generated exploration audio
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          if [[ -z "$(git status --short -- content/explorations content/vi/explorations static/audio .audio)" ]]; then
+          if [[ -z "$(git status --short -- content/explorations content/vi/explorations content/fa/explorations static/audio .audio .translation)" ]]; then
             echo "No exploration audio changes to commit."
             exit 0
           fi
-          git add content/explorations content/vi/explorations static/audio .audio
+          git add content/explorations content/vi/explorations content/fa/explorations static/audio .audio .translation
           git commit -m "Add exploration audio [skip ci]"
           git push
 

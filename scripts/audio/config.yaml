@@ -32,3 +32,10 @@ locales:
     audio_path_prefix: "vi/"
     spoken_label: "Khám phá"
     audio_title: "Nghe bài viết này"
+  fa:
+    content_dir: content/fa/explorations
+    language: fa
+    output_dir: static/audio/fa
+    audio_path_prefix: "fa/"
+    spoken_label: "کاوش"
+    audio_title: "گوش دادن به این مقاله"

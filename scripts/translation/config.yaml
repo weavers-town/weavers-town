@@ -4,6 +4,7 @@ state_file: .translation/state.json
 
 source_language: English
 target_language: Vietnamese
+target_locale: vi-VN
 
 providers:
   xai:

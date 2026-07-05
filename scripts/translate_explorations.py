@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Translate English explorations into content/vi/explorations/."""
+"""Translate English explorations into a target locale directory."""
 
 from __future__ import annotations
 
@@ -18,12 +18,12 @@ from typing import Any
 import yaml
 
 ROOT = Path(__file__).resolve().parents[1]
-CONFIG_PATH = ROOT / "scripts" / "translation" / "config.yaml"
+DEFAULT_CONFIG_PATH = ROOT / "scripts" / "translation" / "config.yaml"
 ENV_FALLBACK = ROOT.parent / "threads-of-meaning" / ".env"
 
 SYSTEM_PROMPT = """You are a literary translator for blog essays from the Weaver's Town website.
 
-Translate the provided Markdown from English to Vietnamese (vi-VN).
+Translate the provided Markdown from English to {target_language} ({target_locale}).
 
 Rules:
 1. Return ONLY the translated Markdown. No commentary, no code fences.
@@ -32,8 +32,8 @@ Rules:
 4. Keep Hugo shortcodes, image paths, and /images/ URLs unchanged.
 5. Keep HTML tags unchanged.
 6. Keep author name "Arman Fatahi" unchanged.
-7. Use natural, literary Vietnamese suitable for publication.
-8. Apply this glossary consistently (English → Vietnamese):
+7. Use natural, literary {target_language} suitable for publication.
+8. Apply this glossary consistently (English → {target_language}):
 {glossary}
 """
 
@@ -56,6 +56,7 @@ class Config:
     frontmatter_translate_keys: list[str]
     frontmatter_preserve_keys: list[str]
     target_language: str
+    target_locale: str
     provider: ProviderConfig
     model: str
 
@@ -74,8 +75,8 @@ def load_dotenv() -> None:
             os.environ.setdefault(key, value)
 
 
-def load_config() -> Config:
-    with CONFIG_PATH.open(encoding="utf-8") as handle:
+def load_config(config_path: Path) -> Config:
+    with config_path.open(encoding="utf-8") as handle:
         raw = yaml.safe_load(handle)
 
     providers_raw = raw.get("providers", {})
@@ -97,6 +98,7 @@ def load_config() -> Config:
         frontmatter_translate_keys=raw.get("frontmatter_translate_keys", []),
         frontmatter_preserve_keys=raw.get("frontmatter_preserve_keys", []),
         target_language=raw.get("target_language", "Vietnamese"),
+        target_locale=raw.get("target_locale", "vi-VN"),
         provider=provider,
         model=os.environ.get("TRANSLATION_MODEL", provider.default_model),
     )
@@ -179,7 +181,15 @@ class Protector:
 
 
 def glossary_prompt(config: Config) -> str:
-    return "\n".join(f'- "{en}" → "{vi}"' for en, vi in config.glossary.items())
+    return "\n".join(f'- "{en}" → "{translated}"' for en, translated in config.glossary.items())
+
+
+def system_prompt(config: Config) -> str:
+    return SYSTEM_PROMPT.format(
+        target_language=config.target_language,
+        target_locale=config.target_locale,
+        glossary=glossary_prompt(config),
+    )
 
 
 def chunk_markdown(text: str, max_chars: int = 7000) -> list[str]:
@@ -231,7 +241,7 @@ def translate_text(text: str, config: Config, client: Any) -> str:
             model=config.model,
             temperature=0.2,
             messages=[
-                {"role": "system", "content": SYSTEM_PROMPT.format(glossary=glossary_prompt(config))},
+                {"role": "system", "content": system_prompt(config)},
                 {"role": "user", "content": f"Translate this Markdown to {config.target_language}.\n\n{chunk}"},
             ],
         )
@@ -243,19 +253,22 @@ def translate_text(text: str, config: Config, client: Any) -> str:
     return protector.restore("\n\n".join(translated_chunks))
 
 
-FIELD_HINTS = {
-    "title": "Translate this article title to Vietnamese.",
-    "summary": "Translate this article summary to Vietnamese. Keep it one paragraph.",
-    "description": "Translate this section description to Vietnamese.",
-    "audio_title": "Translate this short website UI label to Vietnamese.",
-}
+def field_hint(field: str, config: Config) -> str:
+    language = config.target_language
+    hints = {
+        "title": f"Translate this article title to {language}.",
+        "summary": f"Translate this article summary to {language}. Keep it one paragraph.",
+        "description": f"Translate this section description to {language}.",
+        "audio_title": f"Translate this short website UI label to {language}.",
+    }
+    return hints.get(field, f"Translate this website metadata to {language}.")
 
 
 def translate_scalar(field: str, value: str, config: Config, client: Any) -> str:
     if value in config.static_translations:
         return config.static_translations[value]
 
-    hint = FIELD_HINTS.get(field, "Translate this website metadata to Vietnamese.")
+    hint = field_hint(field, config)
     response = client.chat.completions.create(
         model=config.model,
         temperature=0.2,
@@ -263,8 +276,8 @@ def translate_scalar(field: str, value: str, config: Config, client: Any) -> str
             {
                 "role": "system",
                 "content": (
-                    "You translate website metadata strings from English to Vietnamese. "
-                    "Return only the translated Vietnamese text. No quotes, no commentary, "
+                    f"You translate website metadata strings from English to {config.target_language}. "
+                    f"Return only the translated {config.target_language} text. No quotes, no commentary, "
                     "no refusals.\n"
                     f"{hint}\n"
                     f"{glossary_prompt(config)}"
@@ -339,7 +352,8 @@ def translate_file(source_path: Path, config: Config, client: Any, state: dict[s
             continue
         if key == "audio_title":
             translated_meta[key] = config.static_translations.get(
-                meta[key], config.static_translations.get("Listen to this article", "Nghe bài viết này")
+                meta[key],
+                config.static_translations.get("Listen to this article", meta.get(key, "")),
             )
             continue
         translated_meta[key] = translate_scalar(key, meta[key], config, client)
@@ -359,6 +373,11 @@ def translate_file(source_path: Path, config: Config, client: Any, state: dict[s
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument(
+        "--config",
+        default=str(DEFAULT_CONFIG_PATH),
+        help="Path to translation config YAML (default: scripts/translation/config.yaml)",
+    )
     parser.add_argument("--force", action="store_true")
     parser.add_argument("--dry-run", action="store_true")
     parser.add_argument("--file", help="Translate one exploration filename, e.g. _index.md")
@@ -368,7 +387,10 @@ def parse_args() -> argparse.Namespace:
 def main() -> None:
     load_dotenv()
     args = parse_args()
-    config = load_config()
+    config_path = Path(args.config)
+    if not config_path.is_absolute():
+        config_path = ROOT / config_path
+    config = load_config(config_path)
     state = load_state(config.state_file)
     files = discover_files(config.source_dir)
     if args.file:

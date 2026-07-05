@@ -30,17 +30,18 @@ disableKinds = ["taxonomy", "term", "RSS"]
       dir = "ltr"
       languageShort = "VI"
 
-  # Example for a future Persian locale:
-  # [languages.fa]
-  #   locale = "fa"
-  #   languageName = "فارسی"
-  #   label = "فارسی"
-  #   weight = 3
-  #   title = "شهر بافندگان"
-  #   contentDir = "content/fa"
-  #   [languages.fa.params]
-  #     dir = "rtl"
-  #     languageShort = "FA"
+  [languages.fa]
+    locale = "fa"
+    languageName = "فارسی"
+    label = "فارسی"
+    weight = 3
+    title = "شهر بافندگان"
+    contentDir = "content/fa"
+    [languages.fa.params]
+      author = "Arman Fatahi"
+      description = "نخ چارچوبی عملی و میان‌مقیاسی است برای درک اینکه معنا چگونه شکل می‌گیرد وقتی الگوهای پایدار به توانمندی‌های نوظهور دست می‌یابند که مشارکت در مقیاس بعدی را ممکن می‌سازند."
+      dir = "rtl"
+      languageShort = "FA"
 
 [markup]
   [markup.goldmark]

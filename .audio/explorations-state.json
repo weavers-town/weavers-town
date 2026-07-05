@@ -133,6 +133,76 @@
       "chars": 10722,
       "voice_id": "leo",
       "generated_at": "2026-07-05T09:38:04Z"
+    },
+    "fa/free-will-as-a-container": {
+      "source_sha256": "1500d9b67eb69d4ebcc4bf978caf3042456840c53845c730a93d9bcb06627a2a",
+      "source": "content/fa/explorations/free-will-as-a-container.md",
+      "output": "static/audio/fa/free-will-as-a-container.mp3",
+      "language": "fa",
+      "chunks": 1,
+      "chars": 4195,
+      "voice_id": "leo",
+      "generated_at": "2026-07-05T11:05:55Z"
+    },
+    "fa/grok-summary-and-comparison": {
+      "source_sha256": "ee40b12d61759faf01d30d3379667c3b9b96de3d55edaa70e34d28e5d4e723b8",
+      "source": "content/fa/explorations/grok-summary-and-comparison.md",
+      "output": "static/audio/fa/grok-summary-and-comparison.mp3",
+      "language": "fa",
+      "chunks": 4,
+      "chars": 20362,
+      "voice_id": "leo",
+      "generated_at": "2026-07-05T11:32:32Z"
+    },
+    "fa/stability-reservoirs-the-quiet-fuel-of-increasing-complexity": {
+      "source_sha256": "62badc8a68211191ea5fa724fbc86bc29f4321b5c91cfa7db609352c4c4573c9",
+      "source": "content/fa/explorations/stability-reservoirs-the-quiet-fuel-of-increasing-complexity.md",
+      "output": "static/audio/fa/stability-reservoirs-the-quiet-fuel-of-increasing-complexity.mp3",
+      "language": "fa",
+      "chunks": 2,
+      "chars": 7711,
+      "voice_id": "leo",
+      "generated_at": "2026-07-05T11:35:58Z"
+    },
+    "fa/the-week-rhythm-we-wove": {
+      "source_sha256": "17fb52c467e1b26bd9cb892e3a4497f92cbc84620e8b584dbf12d61a77d7b245",
+      "source": "content/fa/explorations/the-week-rhythm-we-wove.md",
+      "output": "static/audio/fa/the-week-rhythm.mp3",
+      "language": "fa",
+      "chunks": 1,
+      "chars": 5802,
+      "voice_id": "leo",
+      "generated_at": "2026-07-05T11:38:31Z"
+    },
+    "fa/what-do-atoms-eat-why-nothing-persists-without-feeding": {
+      "source_sha256": "625b7ba6bff53122f80c89237148940b2c5d3abebced6ba402904c46bde522ac",
+      "source": "content/fa/explorations/what-do-atoms-eat-why-nothing-persists-without-feeding.md",
+      "output": "static/audio/fa/what-do-atoms-eat-why-nothing-persists-without-feeding.mp3",
+      "language": "fa",
+      "chunks": 2,
+      "chars": 7642,
+      "voice_id": "leo",
+      "generated_at": "2026-07-05T11:42:10Z"
+    },
+    "fa/what-do-companies-eat-reservoirs-funding-and-the-need-to-digest": {
+      "source_sha256": "8a4c0b393d118c15aa29720aedf2a33d81d81077729d96be86f06f2ab3639a8b",
+      "source": "content/fa/explorations/what-do-companies-eat-reservoirs-funding-and-the-need-to-digest.md",
+      "output": "static/audio/fa/what-do-companies-eat.mp3",
+      "language": "fa",
+      "chunks": 4,
+      "chars": 21408,
+      "voice_id": "leo",
+      "generated_at": "2026-07-05T11:52:13Z"
+    },
+    "fa/why-your-gym-membership-collects-dust": {
+      "source_sha256": "fe3d82e8c9c27303aaa5e4518d91c23b8aa332b25db24f2e20945c141ef5f511",
+      "source": "content/fa/explorations/why-your-gym-membership-collects-dust.md",
+      "output": "static/audio/fa/gym-membership.mp3",
+      "language": "fa",
+      "chunks": 2,
+      "chars": 8875,
+      "voice_id": "leo",
+      "generated_at": "2026-07-05T11:56:14Z"
     }
   }
 }

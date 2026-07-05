@@ -815,3 +815,46 @@ main {
   color: var(--ink-light);
   font-style: italic;
 }
+
+/* RTL layout adjustments for Persian and other right-to-left locales */
+html[dir="rtl"] .lang-switcher__menu {
+  right: auto;
+  left: 0;
+}
+
+html[dir="rtl"] .nav-inner {
+  flex-direction: row-reverse;
+}
+
+html[dir="rtl"] .nav-brand {
+  flex-direction: row-reverse;
+}
+
+html[dir="rtl"] .nav-links {
+  flex-direction: row-reverse;
+}
+
+html[dir="rtl"] .nav-actions {
+  flex-direction: row-reverse;
+}
+
+html[dir="rtl"] .lang-switcher__option {
+  flex-direction: row-reverse;
+}
+
+html[dir="rtl"] article ul,
+html[dir="rtl"] article ol {
+  padding-right: 1.5rem;
+  padding-left: 0;
+}
+
+html[dir="rtl"] .audio-player {
+  flex-direction: row-reverse;
+}
+
+@media (max-width: 768px) {
+  html[dir="rtl"] .lang-switcher__menu {
+    left: 0;
+    right: auto;
+  }
+}

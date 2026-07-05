@@ -23,6 +23,15 @@ test("vietnamese home page renders key content", async ({ page }) => {
   await expect(page.getByRole("link", { name: /Đọc sách/i }).first()).toBeVisible();
 });
 
+test("farsi home page renders key content", async ({ page }) => {
+  await page.goto("/fa/");
+
+  await expect(page.locator("html")).toHaveAttribute("dir", "rtl");
+  await expect(page).toHaveTitle(/نخ/i);
+  await expect(page.locator("h1", { hasText: "نخ" })).toBeVisible();
+  await expect(page.getByRole("link", { name: /خواندن کتاب/i }).first()).toBeVisible();
+});
+
 test("language switcher links between locales", async ({ page }) => {
   await page.goto("/book/");
   await page.getByRole("button", { name: "Language" }).click();
@@ -33,6 +42,11 @@ test("language switcher links between locales", async ({ page }) => {
   await page.getByRole("button", { name: "Ngôn ngữ" }).click();
   await page.getByRole("menuitem", { name: "English" }).click();
   await expect(page).toHaveURL(/\/book\/$/);
+
+  await page.getByRole("button", { name: "Language" }).click();
+  await page.getByRole("menuitem", { name: "فارسی" }).click();
+  await expect(page).toHaveURL(/\/fa\/book\//);
+  await expect(page.locator("html")).toHaveAttribute("dir", "rtl");
 });
 
 test("core pages respond successfully", async ({ request }) => {

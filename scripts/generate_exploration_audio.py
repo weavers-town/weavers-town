@@ -131,7 +131,7 @@ def resolve_audio_name(path: Path, meta: dict[str, Any], config: Config) -> str:
     audio_value = meta.get("audio")
     if isinstance(audio_value, str) and audio_value.strip():
         cleaned = audio_value.strip().strip('"').strip("'")
-        cleaned = cleaned.removeprefix("audio/").removeprefix("vi/")
+        cleaned = cleaned.removeprefix("audio/").removeprefix("vi/").removeprefix("fa/")
         return Path(cleaned).stem
     if path.stem in config.audio_names:
         return config.audio_names[path.stem]
@@ -449,7 +449,7 @@ def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--force", action="store_true")
     parser.add_argument("--dry-run", action="store_true")
-    parser.add_argument("--locale", choices=["en", "vi"], help="Generate one locale only")
+    parser.add_argument("--locale", help="Generate one locale only")
     parser.add_argument("--file", help="Generate one exploration markdown filename")
     return parser.parse_args()
 
@@ -461,6 +461,10 @@ def main() -> None:
     api_key = os.environ.get(config.api_key_env, "").strip()
     if not api_key and not args.dry_run:
         print(f"Error: {config.api_key_env} is not set.", file=sys.stderr)
+        sys.exit(1)
+
+    if args.locale and args.locale not in config.locales:
+        print(f"Error: unknown locale {args.locale!r}. Available: {', '.join(config.locales)}", file=sys.stderr)
         sys.exit(1)
 
     state = load_state(config.state_file)
