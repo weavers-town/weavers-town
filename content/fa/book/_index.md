@@ -5,13 +5,13 @@ edition: "1"
 version: "7.3"
 ---
 
-![Book cover](/images/front-page.jpg)
+![جلد کتاب](/images/front-page.jpg)
 
 # نخ‌های معنا
 
 **Arman Fatahi**
 
-**date: '2026-04-01'**
+**2026**
 
 **ویرایش 1 • نسخه 7.3**
 
