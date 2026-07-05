@@ -25,11 +25,13 @@ test("vietnamese home page renders key content", async ({ page }) => {
 
 test("language switcher links between locales", async ({ page }) => {
   await page.goto("/book/");
-  await page.locator("#lang-switcher-desktop").selectOption({ label: "Tiếng Việt" });
+  await page.getByRole("button", { name: "Language" }).click();
+  await page.getByRole("menuitem", { name: "Tiếng Việt" }).click();
   await expect(page).toHaveURL(/\/vi\/book\//);
-  await expect(page.locator("#lang-switcher-desktop")).toHaveValue(/\/vi\/book/);
+  await expect(page.locator(".lang-switcher__option--active")).toHaveText(/Tiếng Việt/);
 
-  await page.locator("#lang-switcher-desktop").selectOption({ label: "English" });
+  await page.getByRole("button", { name: "Ngôn ngữ" }).click();
+  await page.getByRole("menuitem", { name: "English" }).click();
   await expect(page).toHaveURL(/\/book\/$/);
 });
 

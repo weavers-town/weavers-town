@@ -13,7 +13,6 @@
       </ul>
     </nav>
     <div class="nav-actions">
-      {{ .Scratch.Set "langSwitcherModifier" "" }}
       {{ partial "language-switcher.html" . }}
       <a class="site-button site-button--filled nav-cta-desktop" href="{{ relLangURL `/book/` }}">{{ i18n "navReadBook" }}</a>
     </div>
@@ -22,8 +21,6 @@
     </button>
   </div>
   <div class="nav-mobile-drawer" id="nav-mobile-drawer" aria-hidden="true">
-    {{ .Scratch.Set "langSwitcherModifier" "mobile" }}
-    {{ partial "language-switcher.html" . }}
     <ul class="nav-mobile-links">
       <li><a href="{{ relLangURL `/` }}#the-thread">{{ i18n "navTheThread" }}</a></li>
       <li><a href="{{ relLangURL `/` }}#weavers-way">{{ i18n "navWeaversWay" }}</a></li>
@@ -46,8 +43,43 @@
     drawer.setAttribute('aria-hidden', 'true');
   }
 
+  function closeLangMenus(except) {
+    document.querySelectorAll('[data-lang-menu]').forEach(function (menu) {
+      if (except && menu === except) return;
+      menu.classList.remove('is-open');
+      var toggle = menu.querySelector('[data-lang-toggle]');
+      if (toggle) toggle.setAttribute('aria-expanded', 'false');
+    });
+  }
+
+  document.querySelectorAll('[data-lang-menu]').forEach(function (menu) {
+    var toggle = menu.querySelector('[data-lang-toggle]');
+    if (!toggle) return;
+
+    toggle.addEventListener('click', function (event) {
+      event.stopPropagation();
+      var willOpen = !menu.classList.contains('is-open');
+      closeLangMenus(willOpen ? menu : null);
+      menu.classList.toggle('is-open', willOpen);
+      toggle.setAttribute('aria-expanded', String(willOpen));
+    });
+
+    menu.querySelectorAll('.lang-switcher__option[href]').forEach(function (link) {
+      link.addEventListener('click', closeDrawer);
+    });
+  });
+
+  document.addEventListener('click', function () {
+    closeLangMenus();
+  });
+
+  document.addEventListener('keydown', function (event) {
+    if (event.key === 'Escape') closeLangMenus();
+  });
+
   if (btn && drawer) {
     btn.addEventListener('click', function () {
+      closeLangMenus();
       var open = nav.classList.toggle('nav-open');
       btn.setAttribute('aria-expanded', String(open));
       drawer.setAttribute('aria-hidden', String(!open));
@@ -57,14 +89,5 @@
       link.addEventListener('click', closeDrawer);
     });
   }
-
-  document.querySelectorAll('[data-lang-switcher]').forEach(function (select) {
-    select.addEventListener('change', function () {
-      var url = select.value;
-      if (!url || url === window.location.pathname) return;
-      closeDrawer();
-      window.location.href = url;
-    });
-  });
 })();
 </script>

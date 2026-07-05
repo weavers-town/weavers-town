@@ -1,6 +1,6 @@
 {{/*
-  Language switcher — config-driven from hugo.toml [languages].
-  Works for any number of locales (en at /, others at /{lang}/).
+  Language switcher — globe button opens a text menu.
+  Config-driven from hugo.toml [languages].
 */}}
 {{ $page := . }}
 {{ $currentLang := .Site.Language.Lang }}
@@ -11,55 +11,63 @@
   {{ end }}
 {{ end }}
 {{ $modifier := .Scratch.Get "langSwitcherModifier" | default "" }}
-{{ $id := printf "lang-switcher-%s" (cond (eq $modifier "mobile") "mobile" "desktop") }}
+{{ $menuId := printf "lang-menu-%s" (cond (eq $modifier "mobile") "mobile" "desktop") }}
 
-<div class="lang-switcher{{ with $modifier }} lang-switcher--{{ . }}{{ end }}">
-  <label class="lang-switcher__label" for="{{ $id }}">{{ i18n "navLanguage" }}</label>
-  <div class="lang-switcher__control">
-    <select
-      id="{{ $id }}"
-      class="lang-switcher__select"
-      aria-label="{{ i18n "navLanguage" }}"
-      data-lang-switcher
-    >
-      {{ range .Site.Sites }}
-        {{ $targetLang := .Language.Lang }}
-        {{ $url := "" }}
-        {{ if $page.IsTranslated }}
-          {{ range $page.AllTranslations }}
-            {{ if eq .Lang $targetLang }}
-              {{ $url = .RelPermalink }}
-            {{ end }}
+<div class="lang-switcher{{ with $modifier }} lang-switcher--{{ . }}{{ end }}" data-lang-menu>
+  <button
+    type="button"
+    class="lang-switcher__toggle"
+    aria-label="{{ i18n "navLanguage" }}"
+    aria-haspopup="menu"
+    aria-expanded="false"
+    aria-controls="{{ $menuId }}"
+    data-lang-toggle
+  >
+    <svg class="lang-switcher__icon" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true">
+      <circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.5" />
+      <path fill="none" stroke="currentColor" stroke-width="1.5" d="M3 12h18M12 3c2.8 3.1 4.2 6.4 4.2 9s-1.4 5.9-4.2 9M12 3c-2.8 3.1-4.2 6.4-4.2 9s1.4 5.9 4.2 9" />
+    </svg>
+  </button>
+  <ul id="{{ $menuId }}" class="lang-switcher__menu" role="menu" aria-label="{{ i18n "navLanguage" }}">
+    {{ range .Site.Sites }}
+      {{ $targetLang := .Language.Lang }}
+      {{ $url := "" }}
+      {{ if $page.IsTranslated }}
+        {{ range $page.AllTranslations }}
+          {{ if eq .Lang $targetLang }}
+            {{ $url = .RelPermalink }}
           {{ end }}
         {{ end }}
-        {{ if not $url }}
-          {{ $path := $page.RelPermalink }}
-          {{ if ne $currentLang $defaultLang }}
-            {{ $prefix := printf "/%s" $currentLang }}
-            {{ $path = strings.TrimPrefix $prefix $path }}
-            {{ if not $path }}{{ $path = "/" }}{{ end }}
-          {{ end }}
-          {{ if eq $targetLang $defaultLang }}
-            {{ $url = $path }}
-          {{ else if eq $path "/" }}
-            {{ $url = printf "/%s/" $targetLang }}
-          {{ else }}
-            {{ $url = printf "/%s%s" $targetLang $path }}
-          {{ end }}
-        {{ end }}
-        <option
-          value="{{ $url }}"
-          lang="{{ $targetLang }}"
-          {{ if eq $targetLang $currentLang }}selected{{ end }}
-        >
-          {{ .Language.LanguageName }}
-        </option>
       {{ end }}
-    </select>
-    <span class="lang-switcher__chevron" aria-hidden="true">
-      <svg viewBox="0 0 20 20" width="14" height="14" fill="currentColor">
-        <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 10.94l3.71-3.71a.75.75 0 111.06 1.06l-4.24 4.25a.75.75 0 01-1.06 0L5.21 8.29a.75.75 0 01.02-1.08z" clip-rule="evenodd" />
-      </svg>
-    </span>
-  </div>
+      {{ if not $url }}
+        {{ $path := $page.RelPermalink }}
+        {{ if ne $currentLang $defaultLang }}
+          {{ $prefix := printf "/%s" $currentLang }}
+          {{ $path = strings.TrimPrefix $prefix $path }}
+          {{ if not $path }}{{ $path = "/" }}{{ end }}
+        {{ end }}
+        {{ if eq $targetLang $defaultLang }}
+          {{ $url = $path }}
+        {{ else if eq $path "/" }}
+          {{ $url = printf "/%s/" $targetLang }}
+        {{ else }}
+          {{ $url = printf "/%s%s" $targetLang $path }}
+        {{ end }}
+      {{ end }}
+      <li class="lang-switcher__item" role="none">
+        {{ if eq $targetLang $currentLang }}
+          <span class="lang-switcher__option lang-switcher__option--active" aria-current="true" lang="{{ $targetLang }}">
+            <span class="lang-switcher__option-label">{{ .Language.LanguageName }}</span>
+            <svg class="lang-switcher__check" viewBox="0 0 20 20" width="16" height="16" aria-hidden="true">
+              <path fill="currentColor" d="M7.75 13.28 4.53 10.06l1.06-1.06 2.16 2.16 5.47-5.47 1.06 1.06z" />
+            </svg>
+          </span>
+        {{ else }}
+          <a class="lang-switcher__option" href="{{ $url }}" hreflang="{{ $targetLang }}" lang="{{ $targetLang }}" role="menuitem">
+            <span class="lang-switcher__option-label">{{ .Language.LanguageName }}</span>
+          </a>
+        {{ end }}
+      </li>
+    {{ end }}
+  </ul>
 </div>
