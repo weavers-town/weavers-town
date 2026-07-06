@@ -29,7 +29,7 @@
 
   <link rel="stylesheet" href="/assets/site.css" />
 </head>
-<body>
+<body class="lang-{{ .Site.Language.Lang }} dir-{{ .Site.Language.Params.dir | default "ltr" }}">
   {{ partial "header.html" . }}
   {{ block "main" . }}{{ end }}
   {{ partial "footer.html" . }}

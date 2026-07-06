@@ -472,6 +472,14 @@ main {
   border-bottom: 1px solid var(--rule-light);
 }
 
+.book-pager--toc {
+  justify-content: flex-end;
+}
+
+html[dir="rtl"] .book-pager--toc {
+  justify-content: flex-start;
+}
+
 .prose :is(h1, h2, h3, h4) {
   font-family: var(--font-heading);
   line-height: 1.28;
@@ -816,45 +824,117 @@ main {
   font-style: italic;
 }
 
-/* RTL layout adjustments for Persian and other right-to-left locales */
+/* RTL layout — Persian and other right-to-left locales */
+html[dir="rtl"] body {
+  direction: rtl;
+  text-align: right;
+}
+
+html[dir="rtl"] .prose,
+html[dir="rtl"] article,
+html[dir="rtl"] main {
+  direction: rtl;
+  text-align: right;
+}
+
 html[dir="rtl"] .lang-switcher__menu {
   right: auto;
   left: 0;
 }
 
-html[dir="rtl"] .nav-inner {
-  flex-direction: row-reverse;
+html[dir="rtl"] .nav-links a,
+html[dir="rtl"] .nav-mobile-links a,
+html[dir="rtl"] .footer-links a {
+  text-align: start;
 }
 
-html[dir="rtl"] .nav-brand {
-  flex-direction: row-reverse;
-}
-
-html[dir="rtl"] .nav-links {
-  flex-direction: row-reverse;
-}
-
-html[dir="rtl"] .nav-actions {
-  flex-direction: row-reverse;
-}
-
-html[dir="rtl"] .lang-switcher__option {
-  flex-direction: row-reverse;
-}
-
+html[dir="rtl"] .prose nav[role="doc-toc"] ul,
+html[dir="rtl"] .prose ul,
+html[dir="rtl"] .prose ol,
 html[dir="rtl"] article ul,
-html[dir="rtl"] article ol {
-  padding-right: 1.5rem;
-  padding-left: 0;
+html[dir="rtl"] article ol,
+html[dir="rtl"] .book-side-toc nav ul {
+  padding-inline-start: 1.25rem;
+  padding-inline-end: 0;
 }
 
-html[dir="rtl"] .audio-player {
-  flex-direction: row-reverse;
+html[dir="rtl"] .prose ul.toc-major {
+  border-inline-start: 2px solid var(--rule);
+  border-inline-end: none;
+  padding-inline-start: 1rem;
+  padding-inline-end: 0;
 }
 
-@media (max-width: 768px) {
+html[dir="rtl"] .prose .toc-minor {
+  padding-inline-start: 1.1rem;
+  padding-inline-end: 0;
+}
+
+html[dir="rtl"] .prose h1#table-of-contents + ul {
+  padding-inline-start: 0;
+}
+
+html[dir="rtl"] .prose h1#table-of-contents + ul li {
+  padding-inline-start: 1rem;
+  padding-inline-end: 0;
+}
+
+html[dir="rtl"] .prose h1#table-of-contents + ul li:nth-child(n + 2):nth-child(-n + 7) {
+  border-inline-start: 2px solid var(--rule);
+  border-inline-end: none;
+  padding-inline-start: 1.2rem;
+  padding-inline-end: 0;
+}
+
+html[dir="rtl"] .book-landing-page > p:first-of-type {
+  float: inline-start;
+  margin-inline-end: clamp(1rem, 2.4vw, 2rem);
+  margin-inline-start: 0;
+}
+
+html[dir="rtl"] .book-pager {
+  direction: rtl;
+}
+
+html[dir="rtl"] .book-pager .pager-link {
+  text-align: start;
+}
+
+html[dir="rtl"] .book-pager .next {
+  margin-inline-start: auto;
+}
+
+html[dir="rtl"] .footer-row {
+  direction: rtl;
+}
+
+html[dir="rtl"] .explorations-list,
+html[dir="rtl"] .explorations-item,
+html[dir="rtl"] .explorations-summary {
+  text-align: right;
+}
+
+html[dir="rtl"] .article-audio,
+html[dir="rtl"] .article-audio-title,
+html[dir="rtl"] .article-audio-download {
+  text-align: right;
+}
+
+html[dir="rtl"] blockquote {
+  border-inline-start: 3px solid var(--rule);
+  border-inline-end: none;
+  padding-inline-start: 1rem;
+  padding-inline-end: 0;
+  margin-inline-start: 0;
+}
+
+@media (max-width: 980px) {
   html[dir="rtl"] .lang-switcher__menu {
     left: 0;
     right: auto;
+  }
+
+  html[dir="rtl"] .footer-row {
+    align-items: flex-end;
   }
 }

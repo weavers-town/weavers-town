@@ -88,3 +88,6 @@ audioListenArticle: "Nghe bài viết này"
 audioDownload: "Tải audio"
 
 bookPagerToc: "Mục lục"
+pagerPrevArrow: "←"
+pagerNextArrow: "→"
+flowArrow: "→"

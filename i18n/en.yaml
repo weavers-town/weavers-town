@@ -88,3 +88,6 @@ audioListenArticle: "Listen to this article"
 audioDownload: "Download audio"
 
 bookPagerToc: "Table of Contents"
+pagerPrevArrow: "←"
+pagerNextArrow: "→"
+flowArrow: "→"

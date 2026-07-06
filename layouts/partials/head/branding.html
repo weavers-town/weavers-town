@@ -20,6 +20,9 @@
   - Playfair Display → Big hero / display type (homepage)
 */}}
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Merriweather:ital,wght@0,400;0,700;1,400&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+{{ if eq (.Site.Language.Params.dir | default "ltr") "rtl" }}
+<link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;600;700&display=swap" rel="stylesheet">
+{{ end }}
 
 {{/* === DESIGN TOKENS (CSS Custom Properties) === */}}
 <style>
@@ -75,4 +78,12 @@
   --content-max-width: 68ch;   /* Ideal reading measure */
   --container-max-width: 960px;
 }
+
+{{ if eq (.Site.Language.Params.dir | default "ltr") "rtl" }}
+html[dir="rtl"] {
+  --font-serif: "Vazirmatn", "Tahoma", sans-serif;
+  --font-heading: "Vazirmatn", "Tahoma", sans-serif;
+  --font-display: "Vazirmatn", "Tahoma", sans-serif;
+}
+{{ end }}
 </style>

@@ -88,3 +88,6 @@ audioListenArticle: "گوش دادن به این مقاله"
 audioDownload: "دانلود صوت"
 
 bookPagerToc: "فهرست مطالب"
+pagerPrevArrow: "→"
+pagerNextArrow: "←"
+flowArrow: "←"

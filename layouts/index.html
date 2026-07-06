@@ -278,6 +278,37 @@
     font-style: normal;
     color: #475569;
   }
+
+  /* RTL homepage — inherits dir=rtl from <html> */
+  html[dir="rtl"] .homepage {
+    direction: rtl;
+    text-align: right;
+  }
+
+  html[dir="rtl"] .homepage .max-w-5xl,
+  html[dir="rtl"] .homepage .max-w-3xl,
+  html[dir="rtl"] .homepage .max-w-2xl {
+    margin-inline: auto;
+  }
+
+  html[dir="rtl"] .homepage .px-6 {
+    padding-inline: 1.5rem;
+  }
+
+  html[dir="rtl"] .homepage .fa-book.mr-2 {
+    margin-right: 0;
+    margin-left: 0.5rem;
+  }
+
+  html[dir="rtl"] .homepage ol,
+  html[dir="rtl"] .homepage ul {
+    padding-inline-start: 1.25rem;
+    padding-inline-end: 0;
+  }
+
+  html[dir="rtl"] .homepage .prose {
+    text-align: right;
+  }
 </style>
 
 <div class="homepage">
@@ -411,10 +442,10 @@
         <div class="bg-white/5 border border-white/10 rounded-3xl p-8">
           <h3 class="font-semibold text-xl mb-4">{{ i18n "corePracticeTitle" }}</h3>
           <div class="space-y-6 text-sm">
-            <div><span class="font-medium text-emerald-400">{{ i18n "practiceNotice" }}</span> → {{ i18n "practiceNoticeDesc" }}</div>
-            <div><span class="font-medium text-emerald-400">{{ i18n "practiceDiagnose" }}</span> → {{ i18n "practiceDiagnoseDesc" }}</div>
-            <div><span class="font-medium text-emerald-400">{{ i18n "practiceAdjust" }}</span> → {{ i18n "practiceAdjustDesc" }}</div>
-            <div><span class="font-medium text-emerald-400">{{ i18n "practiceRepeat" }}</span> → {{ i18n "practiceRepeatDesc" }}</div>
+            <div><span class="font-medium text-emerald-400">{{ i18n "practiceNotice" }}</span> {{ i18n "flowArrow" }} {{ i18n "practiceNoticeDesc" }}</div>
+            <div><span class="font-medium text-emerald-400">{{ i18n "practiceDiagnose" }}</span> {{ i18n "flowArrow" }} {{ i18n "practiceDiagnoseDesc" }}</div>
+            <div><span class="font-medium text-emerald-400">{{ i18n "practiceAdjust" }}</span> {{ i18n "flowArrow" }} {{ i18n "practiceAdjustDesc" }}</div>
+            <div><span class="font-medium text-emerald-400">{{ i18n "practiceRepeat" }}</span> {{ i18n "flowArrow" }} {{ i18n "practiceRepeatDesc" }}</div>
           </div>
 
           <div class="mt-8 pt-6 border-t border-white/10 text-xs text-slate-400">
