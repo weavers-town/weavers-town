@@ -1,7 +1,7 @@
 ---
 date: 2026-05-23
 draft: false
-audio: free-will-as-a-container.mp3
+audio: vi/free-will-as-a-container.mp3
 title: Ý Chí Tự Do như một Vỏ Bảo Vệ Cấp Cao
 summary: Thông qua lăng kính của Sợi Chỉ, ý chí tự do trông ít giống một bí ẩn siêu
   hình hơn và giống hơn với một vỏ bảo vệ mạnh mẽ mà con người đã dệt nên để ổn định

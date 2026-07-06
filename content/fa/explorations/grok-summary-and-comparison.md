@@ -1,7 +1,7 @@
 ---
 date: 2026-06-06
 draft: false
-audio: grok-summary-and-comparison.mp3
+audio: fa/grok-summary-and-comparison.mp3
 title: 'نخ: خلاصه گروک و مقایسه چارچوب‌ها'
 summary: گروک خلاصه‌ای جامع از ساختار، لحن و ایده‌های اصلی کتاب ارائه می‌دهد که نشان
   می‌دهد چگونه مانند یک راهنمای عملی و غیرمذهبی برای معناسازی عمل می‌کند و سپس مقایسه‌ای

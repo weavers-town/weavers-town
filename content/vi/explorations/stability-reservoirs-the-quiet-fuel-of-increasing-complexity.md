@@ -1,7 +1,7 @@
 ---
 date: 2026-05-24
 draft: false
-audio: stability-reservoirs-the-quiet-fuel-of-increasing-complexity.mp3
+audio: vi/stability-reservoirs-the-quiet-fuel-of-increasing-complexity.mp3
 title: 'Kho Ổn Định: Nhiên Liệu Yên Bình Của Sự Gia Tăng Phức Tạp'
 summary: Trên các thang đo vũ trụ, sinh học và con người, các mô hình ổn định tích
   tụ thành những Kho Ổn Định mạnh mẽ — những nguồn năng lượng và tiềm năng tập trung

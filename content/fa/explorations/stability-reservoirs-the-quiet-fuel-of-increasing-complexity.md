@@ -1,7 +1,7 @@
 ---
 date: 2026-05-24
 draft: false
-audio: stability-reservoirs-the-quiet-fuel-of-increasing-complexity.mp3
+audio: fa/stability-reservoirs-the-quiet-fuel-of-increasing-complexity.mp3
 title: 'مخازن پایداری: سوخت خاموش افزایش پیچیدگی'
 summary: در مقیاس‌های کیهانی، بیولوژیکی و انسانی، الگوهای پایدار در مخازن پایداری
   قدرتمند انباشته می‌شوند — منابع متمرکز انرژی و پتانسیل که سطوح بالاتر واقعیت از

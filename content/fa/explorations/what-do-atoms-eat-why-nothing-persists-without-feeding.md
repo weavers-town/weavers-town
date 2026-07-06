@@ -1,7 +1,7 @@
 ---
 date: 2026-06-08
 draft: false
-audio: what-do-atoms-eat-why-nothing-persists-without-feeding.mp3
+audio: fa/what-do-atoms-eat-why-nothing-persists-without-feeding.mp3
 title: اتم‌ها چه می‌خورند؟ چرا هیچ‌چیز بدون تغذیه دوام نمی‌آورد
 summary: هر الگوی پایدار — از تحریکات میدان کوانتومی و اتم‌ها تا ستارگان، موجودات
   زنده و ساختارهای معنایی انسانی — باید به طور مداوم از قواعد زیربنایی بکشد تا خود

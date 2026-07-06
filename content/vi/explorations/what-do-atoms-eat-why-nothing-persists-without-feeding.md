@@ -1,7 +1,7 @@
 ---
 date: 2026-06-08
 draft: false
-audio: what-do-atoms-eat-why-nothing-persists-without-feeding.mp3
+audio: vi/what-do-atoms-eat-why-nothing-persists-without-feeding.mp3
 title: Nguyên Tử Ăn Gì? Tại Sao Không Có Gì Tồn Tại Nếu Không Được Nuôi Dưỡng
 summary: Mọi mô hình ổn định — từ các kích thích trường lượng tử và nguyên tử đến
   các ngôi sao, sinh vật sống và các cấu trúc ý nghĩa của con người — phải liên tục

@@ -1,7 +1,7 @@
 ---
 date: 2026-06-01
 draft: false
-audio: the-week-rhythm.mp3
+audio: vi/the-week-rhythm.mp3
 title: 'Tuần: Nhịp Điệu Chúng Ta Dệt Nên Vì Thiên Nhiên Đã Ban Cho Chúng Ta Một Nhịp
   Điệu'
 summary: Sự khám phá của Người Dệt về lý do tuần lễ không phải là món quà từ bầu trời

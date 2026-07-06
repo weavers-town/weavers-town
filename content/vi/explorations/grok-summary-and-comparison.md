@@ -1,7 +1,7 @@
 ---
 date: 2026-06-06
 draft: false
-audio: grok-summary-and-comparison.mp3
+audio: vi/grok-summary-and-comparison.mp3
 title: 'Sợi Chỉ: Tóm Tắt Của Grok và So Sánh Khung'
 summary: Grok cung cấp một bản tóm tắt toàn diện về cấu trúc, giọng điệu và ý tưởng
   cốt lõi của cuốn sách — cho thấy cách nó hoạt động như một hướng dẫn thực tế, phi
