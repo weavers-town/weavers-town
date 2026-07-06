@@ -1,5 +1,5 @@
 {{ define "main" }}
-<main class="container prose-shell">
+<main class="container prose-shell" dir="{{ .Site.Language.Params.dir | default "ltr" }}">
   <article class="prose">
     {{ $pages := .CurrentSection.RegularPages.ByWeight }}
     {{ $idx := -1 }}

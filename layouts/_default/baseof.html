@@ -27,9 +27,9 @@
 
   <link rel="canonical" href="{{ .Permalink }}" />
 
-  <link rel="stylesheet" href="/assets/site.css" />
+  <link rel="stylesheet" href="{{ "/assets/site.css" | relURL }}?v=2" />
 </head>
-<body class="lang-{{ .Site.Language.Lang }} dir-{{ .Site.Language.Params.dir | default "ltr" }}">
+<body class="lang-{{ .Site.Language.Lang }} dir-{{ .Site.Language.Params.dir | default "ltr" }}" dir="{{ .Site.Language.Params.dir | default "ltr" }}">
   {{ partial "header.html" . }}
   {{ block "main" . }}{{ end }}
   {{ partial "footer.html" . }}

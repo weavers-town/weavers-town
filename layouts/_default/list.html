@@ -2,7 +2,7 @@
 {{ $lang := .Site.Language.Lang }}
 {{ $bookRoot := cond (eq $lang "en") "/book/" (printf "/%s/book/" $lang) }}
 {{ $tocHref := printf "%stoc/" $bookRoot }}
-<main class="container prose-shell">
+<main class="container prose-shell" dir="{{ .Site.Language.Params.dir | default "ltr" }}">
   <article class="prose{{ if and (eq .Section "book") (eq .RelPermalink $bookRoot) }} book-landing-page{{ end }}">
     {{ if eq .Section "book" }}
       {{ if eq .RelPermalink $bookRoot }}

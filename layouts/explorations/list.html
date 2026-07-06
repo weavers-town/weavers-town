@@ -1,5 +1,5 @@
 {{ define "main" }}
-<main class="container prose-shell">
+<main class="container prose-shell" dir="{{ .Site.Language.Params.dir | default "ltr" }}">
   <article class="prose">
     <h1>{{ .Title }}</h1>
     {{ with .Description }}<p class="explorations-description">{{ . }}</p>{{ end }}

@@ -1,4 +1,4 @@
-<header class="site-nav" id="site-nav">
+<header class="site-nav" id="site-nav" dir="{{ .Site.Language.Params.dir | default "ltr" }}">
   <div class="nav-inner">
     <a class="nav-brand" href="{{ relLangURL `/` }}">
       <img src="/images/tom-logo.png" alt="{{ i18n "siteName" }}" />
