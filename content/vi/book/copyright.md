@@ -11,11 +11,11 @@ slug: "copyright"
 
 Bản quyền © 2026 Arman Fatahi
 
-Đã đăng ký bản quyền. Không phần nào của cuốn sách này được sao chép,
-phân phối hay truyền tải dưới bất kỳ hình thức nào hoặc bằng bất kỳ
-phương tiện nào mà không có sự cho phép bằng văn bản trước của tác giả,
-ngoại trừ trường hợp trích dẫn ngắn gọn trong các bài bình luận và một
-số sử dụng phi thương mại khác được luật bản quyền cho phép.
+Mọi quyền được bảo lưu. Không một phần nào của cuốn sách này được sao
+chép, phân phối hay truyền tải dưới bất kỳ hình thức nào hoặc bằng bất
+kỳ phương tiện nào mà không có sự cho phép bằng văn bản trước của tác
+giả, ngoại trừ các trích dẫn ngắn gọn trong bài bình luận và một số sử
+dụng phi thương mại khác được luật bản quyền cho phép.
 
 <div style="page-break-after: always;">
 

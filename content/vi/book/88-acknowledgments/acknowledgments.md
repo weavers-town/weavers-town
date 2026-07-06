@@ -13,8 +13,7 @@ slug: "acknowledgments"
 </div>
 
 
-Cuốn sách này được viết với sự hỗ trợ của các công cụ trí tuệ nhân tạo,
-đóng vai trò là cộng sự nghiên cứu, biên tập viên và người phản biện
-trong suốt quá trình. Mọi ý tưởng, phán đoán và từ ngữ đều thuộc về tôi
-— trí tuệ nhân tạo đã giúp tôi suy nghĩ rõ ràng hơn, chứ không phải suy
-nghĩ khác đi.
+Cuốn sách này được viết với sự hỗ trợ của các công cụ AI, vốn đóng vai
+trò là đối tác nghiên cứu, biên tập viên và người phản biện trong suốt
+quá trình. Mọi ý tưởng, phán đoán và từ ngữ đều thuộc về tôi — AI đã
+giúp tôi suy nghĩ rõ ràng hơn, chứ không phải khác đi.
