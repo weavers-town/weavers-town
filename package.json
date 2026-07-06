@@ -7,10 +7,6 @@
     "build:test": "hugo",
     "dev": "hugo server --disableFastRender",
     "serve": "npm run build && http-server public -p 8082",
-    "translate": "bash ./scripts/translate-explorations.sh",
-    "translate:explorations": "bash ./scripts/translate-explorations.sh",
-    "audio": "bash ./scripts/generate-exploration-audio.sh",
-    "audio:explorations": "bash ./scripts/generate-exploration-audio.sh",
     "test": "npm run build:test && playwright test",
     "test:headed": "npm run build:test && playwright test --headed --project=chromium"
   },

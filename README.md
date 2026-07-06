@@ -1,80 +1,47 @@
 # weavers-town
 
-This repository owns the public website for `weavers.town`.
+Hugo website for [weavers.town](https://weavers.town).
 
-It contains:
+This repo owns the site shell only: layouts, homepage, branding, i18n, tests, and GitHub Pages config. **All content is authored and published from the [threads-of-meaning](https://github.com/weavers-town/threads-of-meaning) repo.**
 
-- the Hugo layouts and site structure
-- the homepage and non-book pages
-- the static assets used by the site
-- the GitHub Pages deployment workflow
+## What lives here vs. the book repo
 
-It does not own the book manuscript. The book source of truth lives in the `threads-of-meaning` repository.
+| In **threads-of-meaning** (source) | In **weavers-town** (synced) |
+|------------------------------------|------------------------------|
+| `manuscript/`, `explorations/` | `content/book/`, `content/explorations/` |
+| `images/` | `static/images/` |
+| Generated audio | `static/audio/` |
 
-## Languages
+Do not edit book chapters or explorations here — changes will be overwritten on the next publish.
 
-The site supports English (default) and Vietnamese.
+## Publishing
 
-- English: `/`, `/book/`, `/explorations/`
-- Vietnamese: `/vi/`, `/vi/book/`, `/vi/explorations/`
+All publishing is done locally from `threads-of-meaning`. See **[PUBLISHING.md](https://github.com/weavers-town/threads-of-meaning/blob/main/PUBLISHING.md)** in the book repo.
 
-Site UI strings live in `i18n/en.yaml` and `i18n/vi.yaml`. The header includes a language dropdown that scales to additional locales.
-
-To add a new language (for example Persian), add a `[languages.fa]` block in `hugo.toml`, create `content/fa/` and `i18n/fa.yaml`, and set `dir = "rtl"` in the language params when needed.
-
-Explorations are translated and audio-enabled separately from the book:
+Quick version:
 
 ```bash
-export XAI_API_KEY="xai-..."   # or add to .env / threads-of-meaning/.env
-npm run audio                 # generate missing/changed exploration MP3s (en + vi)
-npm run translate             # Vietnamese posts in content/vi/explorations/
+cd ../threads-of-meaning
+make publish-website    # translate → audio → sync here → test → push both repos
 ```
 
-When you add a new exploration markdown file under `content/explorations/`, the deploy
-workflow generates English and Vietnamese MP3s with xAI TTS, updates `audio:` frontmatter,
-and commits the results before building the site.
+Or sync only:
 
-## How book updates arrive here
-
-The book repo generates Hugo-ready content and syncs these paths into this repo:
-
-- `content/book/` (English)
-- `content/vi/book/` (Vietnamese, from `manuscript-vi/` in the book repo)
-- `static/images/`
-
-That sync happens either:
-
-- locally via `make web` in the book repo
-- or through the book repo workflow `.github/workflows/publish-book-to-website.yml`
+```bash
+make web                # copies content into this repo and pushes
+```
 
 ## Local development
 
-Install dependencies:
-
 ```bash
 npm install
-```
-
-Run the local Hugo server:
-
-```bash
-npm run dev
-```
-
-Build the production site:
-
-```bash
-npm run build
-```
-
-Serve the built site:
-
-```bash
-npm run serve
+npm run dev             # Hugo dev server
+npm run build           # production build
+npm test                # Playwright tests
 ```
 
 ## Deploy
 
-This repo deploys to GitHub Pages through `.github/workflows/deploy-pages.yml`.
+GitHub Actions deploy is **manual only** (workflow dispatch). Normal workflow: publish from `threads-of-meaning`, which pushes synced content here, then build and deploy `public/` yourself or trigger **Deploy Website** in Actions if you want CI.
 
-Pages should be configured to use GitHub Actions and the custom domain `weavers.town`.
+Pages should use GitHub Actions and the custom domain `weavers.town`.
