@@ -4,6 +4,8 @@ weight: 3
 edition: "1"
 version: "7.3"
 slug: "what-we-actually-mean-by-meaning"
+audio: "book/fa/what-we-actually-mean-by-meaning.mp3"
+audio_title: "گوش دادن به این فصل"
 ---
 
 # منظور ما از معنا در واقع چیست

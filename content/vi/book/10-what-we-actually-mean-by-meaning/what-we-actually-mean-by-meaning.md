@@ -4,6 +4,8 @@ weight: 3
 edition: "1"
 version: "7.3"
 slug: "what-we-actually-mean-by-meaning"
+audio: "book/vi/what-we-actually-mean-by-meaning.mp3"
+audio_title: "Nghe chương này"
 ---
 
 # Ý Nghĩa Thực Sự Mà Chúng Ta Nói Đến
