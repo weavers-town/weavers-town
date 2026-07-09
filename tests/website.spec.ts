@@ -179,18 +179,18 @@ test("references page renders bibliography entries", async ({ request }) => {
 });
 
 test("core chapter numbering follows Introduction then Chapter 1/2/3", async ({ request }) => {
-  const roots = await request.get("/book/11-roots-of-regularity/the-roots-of-regularity/");
+  const meaning = await request.get("/book/11-what-we-actually-mean-by-meaning/what-we-actually-mean-by-meaning/");
+  expect(meaning.status()).toBe(200);
+  const meaningHtml = await meaning.text();
+  expect(meaningHtml).toContain("Chapter 1: What We Actually Mean by Meaning");
+
+  const roots = await request.get("/book/12-roots-of-regularity/the-roots-of-regularity/");
   expect(roots.status()).toBe(200);
   const rootsHtml = await roots.text();
-  expect(rootsHtml).toContain("Chapter 1: The Roots of Regularity");
+  expect(rootsHtml).toContain("Chapter 2: The Roots of Regularity");
 
-  const hierarchy = await request.get("/book/12-hierarchy-of-meaning/a-hierarchy-of-meaning/");
+  const hierarchy = await request.get("/book/13-hierarchy-of-meaning/a-hierarchy-of-meaning/");
   expect(hierarchy.status()).toBe(200);
   const hierarchyHtml = await hierarchy.text();
-  expect(hierarchyHtml).toContain("Chapter 2: A Hierarchy of Meaning");
-
-  const shape = await request.get("/book/13-how-meaning-takes-shape/how-meaning-takes-shape/");
-  expect(shape.status()).toBe(200);
-  const shapeHtml = await shape.text();
-  expect(shapeHtml).toContain("Chapter 3: How Meaning Takes Shape");
+  expect(hierarchyHtml).toContain("Chapter 3: A Hierarchy of Meaning");
 });
