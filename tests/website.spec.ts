@@ -119,6 +119,10 @@ test("toc page includes clickable seo-friendly section links", async ({ page }) 
     .first()
     .evaluate((el) => getComputedStyle(el).textDecorationLine);
   expect(textDecoration).toBe("none");
+
+  // Copyright must appear exactly once (build script used to emit it twice for EN).
+  const copyrightLinks = page.locator('article ul a[href="/book/copyright/"]');
+  await expect(copyrightLinks).toHaveCount(1);
 });
 
 test("section page has previous and next navigation", async ({ page }) => {
