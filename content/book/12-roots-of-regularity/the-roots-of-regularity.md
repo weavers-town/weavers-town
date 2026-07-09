@@ -22,11 +22,11 @@ enough to trust the pattern.
 
 That knowledge will feed a hundred families this year.
 
-We have already seen meaning at work in ordinary life — in chairs,
-homes, shared words, and the “us” that forms between people. Here we go
-back to where humans first learned to *protect* that kind of meaning at
-scale: not in philosophy, not in scripture, but in the quiet act of
-noticing that something comes back.
+We have already seen that meaning begins with reliability — patterns
+steady enough to act on, from chairs and homes to the “us” that forms
+between people. Here we go back to where humans first learned to
+*protect* that kind of meaning at scale: not in philosophy, not in
+scripture, but in the quiet act of noticing that something comes back.
 
 ## Patterns in the Sky and Soil
 

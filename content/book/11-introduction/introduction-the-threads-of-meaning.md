@@ -13,7 +13,9 @@ audio_title: "Listen to this chapter"
 
 The previous chapter stayed close to ordinary life — chairs, homes,
 shared words, the quiet “us” that forms between people. It showed that
-meaning is already at work long before we try to define it.
+meaning does not begin with definitions. It begins when patterns become
+reliable enough to act on, often long before we have clean names for
+them.
 
 This book is about what to do once you can see that.
 
