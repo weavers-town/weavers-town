@@ -1,8 +1,10 @@
 name: Deploy Website
 
-# Disabled by default — use local publishing from threads-of-meaning instead.
-# See threads-of-meaning/PUBLISHING.md. Trigger manually only if you want CI deploy.
+# Deploy on push to main (content publish) or manual workflow_dispatch.
+# Content is authored in threads-of-meaning and synced here; this builds public/.
 on:
+  push:
+    branches: [main]
   workflow_dispatch:
 
 permissions:
