@@ -1,5 +1,5 @@
 ---
-title: "Chương 3: Một Hệ Thống Phân Cấp Ý Nghĩa"
+title: "Chương 2: Một Hệ Thống Phân Cấp Ý Nghĩa"
 weight: 6
 edition: "1"
 version: "7.3"
@@ -8,7 +8,7 @@ audio: "book/vi/a-hierarchy-of-meaning.mp3"
 audio_title: "Nghe chương này"
 ---
 
-# Chương 3: Một Hệ Thống Phân Cấp Ý Nghĩa
+# Chương 2: Một Hệ Thống Phân Cấp Ý Nghĩa
 
 
 Lần đầu tiên tôi thấu hiểu chương này tận xương tủy, không phải trong

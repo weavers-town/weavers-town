@@ -1,5 +1,5 @@
 ---
-title: "Chapter 5: The Weaver's Way: A Meta-Ideology in Practice"
+title: "Chapter 4: The Weaver's Way: A Meta-Ideology in Practice"
 weight: 8
 edition: "1"
 version: "7.3"
@@ -8,11 +8,11 @@ audio: "book/the-weaver-s-way-a-meta-ideology-in-practice.mp3"
 audio_title: "Listen to this chapter"
 ---
 
-# Chapter 5: The Weaver's Way: A Meta-Ideology in Practice
+# Chapter 4: The Weaver's Way: A Meta-Ideology in Practice
 
 
-You already know the mechanics. Chapter 3 showed how protective
-containers create stable patterns. Chapter 4 showed how those patterns
+You already know the mechanics. Chapter 2 showed how protective
+containers create stable patterns. Chapter 3 showed how those patterns
 build world-models that we carry through life.
 
 Now the question becomes practical: what do you actually *do* with this?
@@ -115,7 +115,7 @@ often begins not by adding, but by *strengthening what already sustains
 you and consciously making room*. Protect your foundations. Respect your
 finite capacity. Do the next right thing in the right order.
 
-This honors the hierarchy of meaning we explored in Chapter 3 and
+This honors the hierarchy of meaning we explored in Chapter 2 and
 prevents the overstretch that so often undermines our best efforts.
 
 ## The Thread as Diagnostic Lens

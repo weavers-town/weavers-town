@@ -1,5 +1,5 @@
 ---
-title: "Chapter 3: A Hierarchy of Meaning"
+title: "Chapter 2: A Hierarchy of Meaning"
 weight: 6
 edition: "1"
 version: "7.3"
@@ -8,7 +8,7 @@ audio: "book/a-hierarchy-of-meaning.mp3"
 audio_title: "Listen to this chapter"
 ---
 
-# Chapter 3: A Hierarchy of Meaning
+# Chapter 2: A Hierarchy of Meaning
 
 
 The first time I understood this chapter in my bones, it was not in a
@@ -421,8 +421,8 @@ pattern is not metaphor. It is structural continuity across scale.
 
 ## What This Chapter Means for the Rest of the Book
 
-If Chapter 2 showed that humans have always relied on recurring
-patterns, Chapter 3 gives you the mechanism — the *why* behind the
+If Chapter 1 showed that humans have always relied on recurring
+patterns, Chapter 2 gives you the mechanism — the *why* behind the
 strategy.
 
 Meaning is not only emotional intensity. It is **durable organization**.

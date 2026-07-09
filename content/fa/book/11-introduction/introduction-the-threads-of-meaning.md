@@ -1,6 +1,6 @@
 ---
 title: "مقدمه: نخ‌های معنا"
-weight: 3
+weight: 4
 edition: "1"
 version: "7.3"
 slug: "introduction-the-threads-of-meaning"

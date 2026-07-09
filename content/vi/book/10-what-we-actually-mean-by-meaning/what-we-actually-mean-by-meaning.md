@@ -1,12 +1,12 @@
 ---
-title: "Chương 1: Ý Nghĩa Thực Sự Mà Chúng Ta Nói Đến"
-weight: 4
+title: "Ý Nghĩa Thực Sự Mà Chúng Ta Nói Đến"
+weight: 3
 edition: "1"
 version: "7.3"
 slug: "what-we-actually-mean-by-meaning"
 ---
 
-# Chương 1: Ý Nghĩa Thực Sự Mà Chúng Ta Nói Đến
+# Ý Nghĩa Thực Sự Mà Chúng Ta Nói Đến
 
 
 Hầu hết thời gian chúng ta không nghĩ về ý nghĩa chút nào. Nó đã ở đó,

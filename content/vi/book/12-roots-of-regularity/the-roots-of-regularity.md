@@ -1,5 +1,5 @@
 ---
-title: "Chương 2: Nguồn Gốc Của Tính Quy Luật"
+title: "Chương 1: Nguồn Gốc Của Tính Quy Luật"
 weight: 5
 edition: "1"
 version: "7.3"
@@ -8,7 +8,7 @@ audio: "book/vi/the-roots-of-regularity.mp3"
 audio_title: "Nghe chương này"
 ---
 
-# Chương 2: Nguồn Gốc Của Tính Quy Luật
+# Chương 1: Nguồn Gốc Của Tính Quy Luật
 
 
 Hãy hình dung một buổi sáng trước bình minh cách đây vài nghìn năm.

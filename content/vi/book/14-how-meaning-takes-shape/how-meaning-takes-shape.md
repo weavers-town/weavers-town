@@ -1,5 +1,5 @@
 ---
-title: "Chương 4: Ý Nghĩa Hình Thành Như Thế Nào"
+title: "Chương 3: Ý Nghĩa Hình Thành Như Thế Nào"
 weight: 7
 edition: "1"
 version: "7.3"
@@ -8,7 +8,7 @@ audio: "book/vi/how-meaning-takes-shape.mp3"
 audio_title: "Nghe chương này"
 ---
 
-# Chương 4: Ý Nghĩa Hình Thành Như Thế Nào
+# Chương 3: Ý Nghĩa Hình Thành Như Thế Nào
 
 
 Hãy để tôi kể cho bạn nghe về một người mà tôi sẽ gọi là Nadia.

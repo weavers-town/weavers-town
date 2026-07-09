@@ -108,19 +108,29 @@ test("toc page includes clickable seo-friendly section links", async ({ page }) 
   expect(count).toBeGreaterThan(5);
 
   const chapterHref = await page
-    .locator('article ul a[href*="/book/10-introduction/"]')
+    .locator('article ul a[href*="/book/11-introduction/"]')
     .first()
     .getAttribute("href");
   expect(chapterHref).toBeTruthy();
   expect(chapterHref).toMatch(/^\/book\/[a-z0-9-]+\/[a-z0-9-]+\/$/);
 
   const textDecoration = await page
-    .locator('article ul a[href*="/book/10-introduction/"]')
+    .locator('article ul a[href*="/book/11-introduction/"]')
     .first()
     .evaluate((el) => getComputedStyle(el).textDecorationLine);
   expect(textDecoration).toBe("none");
 
-  // Copyright must appear exactly once (build script used to emit it twice for EN).
+  // Reading order: grounding chapter before Introduction; copyright once.
+  const tocHrefs = await page.locator("article ul a").evaluateAll((links) =>
+    links.map((el) => el.getAttribute("href") || ""),
+  );
+  const groundingIdx = tocHrefs.findIndex((h) => h.includes("/book/10-what-we-actually-mean-by-meaning/"));
+  const introIdx = tocHrefs.findIndex((h) => h.includes("/book/11-introduction/"));
+  const rootsIdx = tocHrefs.findIndex((h) => h.includes("/book/12-roots-of-regularity/"));
+  expect(groundingIdx).toBeGreaterThanOrEqual(0);
+  expect(introIdx).toBeGreaterThan(groundingIdx);
+  expect(rootsIdx).toBeGreaterThan(introIdx);
+
   const copyrightLinks = page.locator('article ul a[href="/book/copyright/"]');
   await expect(copyrightLinks).toHaveCount(1);
 });
@@ -182,19 +192,31 @@ test("references page renders bibliography entries", async ({ request }) => {
   expect(html).toContain("Alderson-Day");
 });
 
-test("core chapter numbering follows Introduction then Chapter 1/2/3", async ({ request }) => {
-  const meaning = await request.get("/book/11-what-we-actually-mean-by-meaning/what-we-actually-mean-by-meaning/");
+test("core chapter numbering: grounding, Introduction, then Chapters 1–3", async ({ request }) => {
+  const meaning = await request.get("/book/10-what-we-actually-mean-by-meaning/what-we-actually-mean-by-meaning/");
   expect(meaning.status()).toBe(200);
   const meaningHtml = await meaning.text();
-  expect(meaningHtml).toContain("Chapter 1: What We Actually Mean by Meaning");
+  expect(meaningHtml).toContain("What We Actually Mean by Meaning");
+  expect(meaningHtml).not.toContain("Chapter 1: What We Actually Mean by Meaning");
+
+  const intro = await request.get("/book/11-introduction/introduction-the-threads-of-meaning/");
+  expect(intro.status()).toBe(200);
+  const introHtml = await intro.text();
+  expect(introHtml).toContain("Introduction: The Threads of Meaning");
+  expect(introHtml).toContain("previous chapter");
 
   const roots = await request.get("/book/12-roots-of-regularity/the-roots-of-regularity/");
   expect(roots.status()).toBe(200);
   const rootsHtml = await roots.text();
-  expect(rootsHtml).toContain("Chapter 2: The Roots of Regularity");
+  expect(rootsHtml).toContain("Chapter 1: The Roots of Regularity");
 
   const hierarchy = await request.get("/book/13-hierarchy-of-meaning/a-hierarchy-of-meaning/");
   expect(hierarchy.status()).toBe(200);
   const hierarchyHtml = await hierarchy.text();
-  expect(hierarchyHtml).toContain("Chapter 3: A Hierarchy of Meaning");
+  expect(hierarchyHtml).toContain("Chapter 2: A Hierarchy of Meaning");
+
+  const weavers = await request.get("/book/15-the-weavers-way-a-meta-ideology-in-practice/the-weaver-s-way-a-meta-ideology-in-practice/");
+  expect(weavers.status()).toBe(200);
+  const weaversHtml = await weavers.text();
+  expect(weaversHtml).toContain("Chapter 4: The Weaver");
 });

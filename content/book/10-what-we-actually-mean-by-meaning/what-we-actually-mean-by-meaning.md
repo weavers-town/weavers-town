@@ -1,12 +1,12 @@
 ---
-title: "Chapter 1: What We Actually Mean by Meaning"
-weight: 4
+title: "What We Actually Mean by Meaning"
+weight: 3
 edition: "1"
 version: "7.3"
 slug: "what-we-actually-mean-by-meaning"
 ---
 
-# Chapter 1: What We Actually Mean by Meaning
+# What We Actually Mean by Meaning
 
 
 Most of the time we don’t think about meaning at all. It’s already
@@ -247,11 +247,10 @@ the small repeated interactions we often don’t even notice we’re having.
 
 So far we have seen meaning as something already at work in daily life —
 layered, often wordless, and always dependent on repeated interaction.
-The chapters ahead explain how that architecture first became a human
-strategy at scale, why the same logic appears from particles to
-cultures, and how you can shape it deliberately. Chapter 2 begins with
-the oldest version of that strategy: noticing what returns, and learning
-to protect it.
+The Introduction that follows orients you to the book as a whole and to
+**The Thread** as a practical way of working with this architecture
+consciously. After that, Chapter 1 begins with the oldest human version
+of the strategy: noticing what returns, and learning to protect it.
 
 ## Key Takeaways
 

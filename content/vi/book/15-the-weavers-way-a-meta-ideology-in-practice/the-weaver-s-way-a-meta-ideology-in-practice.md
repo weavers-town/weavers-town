@@ -1,5 +1,5 @@
 ---
-title: "Chương 5: Con Đường Người Dệt: Một Siêu Hệ Tư Tưởng Trong Thực Hành"
+title: "Chương 4: Con Đường Người Dệt: Một Siêu Hệ Tư Tưởng Trong Thực Hành"
 weight: 8
 edition: "1"
 version: "7.3"
@@ -8,7 +8,7 @@ audio: "book/vi/the-weaver-s-way-a-meta-ideology-in-practice.mp3"
 audio_title: "Nghe chương này"
 ---
 
-# Chương 5: Con Đường Người Dệt: Một Siêu Hệ Tư Tưởng Trong Thực Hành
+# Chương 4: Con Đường Người Dệt: Một Siêu Hệ Tư Tưởng Trong Thực Hành
 
 
 Bạn đã nắm rõ cơ chế vận hành. Chương 3 đã chỉ ra cách những bao bọc bảo

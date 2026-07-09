@@ -18,7 +18,7 @@ audio_title: "Listen to this chapter"
 **How to read this appendix**
 
 This appendix provides the full scientific detail behind the subatomic
-section of Chapter 3. You do not need to read it to understand the rest
+section of Chapter 2. You do not need to read it to understand the rest
 of the book. The main text gives the conceptual model in plain language.
 Come here only if you want the rigorous physics that shows the same
 Thread operating at the smallest scales we know. The technical terms are
