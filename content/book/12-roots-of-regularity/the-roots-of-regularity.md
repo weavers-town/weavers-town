@@ -1,6 +1,6 @@
 ---
-title: "Chapter 1: The Roots of Regularity"
-weight: 4
+title: "Chapter 2: The Roots of Regularity"
+weight: 5
 edition: "1"
 version: "7.3"
 slug: "the-roots-of-regularity"
@@ -8,7 +8,7 @@ audio: "book/the-roots-of-regularity.mp3"
 audio_title: "Listen to this chapter"
 ---
 
-# Chapter 1: The Roots of Regularity
+# Chapter 2: The Roots of Regularity
 
 
 Picture a pre-dawn morning several thousand years ago.
@@ -22,8 +22,11 @@ enough to trust the pattern.
 
 That knowledge will feed a hundred families this year.
 
-This is where meaning begins: not in philosophy, not in scripture, but
-in the quiet act of noticing that something comes back.
+Chapter 1 showed meaning already at work in ordinary life — in chairs,
+homes, shared words, and the “us” that forms between people. Here we go
+back to where humans first learned to *protect* that kind of meaning at
+scale: not in philosophy, not in scripture, but in the quiet act of
+noticing that something comes back.
 
 ## Patterns in the Sky and Soil
 
@@ -197,13 +200,13 @@ careful observation with supernatural explanation, and they lacked a
 clear language for how meaning scales upward from one level of reality
 to the next.
 
-Chapter 2 builds that bridge. It takes the ancient intuition — *protect
+Chapter 3 builds that bridge. It takes the ancient intuition — *protect
 the pattern, and life becomes livable* — and gives it a cleaner,
 evidence-based model, including how each stable compound gains emergent
 interaction capabilities that let the weave continue upward. That model
 is what lets us move from inherited insight to deliberate practice.
 
-We have trusted these patterns for millennia. Chapter 2 shows precisely
+We have trusted these patterns for millennia. Chapter 3 shows precisely
 why they work — and how you can apply the same logic to your own life.
 
 ## Key Takeaways

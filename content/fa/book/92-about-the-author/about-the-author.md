@@ -1,6 +1,6 @@
 ---
 title: "درباره نویسنده"
-weight: 13
+weight: 14
 edition: "1"
 version: "7.3"
 slug: "about-the-author"

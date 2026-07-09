@@ -1,6 +1,6 @@
 ---
-title: "Chapter 3: How Meaning Takes Shape"
-weight: 6
+title: "Chapter 4: How Meaning Takes Shape"
+weight: 7
 edition: "1"
 version: "7.3"
 slug: "how-meaning-takes-shape"
@@ -8,7 +8,7 @@ audio: "book/how-meaning-takes-shape.mp3"
 audio_title: "Listen to this chapter"
 ---
 
-# Chapter 3: How Meaning Takes Shape
+# Chapter 4: How Meaning Takes Shape
 
 
 Let me tell you about someone I will call Nadia.
@@ -341,7 +341,7 @@ manufactured regularities are both powerful and costly — equips us to
 move from passive inhabitants to active participants.
 
 Once you can see how meaning is learned and engineered, you can stop
-being a passive receiver and become a more careful designer. Chapter 4
+being a passive receiver and become a more careful designer. Chapter 5
 shows how.
 
 ## Key Takeaways

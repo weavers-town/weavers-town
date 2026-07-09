@@ -20,8 +20,9 @@ The book is organized logically and progressively:
 
 - **Preface** — Personal, reflective origin story.
 - **Introduction** — Core thesis and map of the framework.
-- **Chapters 1–3** — Theoretical foundations (why and how stable patterns create meaning across scales).
-- **Chapter 4** — The practical heart: “The Weaver’s Way” (meta-ideology and toolkit).
+- **Chapter 1** — Grounding: what we actually mean by meaning in ordinary life (layers of naming, shared patterns, and new “us” entities that form through repeated interaction).
+- **Chapters 2–4** — Theoretical foundations (why and how stable patterns create meaning across scales).
+- **Chapter 5** — The practical heart: “The Weaver’s Way” (meta-ideology and toolkit).
 - **Appendix** — Deeper dive into subatomic/physical roots.
 - **Conclusion** — Visionary closing and invitation.
 - **Supplements** — Glossary (precise shared language), Table of Figures, References, Acknowledgments, About the Author.
@@ -38,18 +39,21 @@ It introduces the recurring cross-scale pattern that runs through the entire boo
 
 **Parts interact repeatedly → Protective container/boundary forms (via internal saturation of interaction capacity) → Stable pattern emerges → New higher-level part with emergent interaction capabilities that enable further scaling.**
 
-Key metaphors: Threads of regularity; weaving as conscious participation; the loom that is *already running* (natural cycles, heartbeats, seasons, social rhythms). “The Thread” is both the diagnostic lens and the living practice. The book offers a “third path” — neither clinging to rigid inherited dogma nor drifting in atomized meaninglessness — by working *with* the grain of how reality actually builds stable order. It outlines the book’s arc and invites readers to start practically (at Chapter 4) or follow the full conceptual journey.
+Key metaphors: Threads of regularity; weaving as conscious participation; the loom that is *already running* (natural cycles, heartbeats, seasons, social rhythms). “The Thread” is both the diagnostic lens and the living practice. The book offers a “third path” — neither clinging to rigid inherited dogma nor drifting in atomized meaninglessness — by working *with* the grain of how reality actually builds stable order. It outlines the book’s arc and invites readers to start practically (at Chapter 5) or follow the full conceptual journey.
 
-## Chapters 1–3 – Foundations (“Why This Works”)
+## Chapter 1 – What We Actually Mean by Meaning
+Before the formal model, the book shows meaning in ordinary life: chairs that become usable only after repeated interaction; feelings we understand without tidy names; words like “family” or “mental health” that travel easily while pointing at different lived patterns; and new entities — a partnership, a team, a weekly ritual — that form when interactions become stable enough to carry their own weight. Communication without shared language (including with animals) is treated as alignment of patterns, not translation of words. This chapter establishes the lived phenomenon the rest of the book will explain.
+
+## Chapters 2–4 – Foundations (“Why This Works”)
 These chapters provide the “roots” and mechanics:
 
-- **Chapter 1 (Roots of Regularity)**: How stable configurations arise and persist in nature (subatomic regularities, chemical stability, biological self-maintenance). Regularity is the raw material; not everything persists — only what crosses a stability threshold.
-- **Chapter 2 (Hierarchy of Meaning)**: Lower-level stable patterns enable higher ones. Hierarchy is not arbitrary domination but dependence: stable atoms enable molecules, chemistry enables life, life enables minds, minds build cultures. References concepts like near-decomposability and emergence.
-- **Chapter 3 (How Meaning Takes Shape)**: How humans discover, habituate, revise, and protect patterns. Compartments (cells, rituals, roles, institutions) protect patterns from dissolving into entropy. World-models form from repeated interactions. Examples range from daily routines and family conflict-resolution patterns to cultural calendars and institutions.
+- **Chapter 2 (Roots of Regularity)**: How humans first turned recurring patterns into calendars, rituals, and stories — and how stable configurations arise and persist. Regularity is the raw material; not everything persists — only what crosses a stability threshold.
+- **Chapter 3 (Hierarchy of Meaning)**: Lower-level stable patterns enable higher ones. Hierarchy is not arbitrary domination but dependence: stable atoms enable molecules, chemistry enables life, life enables minds, minds build cultures. References concepts like near-decomposability and emergence.
+- **Chapter 4 (How Meaning Takes Shape)**: How humans discover, habituate, revise, and protect patterns. Compartments (cells, rituals, roles, institutions) protect patterns from dissolving into entropy. World-models form from repeated interactions. Examples range from daily routines and family conflict-resolution patterns to cultural calendars and institutions.
 
 These sections feel like philosophical-scientific exposition grounded in observable reality rather than speculation. They explain *why* inherited religious or cultural containers often worked (they stabilized valuable patterns and provided belonging) even if their specific stories are no longer compelling.
 
-## Chapter 4 – The Weaver’s Way (The Practical Core – Most “Typical” Actionable Content)
+## Chapter 5 – The Weaver’s Way (The Practical Core – Most “Typical” Actionable Content)
 This is the heart of the book and what makes it function like a living guide or “holy book” for daily/ethical use. It transforms the theory into a **meta-ideology** — a higher-order lens for examining *any* meaning-structure (personal habits, relationships, rituals, ideologies, institutions, teams, or societies) without needing to replace the underlying beliefs. It is explicitly *not* a new dogma; it is a diagnostic and design toolkit.
 
 **The Thread – Five Diagnostic Questions** (apply to any habit, ritual, relationship, meeting, policy, or inherited story):

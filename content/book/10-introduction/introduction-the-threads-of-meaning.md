@@ -51,7 +51,7 @@ This book has two goals:
 - Explain the mechanics clearly enough that you can trust the model.
 - Make it practical enough that you can apply it in real life this week.
 
-If you want the practical material first, start with Chapter 4. Then
+If you want the practical material first, start with Chapter 5. Then
 return to the foundations when you are ready.
 
 If you want to understand the full arc from the ground up, read straight
@@ -127,14 +127,16 @@ culture. The details differ at every step, but the organizing logic
 stays the same: higher meaning depends on lower-level stability and on
 the emergent capabilities that stability unlocks.
 
-The book follows that arc. Chapter 1 shows how humans first turned
-recurring patterns into calendars, rituals, and stories. Chapter 2
-explains the core model clearly and shows why the same architecture
-appears from cells to societies. Chapter 3 explores how meaning is both
-discovered and made — and what happens when inherited world-models need
-gentle revision. Chapter 4 turns the framework into design tools for
-everyday life. The concluding essay returns to The Thread and what it
-means to live as a Weaver.
+The book follows that arc. Chapter 1 grounds what we actually mean by
+meaning — how it shows up in everyday life before we have a formal
+model. Chapter 2 shows how humans first turned recurring patterns into
+calendars, rituals, and stories. Chapter 3 explains the core model
+clearly and shows why the same architecture appears from cells to
+societies. Chapter 4 explores how meaning is both discovered and made —
+and what happens when inherited world-models need gentle revision.
+Chapter 5 turns the framework into design tools for everyday life. The
+concluding essay returns to The Thread and what it means to live as a
+Weaver.
 
 ## Why It Matters Now
 

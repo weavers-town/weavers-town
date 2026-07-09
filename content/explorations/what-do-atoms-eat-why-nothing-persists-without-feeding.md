@@ -71,7 +71,7 @@ The Thread describes how stable patterns emerge when parts interact repeatedly i
 
 The Stability Drive is the tendency of reality to settle into configurations that successfully manage this feeding relationship. The Grand Search explores configurations until it finds ones that can maintain themselves above threshold. Gentle Upgrading is the conscious practice of changing how a container feeds without destroying the stability it already provides.
 
-The five diagnostic questions in Chapter 4 are, at root, questions about feeding:
+The five diagnostic questions in Chapter 5 are, at root, questions about feeding:
 - What pattern is this container actually keeping alive?
 - What is it drawing from, and what is it draining?
 - Is the feeding relationship sustainable over time?
@@ -88,4 +88,4 @@ The loom is always running. The threads we draw from below and the threads we of
 
 ---
 
-*If this exploration resonated with you, the book* Threads of Meaning *develops these ideas further, especially in Chapters 2 and 4 and the Appendix on subatomic foundations. The related exploration “Stability Reservoirs: The Quiet Fuel of Increasing Complexity” looks at how accumulated stability at lower levels becomes concentrated potential for higher levels.*
+*If this exploration resonated with you, the book* Threads of Meaning *develops these ideas further, especially in Chapters 3 and 5 and the Appendix on subatomic foundations. The related exploration “Stability Reservoirs: The Quiet Fuel of Increasing Complexity” looks at how accumulated stability at lower levels becomes concentrated potential for higher levels.*

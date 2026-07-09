@@ -1,6 +1,6 @@
 ---
 title: "Conclusion: The Weaving Continues"
-weight: 9
+weight: 10
 edition: "1"
 version: "7.3"
 slug: "conclusion-the-weaving-continues"
@@ -18,7 +18,7 @@ audio_title: "Listen to this chapter"
 We can now state the book’s main claim simply: meaning lasts when
 valuable patterns are repeated, protected, and sustained.
 
-Chapter 4 gives you immediate tools. The earlier chapters show why those
+Chapter 5 gives you immediate tools. The earlier chapters show why those
 tools work. What began as an ancient human intuition about the power of
 returning things — dawn, seasons, rituals, stories — has revealed itself
 as a fundamental architecture of reality itself. From the first stable
@@ -55,7 +55,7 @@ fabrics of meaning. As Weavers, we participate consciously in this
 upward weave: safeguarding what endures, gently upgrading what no longer
 serves, and adding strands with care for finite capacity.
 
-The five diagnostic questions in Chapter 4 give you immediate ways to
+The five diagnostic questions in Chapter 5 give you immediate ways to
 begin. The rest of the book shows why they work.
 
 Welcome, Weaver.
