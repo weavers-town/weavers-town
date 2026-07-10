@@ -9,7 +9,7 @@ version: "7.3"
 # Mục lục
 
 - [Lời nói đầu](/vi/book/preface/)
-- [Ý Nghĩa Thực Sự Mà Chúng Ta Nói Đến](/vi/book/10-what-we-actually-mean-by-meaning/what-we-actually-mean-by-meaning/)
+- [Chúng Ta Thực Sự Ý Chỉ Gì Khi Nói Về Ý Nghĩa](/vi/book/10-what-we-actually-mean-by-meaning/what-we-actually-mean-by-meaning/)
 - [Giới thiệu: Chỉ Duyên Nghĩa](/vi/book/11-introduction/introduction-the-threads-of-meaning/)
 - [Chương 1: Nguồn Gốc Của Tính Quy Luật](/vi/book/12-roots-of-regularity/the-roots-of-regularity/)
 - [Chương 2: Một Hệ Thống Phân Cấp Ý Nghĩa](/vi/book/13-hierarchy-of-meaning/a-hierarchy-of-meaning/)

@@ -9,7 +9,7 @@ version: "7.3"
 # فهرست مطالب
 
 - [پیش‌گفتار](/fa/book/preface/)
-- [منظور ما از معنا در واقع چیست](/fa/book/10-what-we-actually-mean-by-meaning/what-we-actually-mean-by-meaning/)
+- [منظور واقعی ما از معنا](/fa/book/10-what-we-actually-mean-by-meaning/what-we-actually-mean-by-meaning/)
 - [مقدمه: نخ‌های معنا](/fa/book/11-introduction/introduction-the-threads-of-meaning/)
 - [فصل 1: ریشه‌های منظم بودن](/fa/book/12-roots-of-regularity/the-roots-of-regularity/)
 - [فصل 2: سلسله‌مراتب معنا](/fa/book/13-hierarchy-of-meaning/a-hierarchy-of-meaning/)
